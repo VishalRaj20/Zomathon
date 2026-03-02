@@ -1,0 +1,1501 @@
+restaurant_id,name,cuisine,price_range,rating,is_chain,avg_prep_time_min,image_url,city
+1,Modern Cafe,South Indian,mid,4.6,0,20,https://images.unsplash.com/photo-1589301760014-d929f39ce9b0?w=300&q=80,Bangalore
+2,The Urban Kitchen,South Indian,mid,3.4,0,30,https://images.unsplash.com/photo-1589301760014-d929f39ce9b0?w=300&q=80,Bangalore
+3,Famous Eats,Biryani,premium,3.1,1,45,https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=300&q=80,Bangalore
+4,The Famous Grill,Street Food,high,4.4,0,40,https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=300&q=80,Bangalore
+5,Andhra Table Healthy,Healthy,mid,4.1,0,25,https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=300&q=80,Bangalore
+6,New Wok,Healthy,low,4.9,0,15,https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=300&q=80,Bangalore
+7,The Great Spoon,South Indian,low,3.5,0,30,https://images.unsplash.com/photo-1589301760014-d929f39ce9b0?w=300&q=80,Bangalore
+8,Andhra Flavor,Biryani,mid,3.3,0,35,https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=300&q=80,Bangalore
+9,Udupi Taste Burger,Burger,high,3.7,0,20,https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&q=80,Bangalore
+10,Udupi Savour,Lebanese,high,3.7,0,30,https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=400&q=80,Bangalore
+11,Madras Oven Biryani,Biryani,low,3.2,0,35,https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=300&q=80,Bangalore
+12,The Great Bites,Healthy,premium,4.8,0,35,https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=300&q=80,Bangalore
+13,Famous Bistro,Healthy,high,4.6,0,40,https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=300&q=80,Bangalore
+14,Royal Wok Burger,Burger,mid,3.6,0,25,https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&q=80,Bangalore
+15,Red Diner,Burger,low,4.1,1,20,https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&q=80,Bangalore
+16,Red Cravings,South Indian,low,4.7,0,35,https://images.unsplash.com/photo-1589301760014-d929f39ce9b0?w=300&q=80,Bangalore
+17,Authentic Diner,Biryani,high,4.9,0,35,https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=300&q=80,Bangalore
+18,New Munch,Healthy,low,3.7,0,25,https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=300&q=80,Bangalore
+19,Malabar Oven Healthy,Healthy,mid,4.1,0,30,https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=300&q=80,Bangalore
+20,Mysore Oven Bengali,Bengali,mid,3.8,1,25,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Bangalore
+21,Golden Spoon Healthy,Healthy,high,3.9,0,35,https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=300&q=80,Bangalore
+22,The Great Bowl,Healthy,low,3.5,0,35,https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=300&q=80,Bangalore
+23,The Grand Spoon,Biryani,high,4.9,1,40,https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=300&q=80,Bangalore
+24,Madras Cravings Rajasthani,Rajasthani,low,3.6,1,45,https://images.unsplash.com/photo-1544026229-2ceec1a86827?w=300&q=80,Bangalore
+25,Vintage House,Burger,premium,4.9,0,35,https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&q=80,Bangalore
+26,Blue Fork Rajasthani,Rajasthani,high,3.4,0,20,https://images.unsplash.com/photo-1544026229-2ceec1a86827?w=300&q=80,Bangalore
+27,Famous Oven,Burger,premium,3.3,1,25,https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&q=80,Bangalore
+28,The New Feast,Healthy,mid,4.2,0,20,https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=300&q=80,Bangalore
+29,The Vintage Grill,Biryani,low,3.6,0,25,https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=300&q=80,Bangalore
+30,The Urban Tandoor,Chinese,high,4.0,0,30,https://images.unsplash.com/photo-1585032226651-759b368d7246?w=300&q=80,Bangalore
+31,Golden Cravings Healthy,Healthy,mid,3.9,0,15,https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=300&q=80,Bangalore
+32,Authentic Spoon,North Indian,high,5.0,0,30,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Bangalore
+33,Royal Tandoor,Mexican,low,4.6,0,35,https://images.unsplash.com/photo-1578474846511-04245941c4d9?w=400&q=80,Bangalore
+34,Mysore Bistro North Indian,North Indian,low,3.5,0,15,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Bangalore
+35,Urban Savour,Biryani,mid,4.4,1,30,https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=300&q=80,Bangalore
+36,New Flavor Healthy,Healthy,mid,4.5,1,35,https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=300&q=80,Bangalore
+37,Golden Flavor,Biryani,mid,3.6,0,45,https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=300&q=80,Bangalore
+38,Authentic Bowl Biryani,Biryani,mid,3.8,1,15,https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=300&q=80,Bangalore
+39,Grand Spoon South Indian,South Indian,mid,4.8,0,45,https://images.unsplash.com/photo-1589301760014-d929f39ce9b0?w=300&q=80,Bangalore
+40,Famous Plate Healthy,Healthy,low,4.0,0,35,https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=300&q=80,Bangalore
+41,The Madras Munch,Biryani,mid,3.3,0,35,https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=300&q=80,Bangalore
+42,The New Bistro,South Indian,premium,4.7,1,35,https://images.unsplash.com/photo-1589301760014-d929f39ce9b0?w=300&q=80,Bangalore
+43,The Royal Zest,Healthy,low,3.7,0,40,https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=300&q=80,Bangalore
+44,The Deccan Fork,Burger,mid,4.1,1,15,https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&q=80,Bangalore
+45,Grand Palace,Burger,premium,3.6,0,45,https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&q=80,Bangalore
+46,Grand Palace,North Indian,high,4.2,0,30,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Bangalore
+47,Famous Wok,Burger,premium,3.7,0,25,https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&q=80,Bangalore
+48,The Urban Table,Rajasthani,premium,3.9,0,35,https://images.unsplash.com/photo-1544026229-2ceec1a86827?w=300&q=80,Bangalore
+49,Madras Fork South Indian,South Indian,premium,4.0,0,40,https://images.unsplash.com/photo-1589301760014-d929f39ce9b0?w=300&q=80,Bangalore
+50,Classic Grill,Biryani,high,4.8,0,25,https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=300&q=80,Bangalore
+51,The Munch Eats,Pizza,mid,3.9,1,35,https://images.unsplash.com/photo-1513104890138-7c749659a591?w=300&q=80,Mumbai
+52,Bites Grill,North Indian,premium,3.8,0,40,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Mumbai
+53,The The Great Zest,Mexican,mid,4.4,0,40,https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=400&q=80,Mumbai
+54,The Feast Tandoor,Street Food,premium,3.8,0,20,https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=300&q=80,Mumbai
+55,Royal Hut,South Indian,mid,4.5,0,40,https://images.unsplash.com/photo-1589301760014-d929f39ce9b0?w=300&q=80,Mumbai
+56,The Blue Bistro,Lebanese,low,4.7,1,40,https://images.unsplash.com/photo-1514933651103-005eec06c04b?w=400&q=80,Mumbai
+57,Spice Taste Burger,Burger,mid,4.6,0,35,https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&q=80,Mumbai
+58,Savour Savour,Desserts,premium,3.7,0,40,https://images.unsplash.com/photo-1603513361099-2eeb2be05c86?w=300&q=80,Mumbai
+59,Munch Taste Continental,Continental,mid,4.2,0,45,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Mumbai
+60,Royal Feast,Mexican,low,3.4,0,30,https://images.unsplash.com/photo-1466978913421-bac2e104d72b?w=400&q=80,Mumbai
+61,Spice Flavor Desserts,Desserts,low,5.0,0,45,https://images.unsplash.com/photo-1603513361099-2eeb2be05c86?w=300&q=80,Mumbai
+62,Famous Taste Biryani,Biryani,high,4.9,0,20,https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=300&q=80,Mumbai
+63,Munch Cravings,Biryani,premium,4.7,1,40,https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=300&q=80,Mumbai
+64,Spice House Street Food,Street Food,mid,3.6,0,25,https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=300&q=80,Mumbai
+65,Urban Feast Pizza,Pizza,low,3.3,0,45,https://images.unsplash.com/photo-1513104890138-7c749659a591?w=300&q=80,Mumbai
+66,The Eats Hut,Street Food,mid,4.5,0,25,https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=300&q=80,Mumbai
+67,Cravings Wok,Continental,mid,3.4,1,35,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Mumbai
+68,The Spice Bowl,Pizza,premium,4.7,0,40,https://images.unsplash.com/photo-1513104890138-7c749659a591?w=300&q=80,Mumbai
+69,Royal Fork,Continental,mid,3.5,0,25,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Mumbai
+70,Red Zest,Bengali,low,3.1,0,25,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Mumbai
+71,Spice Spice,Continental,premium,3.9,0,20,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Mumbai
+72,Cravings Wok Biryani,Biryani,mid,5.0,1,40,https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=300&q=80,Mumbai
+73,Grand Kitchen North Indian,North Indian,premium,3.1,1,25,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Mumbai
+74,Munch Bites,Lebanese,high,4.5,0,40,https://images.unsplash.com/photo-1424847651672-bf20a4b0982b?w=400&q=80,Mumbai
+75,Red Kitchen Rajasthani,Rajasthani,mid,4.9,0,45,https://images.unsplash.com/photo-1544026229-2ceec1a86827?w=300&q=80,Mumbai
+76,The Bites House,Continental,high,3.3,0,45,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Mumbai
+77,Eats Fork,Gujarati,mid,3.2,0,40,https://images.unsplash.com/photo-1613069150035-7d52f6b8c9df?w=300&q=80,Mumbai
+78,Eats Spoon,Pizza,mid,3.3,1,25,https://images.unsplash.com/photo-1513104890138-7c749659a591?w=300&q=80,Mumbai
+79,Spicy Spoon Pizza,Pizza,mid,4.4,0,40,https://images.unsplash.com/photo-1513104890138-7c749659a591?w=300&q=80,Mumbai
+80,The Modern Cafe,Continental,mid,3.1,0,35,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Mumbai
+81,The Classic Oven,Street Food,premium,3.7,0,15,https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=300&q=80,Mumbai
+82,Vintage Cravings Street Food,Street Food,high,4.2,0,45,https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=300&q=80,Mumbai
+83,The Zest Bites,Street Food,premium,3.7,0,15,https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=300&q=80,Mumbai
+84,Feast Tandoor,Street Food,mid,3.3,0,30,https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=300&q=80,Mumbai
+85,Savour Tandoor South Indian,South Indian,mid,4.7,0,20,https://images.unsplash.com/photo-1589301760014-d929f39ce9b0?w=300&q=80,Mumbai
+86,The Blue Palace,Street Food,low,4.6,0,35,https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=300&q=80,Mumbai
+87,Classic Taste North Indian,North Indian,high,3.5,0,30,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Mumbai
+88,The Eats Munch,Lebanese,high,4.3,1,35,https://images.unsplash.com/photo-1578474846511-04245941c4d9?w=400&q=80,Mumbai
+89,The Great Taste Continental,Continental,mid,4.6,0,45,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Mumbai
+90,Authentic Wok,Pizza,mid,4.9,0,15,https://images.unsplash.com/photo-1513104890138-7c749659a591?w=300&q=80,Mumbai
+91,Bites Fork Continental,Continental,high,4.8,1,20,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Mumbai
+92,Eats Cravings,Mexican,high,3.0,0,40,https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=400&q=80,Mumbai
+93,The Golden Feast,Continental,low,3.9,0,25,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Mumbai
+94,The Spicy Zest,Desserts,mid,3.6,0,20,https://images.unsplash.com/photo-1603513361099-2eeb2be05c86?w=300&q=80,Mumbai
+95,The Authentic Eats,Continental,mid,4.2,0,15,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Mumbai
+96,Golden Bistro,North Indian,mid,4.7,0,40,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Mumbai
+97,Classic Palace Street Food,Street Food,low,3.4,0,20,https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=300&q=80,Mumbai
+98,Authentic Spoon,North Indian,mid,4.1,0,30,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Mumbai
+99,Vintage Savour,Italian,high,4.8,0,25,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Mumbai
+100,Royal Bistro,Street Food,low,4.8,0,40,https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=300&q=80,Mumbai
+101,New Spoon,Chinese,mid,3.4,0,40,https://images.unsplash.com/photo-1585032226651-759b368d7246?w=300&q=80,Delhi
+102,The Grand Kitchen,Italian,mid,4.7,0,40,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Delhi
+103,Golden Diner,North Indian,high,4.3,0,35,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Delhi
+104,Modern House Street Food,Street Food,premium,3.6,0,45,https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=300&q=80,Delhi
+105,Modern Kitchen North Indian,North Indian,mid,3.3,0,15,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Delhi
+106,Urban Diner,Biryani,mid,4.9,0,30,https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=300&q=80,Delhi
+107,Nawab House,Gujarati,high,4.5,0,30,https://images.unsplash.com/photo-1613069150035-7d52f6b8c9df?w=300&q=80,Delhi
+108,The Red Plate,Mughlai,low,3.2,1,15,https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=400&q=80,Delhi
+109,Chandni Chowk Munch,Mughlai,low,4.1,0,35,https://images.unsplash.com/photo-1424847651672-bf20a4b0982b?w=400&q=80,Delhi
+110,The Red Spoon,Burger,premium,3.0,0,40,https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&q=80,Delhi
+111,Chandni Chowk Grill Burger,Burger,high,5.0,0,20,https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&q=80,Delhi
+112,The Great House North Indian,North Indian,premium,3.2,0,15,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Delhi
+113,The Classic Savour,Mughlai,mid,3.2,0,20,https://images.unsplash.com/photo-1466978913421-bac2e104d72b?w=400&q=80,Delhi
+114,The Golden Palace,Burger,low,3.0,1,25,https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&q=80,Delhi
+115,Royal Cafe Street Food,Street Food,low,3.1,1,30,https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=300&q=80,Delhi
+116,Chandni Chowk Cravings,Street Food,mid,4.3,0,30,https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=300&q=80,Delhi
+117,Classic Grill South Indian,South Indian,mid,4.7,0,40,https://images.unsplash.com/photo-1589301760014-d929f39ce9b0?w=300&q=80,Delhi
+118,The Chandni Chowk House,Burger,mid,4.1,0,30,https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&q=80,Delhi
+119,Grand Palace Street Food,Street Food,high,3.7,0,45,https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=300&q=80,Delhi
+120,Urban Spice Lebanese,Lebanese,mid,3.5,0,30,https://images.unsplash.com/photo-1514933651103-005eec06c04b?w=400&q=80,Delhi
+121,Nawab Palace Street Food,Street Food,high,4.6,0,20,https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=300&q=80,Delhi
+122,Royal Savour,Burger,premium,3.1,0,20,https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&q=80,Delhi
+123,Modern Flavor Desserts,Desserts,mid,3.6,1,30,https://images.unsplash.com/photo-1603513361099-2eeb2be05c86?w=300&q=80,Delhi
+124,The Nawab Bistro,Bengali,mid,4.3,0,35,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Delhi
+125,New Grill Gujarati,Gujarati,mid,4.1,0,30,https://images.unsplash.com/photo-1613069150035-7d52f6b8c9df?w=300&q=80,Delhi
+126,Modern Bites,Burger,mid,3.3,1,45,https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&q=80,Delhi
+127,Vintage Munch,Burger,premium,4.0,0,30,https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&q=80,Delhi
+128,Golden Feast,Bengali,high,4.2,0,15,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Delhi
+129,The Golden Bowl,Burger,mid,4.6,0,20,https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&q=80,Delhi
+130,New Taste,Mughlai,low,4.6,0,40,https://images.unsplash.com/photo-1466978913421-bac2e104d72b?w=400&q=80,Delhi
+131,The Authentic Bowl,Italian,mid,3.1,0,15,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Delhi
+132,New Flavor Street Food,Street Food,mid,3.4,1,15,https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=300&q=80,Delhi
+133,Spicy House North Indian,North Indian,premium,3.7,1,15,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Delhi
+134,Grand Tandoor,Street Food,mid,4.1,0,35,https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=300&q=80,Delhi
+135,Spicy Table,Mughlai,premium,4.3,1,35,https://images.unsplash.com/photo-1466978913421-bac2e104d72b?w=400&q=80,Delhi
+136,The Royal Zest,Mughlai,low,3.0,0,15,https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=400&q=80,Delhi
+137,Urban Oven,Desserts,low,4.3,0,35,https://images.unsplash.com/photo-1603513361099-2eeb2be05c86?w=300&q=80,Delhi
+138,The Modern Eats,Burger,premium,4.5,1,20,https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&q=80,Delhi
+139,Spicy Zest Street Food,Street Food,mid,4.5,0,35,https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=300&q=80,Delhi
+140,New Munch,Burger,premium,4.3,0,35,https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&q=80,Delhi
+141,The Mughal Spice,Mughlai,premium,3.6,0,45,https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=400&q=80,Delhi
+142,Amritsar Feast Street Food,Street Food,mid,4.1,1,20,https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=300&q=80,Delhi
+143,Nawab Zest Mughlai,Mughlai,mid,3.7,1,40,https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=400&q=80,Delhi
+144,Authentic Cafe,Mughlai,mid,3.3,1,15,https://images.unsplash.com/photo-1424847651672-bf20a4b0982b?w=400&q=80,Delhi
+145,Spicy Spoon Mughlai,Mughlai,low,4.6,0,40,https://images.unsplash.com/photo-1552566626-52f8b828add9?w=400&q=80,Delhi
+146,Nawab Taste,North Indian,premium,3.4,0,30,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Delhi
+147,Punjab Bistro Burger,Burger,mid,4.7,1,25,https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&q=80,Delhi
+148,Nawab Tandoor North Indian,North Indian,mid,3.7,1,40,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Delhi
+149,Mughal Bistro Biryani,Biryani,mid,4.5,0,30,https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=300&q=80,Delhi
+150,Red Feast Burger,Burger,high,4.0,0,35,https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&q=80,Delhi
+151,The Grand Bistro,Gujarati,mid,4.2,0,25,https://images.unsplash.com/photo-1613069150035-7d52f6b8c9df?w=300&q=80,Hyderabad
+152,Andhra Grill Mughlai,Mughlai,low,4.4,1,45,https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=400&q=80,Hyderabad
+153,The Vintage Tandoor,Lebanese,mid,4.6,0,45,https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=400&q=80,Hyderabad
+154,Modern Wok South Indian,South Indian,premium,3.4,1,45,https://images.unsplash.com/photo-1589301760014-d929f39ce9b0?w=300&q=80,Hyderabad
+155,New Feast Biryani,Biryani,premium,4.0,1,30,https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=300&q=80,Hyderabad
+156,Authentic Cravings,Mughlai,mid,3.3,1,35,https://images.unsplash.com/photo-1466978913421-bac2e104d72b?w=400&q=80,Hyderabad
+157,Chettinad Oven Lebanese,Lebanese,mid,4.6,0,25,https://images.unsplash.com/photo-1514933651103-005eec06c04b?w=400&q=80,Hyderabad
+158,New Wok Mughlai,Mughlai,high,3.8,0,25,https://images.unsplash.com/photo-1552566626-52f8b828add9?w=400&q=80,Hyderabad
+159,Urban Bowl,Burger,premium,4.6,0,45,https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&q=80,Hyderabad
+160,Red Cravings,South Indian,mid,3.5,0,45,https://images.unsplash.com/photo-1589301760014-d929f39ce9b0?w=300&q=80,Hyderabad
+161,Urban Table,South Indian,low,3.1,0,25,https://images.unsplash.com/photo-1589301760014-d929f39ce9b0?w=300&q=80,Hyderabad
+162,Udupi Tandoor,Mughlai,mid,4.2,0,45,https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=400&q=80,Hyderabad
+163,Authentic Cafe,Biryani,premium,3.8,0,20,https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=300&q=80,Hyderabad
+164,Deccan Plate,Mughlai,high,3.5,0,45,https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=400&q=80,Hyderabad
+165,Red Taste,South Indian,premium,3.1,0,45,https://images.unsplash.com/photo-1589301760014-d929f39ce9b0?w=300&q=80,Hyderabad
+166,The Great Tandoor Biryani,Biryani,mid,3.0,1,25,https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=300&q=80,Hyderabad
+167,Vintage Fork South Indian,South Indian,premium,3.3,0,15,https://images.unsplash.com/photo-1589301760014-d929f39ce9b0?w=300&q=80,Hyderabad
+168,The Authentic Palace,South Indian,high,3.2,0,35,https://images.unsplash.com/photo-1589301760014-d929f39ce9b0?w=300&q=80,Hyderabad
+169,Andhra Cafe Biryani,Biryani,mid,4.7,0,20,https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=300&q=80,Hyderabad
+170,Spicy Zest,Gujarati,low,4.0,0,35,https://images.unsplash.com/photo-1613069150035-7d52f6b8c9df?w=300&q=80,Hyderabad
+171,The Vintage Bistro,South Indian,premium,3.1,0,40,https://images.unsplash.com/photo-1589301760014-d929f39ce9b0?w=300&q=80,Hyderabad
+172,Spicy Cravings,Biryani,mid,4.7,0,35,https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=300&q=80,Hyderabad
+173,Blue House Biryani,Biryani,low,4.1,0,45,https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=300&q=80,Hyderabad
+174,The Udupi Munch,South Indian,mid,3.6,1,45,https://images.unsplash.com/photo-1589301760014-d929f39ce9b0?w=300&q=80,Hyderabad
+175,The Famous Oven,South Indian,mid,4.4,0,35,https://images.unsplash.com/photo-1589301760014-d929f39ce9b0?w=300&q=80,Hyderabad
+176,Golden Bowl,Street Food,low,3.2,0,40,https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=300&q=80,Hyderabad
+177,Grand House,Mughlai,mid,3.1,0,40,https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=400&q=80,Hyderabad
+178,Modern Cafe,Biryani,low,4.6,0,40,https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=300&q=80,Hyderabad
+179,Golden Tandoor South Indian,South Indian,mid,3.9,0,30,https://images.unsplash.com/photo-1589301760014-d929f39ce9b0?w=300&q=80,Hyderabad
+180,Blue Oven South Indian,South Indian,premium,3.8,0,30,https://images.unsplash.com/photo-1589301760014-d929f39ce9b0?w=300&q=80,Hyderabad
+181,The Andhra Bowl,Biryani,mid,3.4,0,40,https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=300&q=80,Hyderabad
+182,Udupi Table,South Indian,low,3.5,1,25,https://images.unsplash.com/photo-1589301760014-d929f39ce9b0?w=300&q=80,Hyderabad
+183,The Deccan Bites,Burger,low,4.1,0,40,https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&q=80,Hyderabad
+184,The Blue Fork,Mughlai,mid,4.4,0,20,https://images.unsplash.com/photo-1514933651103-005eec06c04b?w=400&q=80,Hyderabad
+185,Madras Cafe,Mughlai,mid,3.5,0,20,https://images.unsplash.com/photo-1424847651672-bf20a4b0982b?w=400&q=80,Hyderabad
+186,New Taste Biryani,Biryani,mid,4.4,0,45,https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=300&q=80,Hyderabad
+187,Red Eats South Indian,South Indian,mid,3.1,1,45,https://images.unsplash.com/photo-1589301760014-d929f39ce9b0?w=300&q=80,Hyderabad
+188,Famous Taste South Indian,South Indian,premium,4.8,0,20,https://images.unsplash.com/photo-1589301760014-d929f39ce9b0?w=300&q=80,Hyderabad
+189,Chettinad Palace Mexican,Mexican,high,3.1,0,40,https://images.unsplash.com/photo-1578474846511-04245941c4d9?w=400&q=80,Hyderabad
+190,The Urban Zest,Mughlai,mid,3.6,0,20,https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=400&q=80,Hyderabad
+191,New Bowl Biryani,Biryani,premium,3.5,0,25,https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=300&q=80,Hyderabad
+192,Malabar Spoon Biryani,Biryani,high,3.2,0,25,https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=300&q=80,Hyderabad
+193,Madras Kitchen,Mughlai,low,4.8,0,25,https://images.unsplash.com/photo-1424847651672-bf20a4b0982b?w=400&q=80,Hyderabad
+194,Red Tandoor North Indian,North Indian,high,3.5,0,45,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Hyderabad
+195,The Famous Bistro,Gujarati,mid,4.5,1,40,https://images.unsplash.com/photo-1613069150035-7d52f6b8c9df?w=300&q=80,Hyderabad
+196,Famous Cravings Biryani,Biryani,low,4.5,0,25,https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=300&q=80,Hyderabad
+197,The Modern Hut,Desserts,low,4.6,0,30,https://images.unsplash.com/photo-1603513361099-2eeb2be05c86?w=300&q=80,Hyderabad
+198,Spicy Taste,South Indian,high,3.1,0,20,https://images.unsplash.com/photo-1589301760014-d929f39ce9b0?w=300&q=80,Hyderabad
+199,The Mysore Cafe,Gujarati,high,3.2,0,45,https://images.unsplash.com/photo-1613069150035-7d52f6b8c9df?w=300&q=80,Hyderabad
+200,Famous Fork,Mughlai,mid,4.9,0,30,https://images.unsplash.com/photo-1514933651103-005eec06c04b?w=400&q=80,Hyderabad
+201,The Red Eats,South Indian,mid,3.9,1,15,https://images.unsplash.com/photo-1589301760014-d929f39ce9b0?w=300&q=80,Chennai
+202,Urban Bistro,Bengali,mid,4.0,0,45,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Chennai
+203,The Deccan Kitchen,South Indian,low,3.3,0,25,https://images.unsplash.com/photo-1589301760014-d929f39ce9b0?w=300&q=80,Chennai
+204,The Vintage Cravings,Chettinad,low,4.4,0,30,https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=400&q=80,Chennai
+205,Blue Cafe Biryani,Biryani,mid,4.8,1,20,https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=300&q=80,Chennai
+206,Golden Hut Chettinad,Chettinad,high,3.8,1,45,https://images.unsplash.com/photo-1552566626-52f8b828add9?w=400&q=80,Chennai
+207,Deccan Tandoor,Desserts,low,3.7,0,30,https://images.unsplash.com/photo-1603513361099-2eeb2be05c86?w=300&q=80,Chennai
+208,Grand Bowl Biryani,Biryani,premium,3.6,0,45,https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=300&q=80,Chennai
+209,The Grand Bites,Chettinad,low,3.4,0,35,https://images.unsplash.com/photo-1514933651103-005eec06c04b?w=400&q=80,Chennai
+210,The Mysore Diner,Bengali,low,3.2,0,35,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Chennai
+211,The Famous Palace,Gujarati,low,4.4,0,40,https://images.unsplash.com/photo-1613069150035-7d52f6b8c9df?w=300&q=80,Chennai
+212,New Flavor Chettinad,Chettinad,mid,3.3,0,45,https://images.unsplash.com/photo-1424847651672-bf20a4b0982b?w=400&q=80,Chennai
+213,Famous Cravings,Biryani,low,4.3,0,45,https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=300&q=80,Chennai
+214,Andhra Tandoor,Chettinad,mid,3.3,1,20,https://images.unsplash.com/photo-1466978913421-bac2e104d72b?w=400&q=80,Chennai
+215,Authentic Fork Biryani,Biryani,mid,3.8,0,30,https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=300&q=80,Chennai
+216,Vintage Bowl Chettinad,Chettinad,high,3.1,0,20,https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=400&q=80,Chennai
+217,The Famous Diner,Chettinad,premium,4.7,1,30,https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=400&q=80,Chennai
+218,The Vintage Hut,Chettinad,mid,3.1,0,20,https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=400&q=80,Chennai
+219,Chettinad Taste Biryani,Biryani,mid,3.8,0,40,https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=300&q=80,Chennai
+220,The Urban Zest,Rajasthani,mid,4.2,0,20,https://images.unsplash.com/photo-1544026229-2ceec1a86827?w=300&q=80,Chennai
+221,The Mysore Bites,Biryani,mid,3.3,1,35,https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=300&q=80,Chennai
+222,The Golden Cafe,Desserts,premium,3.7,0,45,https://images.unsplash.com/photo-1603513361099-2eeb2be05c86?w=300&q=80,Chennai
+223,The Golden Feast,South Indian,premium,4.6,0,40,https://images.unsplash.com/photo-1589301760014-d929f39ce9b0?w=300&q=80,Chennai
+224,New House Biryani,Biryani,mid,3.8,0,35,https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=300&q=80,Chennai
+225,New Savour,Chettinad,mid,3.4,0,15,https://images.unsplash.com/photo-1552566626-52f8b828add9?w=400&q=80,Chennai
+226,The Royal Bowl,Chettinad,low,3.3,1,40,https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=400&q=80,Chennai
+227,The Great Fork,Continental,mid,3.3,1,15,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Chennai
+228,Modern Bistro,South Indian,low,4.5,1,35,https://images.unsplash.com/photo-1589301760014-d929f39ce9b0?w=300&q=80,Chennai
+229,Andhra Fork Chinese,Chinese,mid,4.3,0,20,https://images.unsplash.com/photo-1585032226651-759b368d7246?w=300&q=80,Chennai
+230,The Royal Oven,Continental,low,4.7,1,30,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Chennai
+231,Madras Spoon,South Indian,low,3.3,1,45,https://images.unsplash.com/photo-1589301760014-d929f39ce9b0?w=300&q=80,Chennai
+232,Madras Flavor,Bengali,premium,3.1,0,40,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Chennai
+233,Madras Grill Rajasthani,Rajasthani,mid,5.0,0,15,https://images.unsplash.com/photo-1544026229-2ceec1a86827?w=300&q=80,Chennai
+234,Malabar Diner South Indian,South Indian,high,3.6,0,35,https://images.unsplash.com/photo-1589301760014-d929f39ce9b0?w=300&q=80,Chennai
+235,Mysore Bites,Street Food,premium,4.9,0,25,https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=300&q=80,Chennai
+236,Chettinad Zest Biryani,Biryani,premium,4.6,0,15,https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=300&q=80,Chennai
+237,The Modern Diner,Mexican,mid,3.0,0,20,https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=400&q=80,Chennai
+238,Madras Bistro,Biryani,premium,4.8,0,20,https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=300&q=80,Chennai
+239,The Vintage Zest,Chettinad,mid,3.2,0,15,https://images.unsplash.com/photo-1466978913421-bac2e104d72b?w=400&q=80,Chennai
+240,Authentic Oven,Biryani,mid,3.5,0,25,https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=300&q=80,Chennai
+241,The Andhra Plate,Bengali,premium,4.6,0,15,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Chennai
+242,Udupi House,Biryani,low,3.8,1,35,https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=300&q=80,Chennai
+243,Golden Bowl Pizza,Pizza,low,4.9,1,15,https://images.unsplash.com/photo-1513104890138-7c749659a591?w=300&q=80,Chennai
+244,The Red Palace,Continental,mid,3.0,1,30,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Chennai
+245,Madras Bowl South Indian,South Indian,mid,4.9,1,15,https://images.unsplash.com/photo-1589301760014-d929f39ce9b0?w=300&q=80,Chennai
+246,Authentic Plate,Mexican,premium,4.7,0,45,https://images.unsplash.com/photo-1466978913421-bac2e104d72b?w=400&q=80,Chennai
+247,Royal House,South Indian,premium,4.3,0,45,https://images.unsplash.com/photo-1589301760014-d929f39ce9b0?w=300&q=80,Chennai
+248,Madras Tandoor,Italian,low,4.7,0,25,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Chennai
+249,The Great Wok,Biryani,premium,4.4,0,45,https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=300&q=80,Chennai
+250,Golden Cafe,Chinese,mid,3.5,1,45,https://images.unsplash.com/photo-1585032226651-759b368d7246?w=300&q=80,Chennai
+251,The Urban Oven,Mexican,mid,3.9,0,30,https://images.unsplash.com/photo-1578474846511-04245941c4d9?w=400&q=80,Kolkata
+252,Taste Savour Bengali,Bengali,high,3.6,0,15,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Kolkata
+253,The Grand Hut,Bengali,mid,4.6,1,30,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Kolkata
+254,Red Table Biryani,Biryani,mid,3.1,0,35,https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=300&q=80,Kolkata
+255,Urban Palace Biryani,Biryani,premium,4.1,1,20,https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=300&q=80,Kolkata
+256,The Urban Diner,Gujarati,mid,3.6,0,30,https://images.unsplash.com/photo-1613069150035-7d52f6b8c9df?w=300&q=80,Kolkata
+257,Red Cravings Biryani,Biryani,mid,4.2,0,30,https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=300&q=80,Kolkata
+258,Spicy Taste,Desserts,high,3.1,1,40,https://images.unsplash.com/photo-1603513361099-2eeb2be05c86?w=300&q=80,Kolkata
+259,Feast Diner,Street Food,low,4.2,0,45,https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=300&q=80,Kolkata
+260,The Authentic Table,Italian,mid,4.0,0,45,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Kolkata
+261,Zest Table Chinese,Chinese,premium,3.4,0,15,https://images.unsplash.com/photo-1585032226651-759b368d7246?w=300&q=80,Kolkata
+262,The Urban Eats,Bengali,low,3.5,0,15,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Kolkata
+263,The Red Diner,Bengali,high,4.4,0,30,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Kolkata
+264,The Eats Plate,Mexican,mid,3.4,0,30,https://images.unsplash.com/photo-1514933651103-005eec06c04b?w=400&q=80,Kolkata
+265,The Taste Cafe,Biryani,premium,3.8,0,20,https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=300&q=80,Kolkata
+266,Feast Wok Biryani,Biryani,high,3.7,0,40,https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=300&q=80,Kolkata
+267,Authentic Flavor,Biryani,premium,4.0,0,45,https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=300&q=80,Kolkata
+268,Grand Feast Desserts,Desserts,high,3.4,0,35,https://images.unsplash.com/photo-1603513361099-2eeb2be05c86?w=300&q=80,Kolkata
+269,Spice Spice,Chinese,high,4.3,0,45,https://images.unsplash.com/photo-1585032226651-759b368d7246?w=300&q=80,Kolkata
+270,Cravings Oven,Biryani,premium,4.2,0,45,https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=300&q=80,Kolkata
+271,Zest Bowl Italian,Italian,premium,3.3,0,20,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Kolkata
+272,The Bites Bistro,Lebanese,premium,3.8,0,15,https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=400&q=80,Kolkata
+273,The Golden Plate,Biryani,premium,3.1,0,25,https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=300&q=80,Kolkata
+274,The The Great Wok,Mexican,high,3.5,0,45,https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=400&q=80,Kolkata
+275,Spicy Tandoor Biryani,Biryani,high,3.3,0,30,https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=300&q=80,Kolkata
+276,Authentic Hut Biryani,Biryani,mid,5.0,0,15,https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=300&q=80,Kolkata
+277,Authentic Fork,Bengali,mid,3.9,0,15,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Kolkata
+278,New Taste Lebanese,Lebanese,premium,4.6,0,15,https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=400&q=80,Kolkata
+279,Golden Cravings Desserts,Desserts,high,3.6,0,40,https://images.unsplash.com/photo-1603513361099-2eeb2be05c86?w=300&q=80,Kolkata
+280,Zest Bowl Rajasthani,Rajasthani,low,4.2,0,20,https://images.unsplash.com/photo-1544026229-2ceec1a86827?w=300&q=80,Kolkata
+281,Munch Bowl Desserts,Desserts,premium,3.6,0,35,https://images.unsplash.com/photo-1603513361099-2eeb2be05c86?w=300&q=80,Kolkata
+282,Savour Bowl,Biryani,mid,3.9,0,35,https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=300&q=80,Kolkata
+283,The Bites Spoon,Healthy,premium,4.7,1,45,https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=300&q=80,Kolkata
+284,Taste Fork,Chinese,premium,4.6,0,45,https://images.unsplash.com/photo-1585032226651-759b368d7246?w=300&q=80,Kolkata
+285,Authentic Cafe Biryani,Biryani,mid,4.1,0,45,https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=300&q=80,Kolkata
+286,The Royal Diner,Biryani,mid,3.9,0,25,https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=300&q=80,Kolkata
+287,Savour Bowl,Gujarati,low,3.8,0,40,https://images.unsplash.com/photo-1613069150035-7d52f6b8c9df?w=300&q=80,Kolkata
+288,The Flavor Plate,Chinese,mid,3.8,0,40,https://images.unsplash.com/photo-1585032226651-759b368d7246?w=300&q=80,Kolkata
+289,The Munch Grill,Chinese,premium,3.7,1,25,https://images.unsplash.com/photo-1585032226651-759b368d7246?w=300&q=80,Kolkata
+290,Grand Munch,Bengali,mid,3.7,0,40,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Kolkata
+291,Taste Zest Mexican,Mexican,low,4.0,0,30,https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=400&q=80,Kolkata
+292,The Blue Hut,Continental,premium,3.7,1,30,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Kolkata
+293,The New Plate,Bengali,high,3.4,1,30,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Kolkata
+294,Zest Bowl Healthy,Healthy,mid,3.5,0,40,https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=300&q=80,Kolkata
+295,Cravings Diner,Desserts,high,3.3,0,25,https://images.unsplash.com/photo-1603513361099-2eeb2be05c86?w=300&q=80,Kolkata
+296,Spicy Spoon Gujarati,Gujarati,low,3.7,0,40,https://images.unsplash.com/photo-1613069150035-7d52f6b8c9df?w=300&q=80,Kolkata
+297,Grand Taste Bengali,Bengali,mid,4.5,1,35,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Kolkata
+298,The Famous Cafe,Desserts,premium,3.0,0,30,https://images.unsplash.com/photo-1603513361099-2eeb2be05c86?w=300&q=80,Kolkata
+299,Taste Savour,Biryani,mid,4.2,0,15,https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=300&q=80,Kolkata
+300,The Modern Bites,Chinese,mid,4.3,0,35,https://images.unsplash.com/photo-1585032226651-759b368d7246?w=300&q=80,Kolkata
+301,Zest Taste Bengali,Bengali,mid,4.9,1,20,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Pune
+302,Famous Eats,Desserts,mid,3.5,0,25,https://images.unsplash.com/photo-1603513361099-2eeb2be05c86?w=300&q=80,Pune
+303,Red Fork,North Indian,mid,4.6,0,15,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Pune
+304,Authentic Diner,Rajasthani,mid,3.4,1,40,https://images.unsplash.com/photo-1544026229-2ceec1a86827?w=300&q=80,Pune
+305,Golden Cravings,Lebanese,high,3.6,0,15,https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=400&q=80,Pune
+306,Eats Spice,South Indian,high,3.7,0,15,https://images.unsplash.com/photo-1589301760014-d929f39ce9b0?w=300&q=80,Pune
+307,Red Plate,South Indian,high,3.2,0,30,https://images.unsplash.com/photo-1589301760014-d929f39ce9b0?w=300&q=80,Pune
+308,The Flavor Grill,South Indian,high,4.9,1,40,https://images.unsplash.com/photo-1589301760014-d929f39ce9b0?w=300&q=80,Pune
+309,Modern House,Continental,premium,4.0,1,30,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Pune
+310,The New Cravings,Chinese,low,4.1,0,15,https://images.unsplash.com/photo-1585032226651-759b368d7246?w=300&q=80,Pune
+311,Bites Plate,Desserts,high,3.9,1,15,https://images.unsplash.com/photo-1603513361099-2eeb2be05c86?w=300&q=80,Pune
+312,The Golden Bistro,Continental,premium,4.3,0,25,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Pune
+313,Blue Flavor Healthy,Healthy,mid,3.7,0,35,https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=300&q=80,Pune
+314,Blue Cafe Lebanese,Lebanese,mid,3.3,0,45,https://images.unsplash.com/photo-1578474846511-04245941c4d9?w=400&q=80,Pune
+315,Blue Cravings Gujarati,Gujarati,low,3.6,0,25,https://images.unsplash.com/photo-1613069150035-7d52f6b8c9df?w=300&q=80,Pune
+316,The Taste Oven,Chinese,low,3.8,0,45,https://images.unsplash.com/photo-1585032226651-759b368d7246?w=300&q=80,Pune
+317,Spice Cravings Continental,Continental,low,4.0,0,25,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Pune
+318,Taste Cafe Biryani,Biryani,mid,3.5,0,30,https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=300&q=80,Pune
+319,Zest Taste,Italian,low,4.3,0,15,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Pune
+320,The Royal Savour,Mexican,premium,4.6,0,20,https://images.unsplash.com/photo-1578474846511-04245941c4d9?w=400&q=80,Pune
+321,Urban Spice Rajasthani,Rajasthani,high,3.8,0,45,https://images.unsplash.com/photo-1544026229-2ceec1a86827?w=300&q=80,Pune
+322,Vintage Cafe Street Food,Street Food,mid,4.2,0,40,https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=300&q=80,Pune
+323,Grand Munch North Indian,North Indian,mid,3.2,0,30,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Pune
+324,Bites Feast,Mexican,low,5.0,0,35,https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=400&q=80,Pune
+325,The Blue Eats,North Indian,mid,4.9,0,20,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Pune
+326,Royal Cravings,South Indian,premium,3.5,0,25,https://images.unsplash.com/photo-1589301760014-d929f39ce9b0?w=300&q=80,Pune
+327,Flavor Palace Bengali,Bengali,mid,4.6,0,15,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Pune
+328,The Great Fork Biryani,Biryani,low,3.2,0,15,https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=300&q=80,Pune
+329,Zest Fork Mexican,Mexican,mid,4.6,0,40,https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=400&q=80,Pune
+330,Taste Feast Street Food,Street Food,mid,3.6,0,35,https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=300&q=80,Pune
+331,The Eats Bistro,Italian,mid,4.1,0,35,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Pune
+332,Eats Wok Bengali,Bengali,mid,4.4,0,35,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Pune
+333,The Eats Spice,Healthy,low,3.4,0,25,https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=300&q=80,Pune
+334,Vintage Table,South Indian,low,4.3,0,45,https://images.unsplash.com/photo-1589301760014-d929f39ce9b0?w=300&q=80,Pune
+335,Famous Zest Bengali,Bengali,low,4.6,1,40,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Pune
+336,The Vintage Bites,Pizza,high,3.9,0,20,https://images.unsplash.com/photo-1513104890138-7c749659a591?w=300&q=80,Pune
+337,Urban Bistro North Indian,North Indian,high,3.6,0,45,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Pune
+338,The Munch Spice,Mexican,premium,3.8,0,15,https://images.unsplash.com/photo-1514933651103-005eec06c04b?w=400&q=80,Pune
+339,Grand Table Mexican,Mexican,mid,3.5,0,15,https://images.unsplash.com/photo-1466978913421-bac2e104d72b?w=400&q=80,Pune
+340,Blue Bowl Gujarati,Gujarati,low,3.6,0,25,https://images.unsplash.com/photo-1613069150035-7d52f6b8c9df?w=300&q=80,Pune
+341,Zest Palace,Italian,premium,4.0,0,45,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Pune
+342,Munch Bistro Street Food,Street Food,low,4.4,0,30,https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=300&q=80,Pune
+343,The Eats Kitchen,Bengali,mid,3.2,1,40,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Pune
+344,The Zest Zest,Italian,low,4.6,0,30,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Pune
+345,The Famous Plate,North Indian,high,4.6,1,25,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Pune
+346,Flavor Oven Gujarati,Gujarati,high,4.5,0,40,https://images.unsplash.com/photo-1613069150035-7d52f6b8c9df?w=300&q=80,Pune
+347,Flavor Cravings Desserts,Desserts,premium,4.4,0,30,https://images.unsplash.com/photo-1603513361099-2eeb2be05c86?w=300&q=80,Pune
+348,Feast Flavor,Healthy,mid,3.8,0,35,https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=300&q=80,Pune
+349,Spice Eats Italian,Italian,high,4.9,0,30,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Pune
+350,Cravings Plate Desserts,Desserts,mid,3.1,0,45,https://images.unsplash.com/photo-1603513361099-2eeb2be05c86?w=300&q=80,Pune
+351,Bites Eats Pizza,Pizza,mid,4.6,1,15,https://images.unsplash.com/photo-1513104890138-7c749659a591?w=300&q=80,Ahmedabad
+352,The Authentic House,Pizza,mid,4.8,0,15,https://images.unsplash.com/photo-1513104890138-7c749659a591?w=300&q=80,Ahmedabad
+353,The Savour Tandoor,Street Food,high,3.5,0,20,https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=300&q=80,Ahmedabad
+354,The Red Tandoor,Burger,premium,4.1,0,40,https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&q=80,Ahmedabad
+355,Classic Diner Healthy,Healthy,low,4.6,0,45,https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=300&q=80,Ahmedabad
+356,Bites Oven Healthy,Healthy,mid,4.1,0,35,https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=300&q=80,Ahmedabad
+357,Modern Munch Gujarati,Gujarati,mid,3.8,0,40,https://images.unsplash.com/photo-1613069150035-7d52f6b8c9df?w=300&q=80,Ahmedabad
+358,Grand Bites,Lebanese,mid,5.0,0,30,https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=400&q=80,Ahmedabad
+359,The Flavor Oven,Street Food,high,4.3,0,25,https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=300&q=80,Ahmedabad
+360,Urban Table,Italian,mid,3.4,0,35,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Ahmedabad
+361,The Feast Bowl,Pizza,high,4.4,0,20,https://images.unsplash.com/photo-1513104890138-7c749659a591?w=300&q=80,Ahmedabad
+362,Feast Flavor,Street Food,mid,4.5,1,35,https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=300&q=80,Ahmedabad
+363,New Munch,Continental,mid,4.6,0,20,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Ahmedabad
+364,The Modern Kitchen,Street Food,premium,4.7,1,20,https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=300&q=80,Ahmedabad
+365,The Golden Feast,Pizza,premium,4.1,0,40,https://images.unsplash.com/photo-1513104890138-7c749659a591?w=300&q=80,Ahmedabad
+366,Grand Table Street Food,Street Food,premium,3.3,0,40,https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=300&q=80,Ahmedabad
+367,The Urban House,Chinese,mid,4.1,1,30,https://images.unsplash.com/photo-1585032226651-759b368d7246?w=300&q=80,Ahmedabad
+368,Famous Bites,Mexican,low,4.5,0,45,https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=400&q=80,Ahmedabad
+369,Red Spice Street Food,Street Food,mid,3.3,0,45,https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=300&q=80,Ahmedabad
+370,The Authentic Eats,Healthy,high,4.5,1,20,https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=300&q=80,Ahmedabad
+371,Golden Taste,Chinese,mid,4.0,1,25,https://images.unsplash.com/photo-1585032226651-759b368d7246?w=300&q=80,Ahmedabad
+372,Blue Bowl Pizza,Pizza,premium,3.8,1,15,https://images.unsplash.com/photo-1513104890138-7c749659a591?w=300&q=80,Ahmedabad
+373,Eats Palace Street Food,Street Food,mid,4.5,0,15,https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=300&q=80,Ahmedabad
+374,Cravings Plate,Pizza,premium,3.4,0,20,https://images.unsplash.com/photo-1513104890138-7c749659a591?w=300&q=80,Ahmedabad
+375,Famous Hut Lebanese,Lebanese,premium,4.9,0,30,https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=400&q=80,Ahmedabad
+376,New Eats Pizza,Pizza,mid,3.8,0,40,https://images.unsplash.com/photo-1513104890138-7c749659a591?w=300&q=80,Ahmedabad
+377,Cravings Spoon,Street Food,high,3.5,1,15,https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=300&q=80,Ahmedabad
+378,New Oven,Gujarati,mid,3.4,0,40,https://images.unsplash.com/photo-1613069150035-7d52f6b8c9df?w=300&q=80,Ahmedabad
+379,Bites Spoon,Italian,mid,4.6,0,45,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Ahmedabad
+380,The Munch Grill,Gujarati,high,3.4,0,20,https://images.unsplash.com/photo-1613069150035-7d52f6b8c9df?w=300&q=80,Ahmedabad
+381,Eats Fork Street Food,Street Food,low,3.3,1,40,https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=300&q=80,Ahmedabad
+382,The Red Spice,Healthy,high,5.0,1,25,https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=300&q=80,Ahmedabad
+383,The Flavor Grill,Healthy,premium,4.0,0,15,https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=300&q=80,Ahmedabad
+384,New Tandoor,Healthy,high,3.7,0,25,https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=300&q=80,Ahmedabad
+385,Authentic Savour Gujarati,Gujarati,mid,3.9,0,20,https://images.unsplash.com/photo-1613069150035-7d52f6b8c9df?w=300&q=80,Ahmedabad
+386,The Blue Palace,Rajasthani,low,3.7,0,30,https://images.unsplash.com/photo-1544026229-2ceec1a86827?w=300&q=80,Ahmedabad
+387,Grand Cafe Desserts,Desserts,premium,4.1,0,35,https://images.unsplash.com/photo-1603513361099-2eeb2be05c86?w=300&q=80,Ahmedabad
+388,Savour Spoon,Gujarati,high,3.2,1,45,https://images.unsplash.com/photo-1613069150035-7d52f6b8c9df?w=300&q=80,Ahmedabad
+389,Feast Spoon,Street Food,high,3.2,0,20,https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=300&q=80,Ahmedabad
+390,Bites Bites,Street Food,premium,4.4,0,45,https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=300&q=80,Ahmedabad
+391,Taste Spoon Desserts,Desserts,high,4.7,0,30,https://images.unsplash.com/photo-1603513361099-2eeb2be05c86?w=300&q=80,Ahmedabad
+392,Classic Oven Gujarati,Gujarati,high,4.5,0,20,https://images.unsplash.com/photo-1613069150035-7d52f6b8c9df?w=300&q=80,Ahmedabad
+393,Blue Cravings Biryani,Biryani,low,4.5,0,40,https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=300&q=80,Ahmedabad
+394,Flavor Spoon,Street Food,low,3.7,0,25,https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=300&q=80,Ahmedabad
+395,Flavor Cravings,Gujarati,low,5.0,0,45,https://images.unsplash.com/photo-1613069150035-7d52f6b8c9df?w=300&q=80,Ahmedabad
+396,Vintage Hut,Gujarati,mid,4.0,0,30,https://images.unsplash.com/photo-1613069150035-7d52f6b8c9df?w=300&q=80,Ahmedabad
+397,Eats Cafe Gujarati,Gujarati,low,3.5,0,15,https://images.unsplash.com/photo-1613069150035-7d52f6b8c9df?w=300&q=80,Ahmedabad
+398,Eats Palace Pizza,Pizza,low,3.3,0,35,https://images.unsplash.com/photo-1513104890138-7c749659a591?w=300&q=80,Ahmedabad
+399,The Famous Savour,Gujarati,mid,3.4,0,25,https://images.unsplash.com/photo-1613069150035-7d52f6b8c9df?w=300&q=80,Ahmedabad
+400,The Blue Spice,Pizza,low,3.1,0,25,https://images.unsplash.com/photo-1513104890138-7c749659a591?w=300&q=80,Ahmedabad
+401,Grand Bistro North Indian,North Indian,mid,3.7,0,15,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Jaipur
+402,Vintage Flavor,Rajasthani,high,3.1,0,45,https://images.unsplash.com/photo-1544026229-2ceec1a86827?w=300&q=80,Jaipur
+403,Authentic Bowl,Rajasthani,mid,4.6,0,15,https://images.unsplash.com/photo-1544026229-2ceec1a86827?w=300&q=80,Jaipur
+404,New Spice North Indian,North Indian,mid,3.2,0,40,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Jaipur
+405,The Golden Bites,Street Food,mid,4.6,0,20,https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=300&q=80,Jaipur
+406,Spicy Cravings Desserts,Desserts,mid,4.6,1,20,https://images.unsplash.com/photo-1603513361099-2eeb2be05c86?w=300&q=80,Jaipur
+407,Spicy Savour Street Food,Street Food,mid,4.8,0,20,https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=300&q=80,Jaipur
+408,The Vintage Grill,Chinese,premium,4.7,0,45,https://images.unsplash.com/photo-1585032226651-759b368d7246?w=300&q=80,Jaipur
+409,The Zest Plate,Continental,premium,4.9,1,30,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Jaipur
+410,Vintage Diner Biryani,Biryani,high,3.6,0,45,https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=300&q=80,Jaipur
+411,Royal Grill Rajasthani,Rajasthani,premium,3.2,0,30,https://images.unsplash.com/photo-1544026229-2ceec1a86827?w=300&q=80,Jaipur
+412,Vintage Palace,Chinese,mid,4.0,0,40,https://images.unsplash.com/photo-1585032226651-759b368d7246?w=300&q=80,Jaipur
+413,Taste Savour,Street Food,mid,4.0,0,25,https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=300&q=80,Jaipur
+414,The Savour Diner,Street Food,premium,4.6,0,30,https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=300&q=80,Jaipur
+415,Feast Bistro South Indian,South Indian,low,4.2,0,25,https://images.unsplash.com/photo-1589301760014-d929f39ce9b0?w=300&q=80,Jaipur
+416,Taste Munch Continental,Continental,low,3.9,1,25,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Jaipur
+417,The Savour Hut,North Indian,mid,5.0,0,35,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Jaipur
+418,Grand Zest Bengali,Bengali,mid,3.1,0,15,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Jaipur
+419,New Spice Desserts,Desserts,mid,3.3,0,40,https://images.unsplash.com/photo-1603513361099-2eeb2be05c86?w=300&q=80,Jaipur
+420,The Royal Munch,Rajasthani,high,4.3,1,40,https://images.unsplash.com/photo-1544026229-2ceec1a86827?w=300&q=80,Jaipur
+421,Modern Eats North Indian,North Indian,premium,3.9,0,35,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Jaipur
+422,Red Palace,North Indian,high,3.3,0,25,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Jaipur
+423,Flavor Zest Rajasthani,Rajasthani,low,4.6,0,35,https://images.unsplash.com/photo-1544026229-2ceec1a86827?w=300&q=80,Jaipur
+424,Modern Flavor,Bengali,mid,4.4,0,15,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Jaipur
+425,Royal Cravings Street Food,Street Food,premium,3.4,0,35,https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=300&q=80,Jaipur
+426,The Classic Munch,Rajasthani,high,4.0,0,15,https://images.unsplash.com/photo-1544026229-2ceec1a86827?w=300&q=80,Jaipur
+427,Famous House,North Indian,mid,3.8,0,45,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Jaipur
+428,Spicy Zest,Street Food,mid,3.5,1,40,https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=300&q=80,Jaipur
+429,Royal Table North Indian,North Indian,mid,4.7,0,45,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Jaipur
+430,Royal Diner,Italian,premium,3.2,0,45,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Jaipur
+431,Royal Tandoor Burger,Burger,high,3.3,0,40,https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&q=80,Jaipur
+432,The Taste Taste,Burger,high,4.0,0,30,https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&q=80,Jaipur
+433,Eats House Street Food,Street Food,mid,3.2,1,40,https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=300&q=80,Jaipur
+434,Classic Cafe Italian,Italian,high,4.1,1,20,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Jaipur
+435,Classic Fork North Indian,North Indian,mid,5.0,0,15,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Jaipur
+436,The Spicy Tandoor,Lebanese,premium,4.4,1,45,https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=400&q=80,Jaipur
+437,Authentic Bistro Rajasthani,Rajasthani,premium,3.4,0,35,https://images.unsplash.com/photo-1544026229-2ceec1a86827?w=300&q=80,Jaipur
+438,The Blue Savour,Rajasthani,premium,3.1,0,45,https://images.unsplash.com/photo-1544026229-2ceec1a86827?w=300&q=80,Jaipur
+439,Savour Diner Chinese,Chinese,mid,4.8,0,45,https://images.unsplash.com/photo-1585032226651-759b368d7246?w=300&q=80,Jaipur
+440,Spicy Cafe Rajasthani,Rajasthani,premium,3.9,0,45,https://images.unsplash.com/photo-1544026229-2ceec1a86827?w=300&q=80,Jaipur
+441,The Spicy Oven,Rajasthani,high,3.4,0,20,https://images.unsplash.com/photo-1544026229-2ceec1a86827?w=300&q=80,Jaipur
+442,The Famous Eats,Biryani,mid,3.1,1,45,https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=300&q=80,Jaipur
+443,Vintage Oven Gujarati,Gujarati,premium,4.3,1,40,https://images.unsplash.com/photo-1613069150035-7d52f6b8c9df?w=300&q=80,Jaipur
+444,The Modern Bistro,Continental,mid,3.6,0,20,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Jaipur
+445,Cravings Grill Gujarati,Gujarati,low,3.4,1,35,https://images.unsplash.com/photo-1613069150035-7d52f6b8c9df?w=300&q=80,Jaipur
+446,The Authentic Hut,North Indian,mid,3.8,0,15,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Jaipur
+447,Authentic Cravings,Street Food,high,3.0,0,35,https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=300&q=80,Jaipur
+448,Authentic Eats Street Food,Street Food,high,3.4,0,25,https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=300&q=80,Jaipur
+449,The Bites Bistro,Street Food,high,4.4,0,20,https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=300&q=80,Jaipur
+450,Savour Grill,Gujarati,mid,4.3,0,35,https://images.unsplash.com/photo-1613069150035-7d52f6b8c9df?w=300&q=80,Jaipur
+451,Authentic Plate,Lebanese,mid,4.0,0,25,https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=400&q=80,Chandigarh
+452,Punjab Bites North Indian,North Indian,high,5.0,1,40,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Chandigarh
+453,Vintage Savour Healthy,Healthy,low,4.8,0,20,https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=300&q=80,Chandigarh
+454,Punjab Grill Gujarati,Gujarati,premium,4.6,0,45,https://images.unsplash.com/photo-1613069150035-7d52f6b8c9df?w=300&q=80,Chandigarh
+455,The Blue Zest,Lebanese,low,3.0,1,30,https://images.unsplash.com/photo-1514933651103-005eec06c04b?w=400&q=80,Chandigarh
+456,Punjab Wok,Desserts,mid,4.2,1,35,https://images.unsplash.com/photo-1603513361099-2eeb2be05c86?w=300&q=80,Chandigarh
+457,Golden Hut Desserts,Desserts,mid,3.6,0,35,https://images.unsplash.com/photo-1603513361099-2eeb2be05c86?w=300&q=80,Chandigarh
+458,The Grand Bites,Healthy,mid,3.3,0,45,https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=300&q=80,Chandigarh
+459,Golden Cafe Biryani,Biryani,mid,4.6,0,30,https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=300&q=80,Chandigarh
+460,New Fork,Street Food,mid,3.3,1,25,https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=300&q=80,Chandigarh
+461,Chandni Chowk Cravings Rajasthani,Rajasthani,premium,4.2,1,35,https://images.unsplash.com/photo-1544026229-2ceec1a86827?w=300&q=80,Chandigarh
+462,The Delhi House,Desserts,premium,3.0,0,40,https://images.unsplash.com/photo-1603513361099-2eeb2be05c86?w=300&q=80,Chandigarh
+463,The Nawab Plate,Burger,premium,3.9,0,15,https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&q=80,Chandigarh
+464,The Modern Tandoor,Pizza,premium,4.6,1,40,https://images.unsplash.com/photo-1513104890138-7c749659a591?w=300&q=80,Chandigarh
+465,The Great Flavor,Biryani,mid,3.1,0,45,https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=300&q=80,Chandigarh
+466,Modern Bites Italian,Italian,high,4.5,1,40,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Chandigarh
+467,Delhi Diner,Bengali,premium,4.8,0,40,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Chandigarh
+468,The Spicy Hut,Italian,mid,3.3,1,35,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Chandigarh
+469,Mughal Hut,Gujarati,mid,4.5,1,15,https://images.unsplash.com/photo-1613069150035-7d52f6b8c9df?w=300&q=80,Chandigarh
+470,Dhaba Bites,Bengali,high,4.0,0,25,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Chandigarh
+471,Red Wok Gujarati,Gujarati,mid,4.6,0,35,https://images.unsplash.com/photo-1613069150035-7d52f6b8c9df?w=300&q=80,Chandigarh
+472,The New Plate,Lebanese,high,4.9,0,40,https://images.unsplash.com/photo-1552566626-52f8b828add9?w=400&q=80,Chandigarh
+473,Famous Diner Gujarati,Gujarati,low,3.6,1,30,https://images.unsplash.com/photo-1613069150035-7d52f6b8c9df?w=300&q=80,Chandigarh
+474,The Urban Bowl,Burger,premium,3.0,0,35,https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&q=80,Chandigarh
+475,Nawab Munch North Indian,North Indian,mid,3.2,0,40,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Chandigarh
+476,Royal Feast,Mexican,mid,3.1,0,40,https://images.unsplash.com/photo-1466978913421-bac2e104d72b?w=400&q=80,Chandigarh
+477,The Vintage Oven,South Indian,premium,3.4,1,40,https://images.unsplash.com/photo-1589301760014-d929f39ce9b0?w=300&q=80,Chandigarh
+478,Mughal Cafe,Street Food,mid,3.9,1,25,https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=300&q=80,Chandigarh
+479,The Red Tandoor,Mexican,mid,4.9,0,20,https://images.unsplash.com/photo-1514933651103-005eec06c04b?w=400&q=80,Chandigarh
+480,Famous Bistro Bengali,Bengali,premium,4.7,0,20,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Chandigarh
+481,Authentic Spoon Rajasthani,Rajasthani,premium,4.8,0,20,https://images.unsplash.com/photo-1544026229-2ceec1a86827?w=300&q=80,Chandigarh
+482,New Munch,Biryani,mid,4.1,0,40,https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=300&q=80,Chandigarh
+483,Golden Bowl Street Food,Street Food,low,4.2,0,35,https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=300&q=80,Chandigarh
+484,Urban Wok Chinese,Chinese,high,3.1,1,20,https://images.unsplash.com/photo-1585032226651-759b368d7246?w=300&q=80,Chandigarh
+485,Blue Zest Biryani,Biryani,low,3.8,0,15,https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=300&q=80,Chandigarh
+486,Mughal Cravings,Rajasthani,high,4.7,0,35,https://images.unsplash.com/photo-1544026229-2ceec1a86827?w=300&q=80,Chandigarh
+487,The Authentic Wok,North Indian,mid,4.3,0,40,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Chandigarh
+488,Amritsar Plate Pizza,Pizza,low,4.8,0,40,https://images.unsplash.com/photo-1513104890138-7c749659a591?w=300&q=80,Chandigarh
+489,Red Table,Continental,premium,4.1,0,40,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Chandigarh
+490,Grand Plate Biryani,Biryani,high,4.3,0,30,https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=300&q=80,Chandigarh
+491,Modern Tandoor Bengali,Bengali,low,3.8,0,25,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Chandigarh
+492,New Bowl Continental,Continental,mid,4.2,1,15,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Chandigarh
+493,Red Bites Continental,Continental,high,3.3,0,40,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Chandigarh
+494,The Punjab Bistro,Gujarati,high,4.9,0,45,https://images.unsplash.com/photo-1613069150035-7d52f6b8c9df?w=300&q=80,Chandigarh
+495,The Punjab Tandoor,Mexican,low,3.2,1,35,https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=400&q=80,Chandigarh
+496,Blue Bites Mexican,Mexican,premium,4.5,0,25,https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=400&q=80,Chandigarh
+497,The Delhi Plate,Street Food,low,4.0,0,35,https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=300&q=80,Chandigarh
+498,The Dhaba Eats,Healthy,high,4.7,0,15,https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=300&q=80,Chandigarh
+499,Red Spoon North Indian,North Indian,high,4.3,1,25,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Chandigarh
+500,Royal Cravings,Rajasthani,high,4.0,0,45,https://images.unsplash.com/photo-1544026229-2ceec1a86827?w=300&q=80,Chandigarh
+501,The Great House Healthy,Healthy,low,3.9,0,25,https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=300&q=80,Lucknow
+502,Blue Palace Italian,Italian,mid,3.5,1,25,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Lucknow
+503,Mughal Plate,Burger,mid,3.4,1,25,https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&q=80,Lucknow
+504,The Spicy Savour,Healthy,low,4.0,0,35,https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=300&q=80,Lucknow
+505,Modern Taste South Indian,South Indian,low,5.0,0,15,https://images.unsplash.com/photo-1589301760014-d929f39ce9b0?w=300&q=80,Lucknow
+506,The Authentic Spoon,Biryani,premium,3.5,0,20,https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=300&q=80,Lucknow
+507,The Grand Kitchen,Bengali,mid,4.4,0,15,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Lucknow
+508,Delhi Flavor Biryani,Biryani,mid,3.5,0,20,https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=300&q=80,Lucknow
+509,Red Taste North Indian,North Indian,high,4.8,0,30,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Lucknow
+510,The Urban Bowl,Burger,mid,3.4,1,15,https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&q=80,Lucknow
+511,Delhi Eats Pizza,Pizza,low,4.9,1,40,https://images.unsplash.com/photo-1513104890138-7c749659a591?w=300&q=80,Lucknow
+512,New Palace,Burger,premium,4.3,0,25,https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&q=80,Lucknow
+513,Authentic Taste,Bengali,high,3.8,1,25,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Lucknow
+514,New Diner Lebanese,Lebanese,mid,3.2,0,40,https://images.unsplash.com/photo-1578474846511-04245941c4d9?w=400&q=80,Lucknow
+515,Dhaba Table Healthy,Healthy,premium,3.3,0,25,https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=300&q=80,Lucknow
+516,Grand Fork,Biryani,mid,4.8,1,20,https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=300&q=80,Lucknow
+517,The Modern Grill,Italian,mid,4.2,0,15,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Lucknow
+518,New Kitchen Healthy,Healthy,low,3.5,0,30,https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=300&q=80,Lucknow
+519,Classic Spice,Biryani,premium,3.2,0,35,https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=300&q=80,Lucknow
+520,The Modern Diner,Rajasthani,premium,3.0,0,25,https://images.unsplash.com/photo-1544026229-2ceec1a86827?w=300&q=80,Lucknow
+521,The Amritsar Savour,Rajasthani,mid,3.5,0,45,https://images.unsplash.com/photo-1544026229-2ceec1a86827?w=300&q=80,Lucknow
+522,Classic Wok Street Food,Street Food,low,4.8,0,45,https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=300&q=80,Lucknow
+523,The Royal Feast,Burger,mid,5.0,0,15,https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&q=80,Lucknow
+524,Grand Bites Lebanese,Lebanese,premium,4.4,0,45,https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=400&q=80,Lucknow
+525,Blue Munch Bengali,Bengali,mid,4.4,0,40,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Lucknow
+526,The Modern Savour,Desserts,low,4.2,0,20,https://images.unsplash.com/photo-1603513361099-2eeb2be05c86?w=300&q=80,Lucknow
+527,Royal Eats,Continental,low,4.4,0,45,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Lucknow
+528,Grand Bites North Indian,North Indian,mid,3.8,0,45,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Lucknow
+529,The New House,Italian,low,4.6,1,45,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Lucknow
+530,Dhaba Bistro Rajasthani,Rajasthani,premium,4.7,0,20,https://images.unsplash.com/photo-1544026229-2ceec1a86827?w=300&q=80,Lucknow
+531,The New Table,Chinese,premium,4.4,1,40,https://images.unsplash.com/photo-1585032226651-759b368d7246?w=300&q=80,Lucknow
+532,The Spicy Grill,Rajasthani,mid,3.5,0,40,https://images.unsplash.com/photo-1544026229-2ceec1a86827?w=300&q=80,Lucknow
+533,Grand Taste,Bengali,mid,4.3,1,35,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Lucknow
+534,The Dhaba Diner,Gujarati,mid,4.3,1,40,https://images.unsplash.com/photo-1613069150035-7d52f6b8c9df?w=300&q=80,Lucknow
+535,The Nawab Bowl,Mexican,premium,3.5,1,35,https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=400&q=80,Lucknow
+536,Mughal Feast,Street Food,premium,4.4,0,30,https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=300&q=80,Lucknow
+537,Grand Spice,Burger,mid,3.8,0,45,https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&q=80,Lucknow
+538,Blue Taste Mexican,Mexican,high,3.7,0,25,https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=400&q=80,Lucknow
+539,The Nawab Spice,Continental,premium,3.3,1,20,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Lucknow
+540,The The Great Cafe,Gujarati,mid,4.6,0,35,https://images.unsplash.com/photo-1613069150035-7d52f6b8c9df?w=300&q=80,Lucknow
+541,Famous Cravings Burger,Burger,mid,4.4,0,35,https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&q=80,Lucknow
+542,The Grand Tandoor,North Indian,mid,4.0,1,45,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Lucknow
+543,Delhi Grill,Desserts,low,3.9,0,15,https://images.unsplash.com/photo-1603513361099-2eeb2be05c86?w=300&q=80,Lucknow
+544,Blue Diner Chinese,Chinese,mid,4.5,0,35,https://images.unsplash.com/photo-1585032226651-759b368d7246?w=300&q=80,Lucknow
+545,Modern Diner Mexican,Mexican,high,4.6,0,35,https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=400&q=80,Lucknow
+546,The Punjab Oven,Biryani,mid,3.0,1,20,https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=300&q=80,Lucknow
+547,Grand Palace,South Indian,premium,4.5,1,25,https://images.unsplash.com/photo-1589301760014-d929f39ce9b0?w=300&q=80,Lucknow
+548,The Mughal Spoon,Healthy,premium,4.6,0,45,https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=300&q=80,Lucknow
+549,Famous Taste South Indian,South Indian,mid,4.0,0,15,https://images.unsplash.com/photo-1589301760014-d929f39ce9b0?w=300&q=80,Lucknow
+550,Urban House,Italian,premium,4.7,0,20,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Lucknow
+551,Authentic Spice,Italian,high,4.4,0,15,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Kanpur
+552,New House Chinese,Chinese,low,4.4,0,25,https://images.unsplash.com/photo-1585032226651-759b368d7246?w=300&q=80,Kanpur
+553,Dhaba Diner Mexican,Mexican,high,4.0,0,15,https://images.unsplash.com/photo-1578474846511-04245941c4d9?w=400&q=80,Kanpur
+554,The Golden Cafe,Italian,premium,3.4,0,40,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Kanpur
+555,The Grand Cafe,Continental,mid,4.2,0,30,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Kanpur
+556,Classic Taste Gujarati,Gujarati,low,3.9,0,20,https://images.unsplash.com/photo-1613069150035-7d52f6b8c9df?w=300&q=80,Kanpur
+557,Grand Eats North Indian,North Indian,mid,4.5,1,30,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Kanpur
+558,The Great Savour Burger,Burger,low,4.8,0,20,https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&q=80,Kanpur
+559,The Vintage Cafe,Gujarati,low,4.3,0,25,https://images.unsplash.com/photo-1613069150035-7d52f6b8c9df?w=300&q=80,Kanpur
+560,Spicy Bowl,Lebanese,mid,3.4,1,30,https://images.unsplash.com/photo-1578474846511-04245941c4d9?w=400&q=80,Kanpur
+561,Classic Table Burger,Burger,mid,4.4,0,15,https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&q=80,Kanpur
+562,Red Oven,Chinese,low,3.9,0,25,https://images.unsplash.com/photo-1585032226651-759b368d7246?w=300&q=80,Kanpur
+563,Dhaba Bowl,Bengali,low,4.3,0,20,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Kanpur
+564,Amritsar Wok,Italian,high,3.6,0,30,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Kanpur
+565,Punjab Tandoor Burger,Burger,mid,3.8,1,40,https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&q=80,Kanpur
+566,Royal Bistro Mexican,Mexican,mid,3.2,1,25,https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=400&q=80,Kanpur
+567,Spicy Palace,Street Food,mid,4.2,1,40,https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=300&q=80,Kanpur
+568,Blue Eats,Healthy,low,3.6,1,30,https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=300&q=80,Kanpur
+569,Spicy Cafe Rajasthani,Rajasthani,mid,4.3,0,45,https://images.unsplash.com/photo-1544026229-2ceec1a86827?w=300&q=80,Kanpur
+570,The Classic Taste,Italian,mid,4.7,0,40,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Kanpur
+571,The Urban Tandoor,Rajasthani,high,4.2,0,35,https://images.unsplash.com/photo-1544026229-2ceec1a86827?w=300&q=80,Kanpur
+572,Authentic Grill,Mexican,mid,4.5,0,20,https://images.unsplash.com/photo-1466978913421-bac2e104d72b?w=400&q=80,Kanpur
+573,Golden Cafe Bengali,Bengali,low,4.9,0,15,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Kanpur
+574,The Modern Cafe,North Indian,high,3.8,0,15,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Kanpur
+575,The Red Grill,Rajasthani,low,4.7,0,15,https://images.unsplash.com/photo-1544026229-2ceec1a86827?w=300&q=80,Kanpur
+576,The Amritsar Oven,Burger,mid,3.7,0,15,https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&q=80,Kanpur
+577,Spicy Bowl,Healthy,low,4.2,0,25,https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=300&q=80,Kanpur
+578,Famous Spoon,Burger,low,4.5,1,15,https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&q=80,Kanpur
+579,The Authentic Spice,Italian,mid,3.2,0,20,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Kanpur
+580,New Feast Street Food,Street Food,low,3.6,0,40,https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=300&q=80,Kanpur
+581,Grand Munch South Indian,South Indian,mid,4.0,0,35,https://images.unsplash.com/photo-1589301760014-d929f39ce9b0?w=300&q=80,Kanpur
+582,New Feast Pizza,Pizza,mid,4.0,0,45,https://images.unsplash.com/photo-1513104890138-7c749659a591?w=300&q=80,Kanpur
+583,The The Great Munch,Lebanese,mid,3.4,0,30,https://images.unsplash.com/photo-1578474846511-04245941c4d9?w=400&q=80,Kanpur
+584,Punjab Plate,South Indian,low,3.9,0,20,https://images.unsplash.com/photo-1589301760014-d929f39ce9b0?w=300&q=80,Kanpur
+585,Royal Eats Biryani,Biryani,high,3.8,1,30,https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=300&q=80,Kanpur
+586,The Great Tandoor,Mexican,high,3.8,1,15,https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=400&q=80,Kanpur
+587,The Chandni Chowk Flavor,Burger,low,3.6,1,45,https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&q=80,Kanpur
+588,Royal Feast,Mexican,premium,4.4,0,20,https://images.unsplash.com/photo-1578474846511-04245941c4d9?w=400&q=80,Kanpur
+589,The Modern Fork,Italian,mid,4.8,0,35,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Kanpur
+590,Amritsar Diner Biryani,Biryani,mid,3.5,1,40,https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=300&q=80,Kanpur
+591,The Classic House,Biryani,premium,3.0,0,25,https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=300&q=80,Kanpur
+592,New Zest,Mexican,mid,3.8,0,35,https://images.unsplash.com/photo-1552566626-52f8b828add9?w=400&q=80,Kanpur
+593,Classic Eats,Biryani,high,4.9,0,25,https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=300&q=80,Kanpur
+594,Delhi Cafe,Continental,premium,3.2,0,35,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Kanpur
+595,The Classic Bistro,Bengali,mid,4.0,0,20,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Kanpur
+596,Punjab Bistro Lebanese,Lebanese,low,3.9,0,15,https://images.unsplash.com/photo-1552566626-52f8b828add9?w=400&q=80,Kanpur
+597,Urban Fork,Gujarati,premium,3.8,0,15,https://images.unsplash.com/photo-1613069150035-7d52f6b8c9df?w=300&q=80,Kanpur
+598,Dhaba Cafe Rajasthani,Rajasthani,mid,4.3,0,40,https://images.unsplash.com/photo-1544026229-2ceec1a86827?w=300&q=80,Kanpur
+599,The Chandni Chowk Feast,Desserts,premium,4.0,1,15,https://images.unsplash.com/photo-1603513361099-2eeb2be05c86?w=300&q=80,Kanpur
+600,The New Diner,Mexican,high,3.6,0,20,https://images.unsplash.com/photo-1424847651672-bf20a4b0982b?w=400&q=80,Kanpur
+601,The Savour Bistro,Lebanese,premium,4.4,0,35,https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=400&q=80,Nagpur
+602,Classic Spoon Mexican,Mexican,premium,3.9,1,35,https://images.unsplash.com/photo-1514933651103-005eec06c04b?w=400&q=80,Nagpur
+603,The Feast Spoon,Italian,mid,4.5,0,40,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Nagpur
+604,Royal Diner,Desserts,low,3.3,1,20,https://images.unsplash.com/photo-1603513361099-2eeb2be05c86?w=300&q=80,Nagpur
+605,The Flavor Table,Desserts,mid,3.4,0,40,https://images.unsplash.com/photo-1603513361099-2eeb2be05c86?w=300&q=80,Nagpur
+606,Bites Feast Pizza,Pizza,mid,4.7,0,25,https://images.unsplash.com/photo-1513104890138-7c749659a591?w=300&q=80,Nagpur
+607,Cravings Flavor,North Indian,low,4.9,0,40,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Nagpur
+608,Spicy Taste,Biryani,low,4.5,0,25,https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=300&q=80,Nagpur
+609,Taste Zest,Healthy,mid,4.5,0,40,https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=300&q=80,Nagpur
+610,Famous Wok,Pizza,mid,3.8,0,20,https://images.unsplash.com/photo-1513104890138-7c749659a591?w=300&q=80,Nagpur
+611,Vintage House Healthy,Healthy,premium,3.3,0,45,https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=300&q=80,Nagpur
+612,The Bites Hut,Rajasthani,high,3.0,0,35,https://images.unsplash.com/photo-1544026229-2ceec1a86827?w=300&q=80,Nagpur
+613,The Zest Spice,Healthy,high,3.9,0,45,https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=300&q=80,Nagpur
+614,Eats Savour Continental,Continental,high,3.2,0,15,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Nagpur
+615,The Eats Diner,Italian,mid,4.0,1,20,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Nagpur
+616,Authentic Hut,Rajasthani,premium,3.0,0,30,https://images.unsplash.com/photo-1544026229-2ceec1a86827?w=300&q=80,Nagpur
+617,The Zest House,Chinese,premium,4.8,1,20,https://images.unsplash.com/photo-1585032226651-759b368d7246?w=300&q=80,Nagpur
+618,Classic Spoon,Biryani,premium,4.5,0,40,https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=300&q=80,Nagpur
+619,Famous Taste Continental,Continental,mid,3.5,0,20,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Nagpur
+620,Modern Oven,Chinese,mid,4.2,0,20,https://images.unsplash.com/photo-1585032226651-759b368d7246?w=300&q=80,Nagpur
+621,Vintage Feast,Burger,low,3.8,1,45,https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&q=80,Nagpur
+622,Bites Hut,Chinese,high,3.4,0,15,https://images.unsplash.com/photo-1585032226651-759b368d7246?w=300&q=80,Nagpur
+623,Red Munch,Rajasthani,high,4.3,0,30,https://images.unsplash.com/photo-1544026229-2ceec1a86827?w=300&q=80,Nagpur
+624,Red Kitchen Chinese,Chinese,mid,4.8,0,30,https://images.unsplash.com/photo-1585032226651-759b368d7246?w=300&q=80,Nagpur
+625,The Great Hut Bengali,Bengali,high,3.6,0,45,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Nagpur
+626,The The Great Oven,Gujarati,low,3.5,0,40,https://images.unsplash.com/photo-1613069150035-7d52f6b8c9df?w=300&q=80,Nagpur
+627,Authentic Diner Rajasthani,Rajasthani,mid,4.3,1,35,https://images.unsplash.com/photo-1544026229-2ceec1a86827?w=300&q=80,Nagpur
+628,Blue Spoon,Mexican,low,3.2,0,15,https://images.unsplash.com/photo-1578474846511-04245941c4d9?w=400&q=80,Nagpur
+629,The Eats Oven,Bengali,premium,3.1,0,35,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Nagpur
+630,Cravings Taste,Burger,low,3.3,1,40,https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&q=80,Nagpur
+631,Urban Plate,Continental,premium,4.9,1,25,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Nagpur
+632,Vintage Eats,Rajasthani,premium,3.6,0,40,https://images.unsplash.com/photo-1544026229-2ceec1a86827?w=300&q=80,Nagpur
+633,Royal Taste Continental,Continental,premium,4.6,0,40,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Nagpur
+634,Cravings Grill Bengali,Bengali,mid,3.9,0,40,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Nagpur
+635,Spicy Taste,Gujarati,mid,3.3,0,45,https://images.unsplash.com/photo-1613069150035-7d52f6b8c9df?w=300&q=80,Nagpur
+636,The Flavor Cafe,Street Food,low,3.4,0,25,https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=300&q=80,Nagpur
+637,Spicy Cafe Desserts,Desserts,high,3.7,0,20,https://images.unsplash.com/photo-1603513361099-2eeb2be05c86?w=300&q=80,Nagpur
+638,Spice Wok Healthy,Healthy,mid,4.7,0,25,https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=300&q=80,Nagpur
+639,The Taste Feast,Gujarati,high,4.9,0,45,https://images.unsplash.com/photo-1613069150035-7d52f6b8c9df?w=300&q=80,Nagpur
+640,The Red Feast,Pizza,premium,4.8,0,20,https://images.unsplash.com/photo-1513104890138-7c749659a591?w=300&q=80,Nagpur
+641,Savour Feast,Italian,mid,3.2,1,25,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Nagpur
+642,The Famous Grill,Desserts,high,4.5,0,30,https://images.unsplash.com/photo-1603513361099-2eeb2be05c86?w=300&q=80,Nagpur
+643,Eats Bistro,Healthy,high,3.2,0,15,https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=300&q=80,Nagpur
+644,The Spicy Bistro,Biryani,mid,3.2,0,45,https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=300&q=80,Nagpur
+645,Spice Bowl South Indian,South Indian,premium,3.6,1,30,https://images.unsplash.com/photo-1589301760014-d929f39ce9b0?w=300&q=80,Nagpur
+646,The Spice Taste,South Indian,mid,4.4,0,35,https://images.unsplash.com/photo-1589301760014-d929f39ce9b0?w=300&q=80,Nagpur
+647,Golden Tandoor Mexican,Mexican,mid,3.6,1,40,https://images.unsplash.com/photo-1466978913421-bac2e104d72b?w=400&q=80,Nagpur
+648,Zest Cravings,Mexican,premium,3.1,0,40,https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=400&q=80,Nagpur
+649,Cravings Munch South Indian,South Indian,premium,3.8,0,20,https://images.unsplash.com/photo-1589301760014-d929f39ce9b0?w=300&q=80,Nagpur
+650,The The Great Bowl,Street Food,mid,3.8,0,30,https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=300&q=80,Nagpur
+651,The Zest Bistro,South Indian,high,4.4,1,40,https://images.unsplash.com/photo-1589301760014-d929f39ce9b0?w=300&q=80,Indore
+652,The Great Bistro Bengali,Bengali,low,3.9,1,45,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Indore
+653,Golden Taste,Desserts,premium,4.3,1,25,https://images.unsplash.com/photo-1603513361099-2eeb2be05c86?w=300&q=80,Indore
+654,Spicy Zest North Indian,North Indian,high,3.7,0,40,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Indore
+655,Vintage Taste,Healthy,high,4.6,0,30,https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=300&q=80,Indore
+656,Feast Bistro,Burger,premium,4.9,0,25,https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&q=80,Indore
+657,The Grand Feast,Bengali,mid,3.5,1,35,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Indore
+658,The Vintage Tandoor,Lebanese,premium,3.9,0,15,https://images.unsplash.com/photo-1514933651103-005eec06c04b?w=400&q=80,Indore
+659,Royal Bistro Gujarati,Gujarati,high,3.3,0,40,https://images.unsplash.com/photo-1613069150035-7d52f6b8c9df?w=300&q=80,Indore
+660,The Great Munch Gujarati,Gujarati,mid,4.5,0,45,https://images.unsplash.com/photo-1613069150035-7d52f6b8c9df?w=300&q=80,Indore
+661,Spicy Tandoor,Burger,mid,3.9,0,40,https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&q=80,Indore
+662,Savour Wok South Indian,South Indian,low,3.2,0,25,https://images.unsplash.com/photo-1589301760014-d929f39ce9b0?w=300&q=80,Indore
+663,Zest Grill South Indian,South Indian,low,3.2,0,15,https://images.unsplash.com/photo-1589301760014-d929f39ce9b0?w=300&q=80,Indore
+664,Taste Kitchen Italian,Italian,low,3.1,0,40,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Indore
+665,Spice Flavor,Bengali,low,4.0,0,40,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Indore
+666,Bites Bowl Burger,Burger,low,3.5,0,20,https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&q=80,Indore
+667,The Urban Cravings,Healthy,premium,4.3,0,40,https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=300&q=80,Indore
+668,The Munch Feast,Chinese,high,3.9,0,45,https://images.unsplash.com/photo-1585032226651-759b368d7246?w=300&q=80,Indore
+669,The Modern Eats,Mexican,mid,3.8,1,25,https://images.unsplash.com/photo-1578474846511-04245941c4d9?w=400&q=80,Indore
+670,New Flavor,Mexican,premium,4.4,0,40,https://images.unsplash.com/photo-1552566626-52f8b828add9?w=400&q=80,Indore
+671,The Urban Hut,Biryani,high,3.6,1,45,https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=300&q=80,Indore
+672,The New Kitchen,Mexican,low,5.0,0,35,https://images.unsplash.com/photo-1424847651672-bf20a4b0982b?w=400&q=80,Indore
+673,The The Great Eats,Lebanese,mid,4.5,0,15,https://images.unsplash.com/photo-1466978913421-bac2e104d72b?w=400&q=80,Indore
+674,Savour Cafe,Gujarati,low,3.6,0,15,https://images.unsplash.com/photo-1613069150035-7d52f6b8c9df?w=300&q=80,Indore
+675,Blue Zest Bengali,Bengali,high,4.5,1,45,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Indore
+676,Classic Spice Biryani,Biryani,mid,5.0,0,15,https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=300&q=80,Indore
+677,The Blue Bowl,Italian,low,3.1,0,45,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Indore
+678,The Taste Eats,Mexican,low,4.9,1,20,https://images.unsplash.com/photo-1424847651672-bf20a4b0982b?w=400&q=80,Indore
+679,Famous Diner,Continental,high,4.5,0,40,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Indore
+680,The Taste House,North Indian,mid,4.2,0,40,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Indore
+681,Bites Bites Healthy,Healthy,low,3.5,0,15,https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=300&q=80,Indore
+682,The Taste Fork,Healthy,mid,4.5,0,25,https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=300&q=80,Indore
+683,Royal Bowl Bengali,Bengali,mid,4.0,1,25,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Indore
+684,The Red Taste,Biryani,low,3.2,0,20,https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=300&q=80,Indore
+685,New Feast,Street Food,high,3.9,1,35,https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=300&q=80,Indore
+686,Savour Flavor Continental,Continental,low,4.2,0,15,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Indore
+687,The New Bowl,Mexican,mid,3.3,0,15,https://images.unsplash.com/photo-1552566626-52f8b828add9?w=400&q=80,Indore
+688,New Feast,Desserts,high,3.9,0,35,https://images.unsplash.com/photo-1603513361099-2eeb2be05c86?w=300&q=80,Indore
+689,New Wok Gujarati,Gujarati,mid,3.7,0,35,https://images.unsplash.com/photo-1613069150035-7d52f6b8c9df?w=300&q=80,Indore
+690,The Munch Bites,Italian,mid,3.4,0,35,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Indore
+691,Spicy Grill,Street Food,mid,3.8,0,40,https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=300&q=80,Indore
+692,Flavor Cravings,Biryani,mid,5.0,1,15,https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=300&q=80,Indore
+693,Zest Diner Italian,Italian,mid,3.8,1,30,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Indore
+694,Urban Taste,Mexican,mid,3.2,0,15,https://images.unsplash.com/photo-1578474846511-04245941c4d9?w=400&q=80,Indore
+695,The Eats Taste,Mexican,mid,3.8,0,20,https://images.unsplash.com/photo-1578474846511-04245941c4d9?w=400&q=80,Indore
+696,Munch Flavor,South Indian,premium,4.3,0,40,https://images.unsplash.com/photo-1589301760014-d929f39ce9b0?w=300&q=80,Indore
+697,Eats Wok Healthy,Healthy,mid,4.9,1,20,https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=300&q=80,Indore
+698,New Eats,Mexican,high,3.5,1,20,https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=400&q=80,Indore
+699,The Spice Diner,Rajasthani,mid,3.5,0,35,https://images.unsplash.com/photo-1544026229-2ceec1a86827?w=300&q=80,Indore
+700,Authentic Munch Rajasthani,Rajasthani,mid,3.4,0,20,https://images.unsplash.com/photo-1544026229-2ceec1a86827?w=300&q=80,Indore
+701,Royal Oven,Desserts,mid,4.1,0,15,https://images.unsplash.com/photo-1603513361099-2eeb2be05c86?w=300&q=80,Bhopal
+702,The Urban Cravings,Chinese,premium,3.3,0,45,https://images.unsplash.com/photo-1585032226651-759b368d7246?w=300&q=80,Bhopal
+703,Taste Flavor Burger,Burger,mid,4.8,1,25,https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&q=80,Bhopal
+704,Zest Eats,Continental,mid,3.1,0,30,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Bhopal
+705,Vintage House Street Food,Street Food,premium,4.2,0,45,https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=300&q=80,Bhopal
+706,The Cravings Bites,Burger,high,3.4,0,15,https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&q=80,Bhopal
+707,Zest Eats,Gujarati,premium,4.5,1,40,https://images.unsplash.com/photo-1613069150035-7d52f6b8c9df?w=300&q=80,Bhopal
+708,The Eats Tandoor,Rajasthani,high,4.4,0,30,https://images.unsplash.com/photo-1544026229-2ceec1a86827?w=300&q=80,Bhopal
+709,Famous Hut,Burger,premium,3.8,0,15,https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&q=80,Bhopal
+710,Modern Bowl,Pizza,mid,4.2,0,15,https://images.unsplash.com/photo-1513104890138-7c749659a591?w=300&q=80,Bhopal
+711,Royal House,Chinese,mid,3.5,0,15,https://images.unsplash.com/photo-1585032226651-759b368d7246?w=300&q=80,Bhopal
+712,Bites Taste,Bengali,mid,4.8,0,35,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Bhopal
+713,Spicy Eats Gujarati,Gujarati,mid,3.9,0,35,https://images.unsplash.com/photo-1613069150035-7d52f6b8c9df?w=300&q=80,Bhopal
+714,Blue Bowl Lebanese,Lebanese,high,4.7,1,20,https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=400&q=80,Bhopal
+715,Grand Hut,South Indian,mid,4.2,0,25,https://images.unsplash.com/photo-1589301760014-d929f39ce9b0?w=300&q=80,Bhopal
+716,Taste Bistro,Desserts,mid,4.9,0,45,https://images.unsplash.com/photo-1603513361099-2eeb2be05c86?w=300&q=80,Bhopal
+717,The Golden Spice,Italian,mid,5.0,1,30,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Bhopal
+718,Taste Savour Pizza,Pizza,premium,3.2,1,35,https://images.unsplash.com/photo-1513104890138-7c749659a591?w=300&q=80,Bhopal
+719,Royal Fork,Burger,high,3.8,0,30,https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&q=80,Bhopal
+720,Famous Zest,Biryani,mid,3.9,0,40,https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=300&q=80,Bhopal
+721,Feast Plate,Burger,mid,3.9,0,35,https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&q=80,Bhopal
+722,Authentic Spice Chinese,Chinese,low,4.0,0,35,https://images.unsplash.com/photo-1585032226651-759b368d7246?w=300&q=80,Bhopal
+723,Feast Bowl Healthy,Healthy,premium,4.1,1,25,https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=300&q=80,Bhopal
+724,Eats Bites,Healthy,high,3.0,0,20,https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=300&q=80,Bhopal
+725,The Royal Munch,Lebanese,mid,4.8,0,40,https://images.unsplash.com/photo-1578474846511-04245941c4d9?w=400&q=80,Bhopal
+726,Urban Munch,South Indian,high,3.9,0,15,https://images.unsplash.com/photo-1589301760014-d929f39ce9b0?w=300&q=80,Bhopal
+727,Red Spice Continental,Continental,mid,3.5,0,20,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Bhopal
+728,Taste Tandoor,Continental,mid,4.4,0,15,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Bhopal
+729,The Great Spoon,Chinese,mid,4.4,1,25,https://images.unsplash.com/photo-1585032226651-759b368d7246?w=300&q=80,Bhopal
+730,Bites Bowl Burger,Burger,mid,3.6,1,20,https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&q=80,Bhopal
+731,Classic Spice,Pizza,high,3.6,1,25,https://images.unsplash.com/photo-1513104890138-7c749659a591?w=300&q=80,Bhopal
+732,Grand Cravings Desserts,Desserts,premium,4.5,0,35,https://images.unsplash.com/photo-1603513361099-2eeb2be05c86?w=300&q=80,Bhopal
+733,The Great Kitchen Healthy,Healthy,mid,4.1,0,25,https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=300&q=80,Bhopal
+734,Taste Bistro,Desserts,mid,4.6,0,30,https://images.unsplash.com/photo-1603513361099-2eeb2be05c86?w=300&q=80,Bhopal
+735,The Vintage Bites,Bengali,low,4.0,0,35,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Bhopal
+736,The Great Grill Italian,Italian,premium,3.9,0,45,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Bhopal
+737,The Urban Zest,Bengali,mid,4.0,0,25,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Bhopal
+738,Feast Zest Continental,Continental,low,3.6,0,45,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Bhopal
+739,Famous Hut Mexican,Mexican,premium,4.8,1,30,https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=400&q=80,Bhopal
+740,Classic Grill,Desserts,low,4.4,0,35,https://images.unsplash.com/photo-1603513361099-2eeb2be05c86?w=300&q=80,Bhopal
+741,Classic Feast,Healthy,mid,4.2,0,20,https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=300&q=80,Bhopal
+742,Red Bistro Desserts,Desserts,low,4.3,1,45,https://images.unsplash.com/photo-1603513361099-2eeb2be05c86?w=300&q=80,Bhopal
+743,The Golden Taste,Italian,mid,3.8,1,40,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Bhopal
+744,New Plate South Indian,South Indian,high,4.3,1,35,https://images.unsplash.com/photo-1589301760014-d929f39ce9b0?w=300&q=80,Bhopal
+745,Savour Wok Pizza,Pizza,premium,3.0,0,30,https://images.unsplash.com/photo-1513104890138-7c749659a591?w=300&q=80,Bhopal
+746,Feast Diner Lebanese,Lebanese,mid,3.2,0,35,https://images.unsplash.com/photo-1466978913421-bac2e104d72b?w=400&q=80,Bhopal
+747,Cravings Cravings,Bengali,premium,3.5,1,35,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Bhopal
+748,Spice Munch Biryani,Biryani,mid,3.6,0,40,https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=300&q=80,Bhopal
+749,Classic Table Mexican,Mexican,high,3.1,0,15,https://images.unsplash.com/photo-1552566626-52f8b828add9?w=400&q=80,Bhopal
+750,Royal Savour,Italian,mid,3.6,0,40,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Bhopal
+751,The Great Kitchen Mexican,Mexican,mid,5.0,0,35,https://images.unsplash.com/photo-1514933651103-005eec06c04b?w=400&q=80,Visakhapatnam
+752,Chettinad Bistro Italian,Italian,low,3.7,0,25,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Visakhapatnam
+753,Andhra Palace Pizza,Pizza,premium,4.1,0,40,https://images.unsplash.com/photo-1513104890138-7c749659a591?w=300&q=80,Visakhapatnam
+754,Madras Grill South Indian,South Indian,mid,3.3,0,15,https://images.unsplash.com/photo-1589301760014-d929f39ce9b0?w=300&q=80,Visakhapatnam
+755,The Royal Zest,Rajasthani,premium,3.3,0,20,https://images.unsplash.com/photo-1544026229-2ceec1a86827?w=300&q=80,Visakhapatnam
+756,The Deccan House,Burger,mid,3.3,0,35,https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&q=80,Visakhapatnam
+757,Chettinad Oven,North Indian,mid,3.5,0,40,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Visakhapatnam
+758,Modern Spice South Indian,South Indian,high,4.2,0,40,https://images.unsplash.com/photo-1589301760014-d929f39ce9b0?w=300&q=80,Visakhapatnam
+759,Urban Taste Lebanese,Lebanese,mid,4.3,0,25,https://images.unsplash.com/photo-1424847651672-bf20a4b0982b?w=400&q=80,Visakhapatnam
+760,Famous Fork Biryani,Biryani,high,3.0,0,35,https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=300&q=80,Visakhapatnam
+761,Famous Spoon Desserts,Desserts,mid,3.6,1,40,https://images.unsplash.com/photo-1603513361099-2eeb2be05c86?w=300&q=80,Visakhapatnam
+762,The Udupi Fork,Burger,low,3.2,0,20,https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&q=80,Visakhapatnam
+763,The Vintage Savour,Desserts,mid,3.2,0,40,https://images.unsplash.com/photo-1603513361099-2eeb2be05c86?w=300&q=80,Visakhapatnam
+764,The Classic Cafe,Street Food,low,3.8,0,25,https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=300&q=80,Visakhapatnam
+765,Grand Eats Gujarati,Gujarati,mid,3.5,0,35,https://images.unsplash.com/photo-1613069150035-7d52f6b8c9df?w=300&q=80,Visakhapatnam
+766,The Blue Bistro,Rajasthani,mid,3.9,1,25,https://images.unsplash.com/photo-1544026229-2ceec1a86827?w=300&q=80,Visakhapatnam
+767,Vintage Bistro Rajasthani,Rajasthani,premium,3.9,0,25,https://images.unsplash.com/photo-1544026229-2ceec1a86827?w=300&q=80,Visakhapatnam
+768,Malabar House Street Food,Street Food,premium,3.5,0,35,https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=300&q=80,Visakhapatnam
+769,The Deccan Eats,Italian,mid,3.3,0,15,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Visakhapatnam
+770,The Udupi Eats,Street Food,mid,3.2,0,15,https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=300&q=80,Visakhapatnam
+771,The Authentic Wok,Desserts,low,4.0,0,30,https://images.unsplash.com/photo-1603513361099-2eeb2be05c86?w=300&q=80,Visakhapatnam
+772,Udupi Palace,Biryani,premium,3.5,1,20,https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=300&q=80,Visakhapatnam
+773,Deccan Zest,South Indian,mid,4.1,0,15,https://images.unsplash.com/photo-1589301760014-d929f39ce9b0?w=300&q=80,Visakhapatnam
+774,The Great Palace Bengali,Bengali,mid,3.1,0,30,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Visakhapatnam
+775,Andhra Spoon,Desserts,mid,4.7,0,25,https://images.unsplash.com/photo-1603513361099-2eeb2be05c86?w=300&q=80,Visakhapatnam
+776,Famous Bites Pizza,Pizza,low,5.0,0,45,https://images.unsplash.com/photo-1513104890138-7c749659a591?w=300&q=80,Visakhapatnam
+777,Famous Munch,Rajasthani,low,4.2,0,45,https://images.unsplash.com/photo-1544026229-2ceec1a86827?w=300&q=80,Visakhapatnam
+778,Golden Taste Biryani,Biryani,high,4.2,0,40,https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=300&q=80,Visakhapatnam
+779,Chettinad Bowl,Bengali,low,4.5,0,30,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Visakhapatnam
+780,Mysore Diner Biryani,Biryani,mid,3.9,0,20,https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=300&q=80,Visakhapatnam
+781,Grand Taste Biryani,Biryani,high,4.1,1,35,https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=300&q=80,Visakhapatnam
+782,The Red Hut,South Indian,mid,3.2,1,40,https://images.unsplash.com/photo-1589301760014-d929f39ce9b0?w=300&q=80,Visakhapatnam
+783,Classic Oven Desserts,Desserts,premium,4.1,0,25,https://images.unsplash.com/photo-1603513361099-2eeb2be05c86?w=300&q=80,Visakhapatnam
+784,Modern Table North Indian,North Indian,mid,4.7,0,25,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Visakhapatnam
+785,New Wok Desserts,Desserts,mid,4.2,0,15,https://images.unsplash.com/photo-1603513361099-2eeb2be05c86?w=300&q=80,Visakhapatnam
+786,Classic Tandoor,Continental,premium,3.9,0,15,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Visakhapatnam
+787,Chettinad Cafe Gujarati,Gujarati,mid,3.7,1,40,https://images.unsplash.com/photo-1613069150035-7d52f6b8c9df?w=300&q=80,Visakhapatnam
+788,The Classic Zest,Burger,mid,4.0,0,20,https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&q=80,Visakhapatnam
+789,New Table Chinese,Chinese,low,4.6,1,25,https://images.unsplash.com/photo-1585032226651-759b368d7246?w=300&q=80,Visakhapatnam
+790,Mysore Palace Chinese,Chinese,premium,4.0,0,20,https://images.unsplash.com/photo-1585032226651-759b368d7246?w=300&q=80,Visakhapatnam
+791,The Deccan Fork,Continental,low,4.1,1,15,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Visakhapatnam
+792,Urban Cafe,Rajasthani,mid,4.8,1,35,https://images.unsplash.com/photo-1544026229-2ceec1a86827?w=300&q=80,Visakhapatnam
+793,The Malabar Bistro,Chinese,mid,3.6,1,20,https://images.unsplash.com/photo-1585032226651-759b368d7246?w=300&q=80,Visakhapatnam
+794,Andhra Spice,Italian,mid,4.5,1,20,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Visakhapatnam
+795,Urban Wok Italian,Italian,mid,3.4,0,40,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Visakhapatnam
+796,Red Plate Desserts,Desserts,mid,3.9,0,35,https://images.unsplash.com/photo-1603513361099-2eeb2be05c86?w=300&q=80,Visakhapatnam
+797,Spicy Plate Desserts,Desserts,low,3.7,1,25,https://images.unsplash.com/photo-1603513361099-2eeb2be05c86?w=300&q=80,Visakhapatnam
+798,The Modern Grill,Lebanese,premium,3.3,1,30,https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=400&q=80,Visakhapatnam
+799,Malabar Plate,Biryani,high,4.5,1,35,https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=300&q=80,Visakhapatnam
+800,The Golden Spice,Italian,low,4.4,1,20,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Visakhapatnam
+801,The Punjab Hut,Chinese,premium,3.1,0,20,https://images.unsplash.com/photo-1585032226651-759b368d7246?w=300&q=80,Patna
+802,Authentic Bites Street Food,Street Food,high,4.4,1,40,https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=300&q=80,Patna
+803,New Diner,Street Food,high,4.7,1,20,https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=300&q=80,Patna
+804,Dhaba Bowl,Mexican,mid,3.3,0,45,https://images.unsplash.com/photo-1552566626-52f8b828add9?w=400&q=80,Patna
+805,Vintage Wok,Pizza,premium,3.7,0,25,https://images.unsplash.com/photo-1513104890138-7c749659a591?w=300&q=80,Patna
+806,The Authentic Diner,Chinese,premium,3.6,0,15,https://images.unsplash.com/photo-1585032226651-759b368d7246?w=300&q=80,Patna
+807,The The Great Feast,Bengali,high,4.8,0,15,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Patna
+808,Dhaba Spoon Bengali,Bengali,mid,5.0,0,40,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Patna
+809,Golden Hut Street Food,Street Food,premium,4.2,1,20,https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=300&q=80,Patna
+810,Spicy Bistro,Burger,mid,4.2,0,35,https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&q=80,Patna
+811,Chandni Chowk Palace,Italian,high,4.1,0,30,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Patna
+812,The New Spoon,Biryani,high,3.1,0,30,https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=300&q=80,Patna
+813,Punjab Bowl,Burger,premium,4.2,0,45,https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&q=80,Patna
+814,Chandni Chowk Kitchen,Healthy,low,3.2,0,15,https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=300&q=80,Patna
+815,The Golden Munch,Street Food,premium,3.3,0,35,https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=300&q=80,Patna
+816,Urban Kitchen Mexican,Mexican,high,4.7,1,30,https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=400&q=80,Patna
+817,Authentic Palace Street Food,Street Food,premium,3.4,0,35,https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=300&q=80,Patna
+818,Nawab Palace Gujarati,Gujarati,low,4.0,1,20,https://images.unsplash.com/photo-1613069150035-7d52f6b8c9df?w=300&q=80,Patna
+819,Red Bistro Chinese,Chinese,mid,4.4,1,25,https://images.unsplash.com/photo-1585032226651-759b368d7246?w=300&q=80,Patna
+820,Chandni Chowk Taste Burger,Burger,mid,3.9,1,20,https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&q=80,Patna
+821,Modern Bistro Desserts,Desserts,mid,4.0,0,30,https://images.unsplash.com/photo-1603513361099-2eeb2be05c86?w=300&q=80,Patna
+822,Royal Wok,Pizza,mid,3.0,0,45,https://images.unsplash.com/photo-1513104890138-7c749659a591?w=300&q=80,Patna
+823,The Amritsar Munch,Continental,mid,4.0,0,30,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Patna
+824,Grand Table Pizza,Pizza,mid,4.1,1,15,https://images.unsplash.com/photo-1513104890138-7c749659a591?w=300&q=80,Patna
+825,Urban Savour,Street Food,high,3.9,0,45,https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=300&q=80,Patna
+826,The Nawab Oven,Street Food,premium,3.4,0,35,https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=300&q=80,Patna
+827,The Chandni Chowk Bites,Healthy,premium,3.7,0,40,https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=300&q=80,Patna
+828,Punjab Cravings,Street Food,low,3.2,0,20,https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=300&q=80,Patna
+829,The Golden Eats,Chinese,low,4.3,0,25,https://images.unsplash.com/photo-1585032226651-759b368d7246?w=300&q=80,Patna
+830,Delhi Cafe,North Indian,low,3.9,0,40,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Patna
+831,Modern Flavor Gujarati,Gujarati,mid,4.4,0,45,https://images.unsplash.com/photo-1613069150035-7d52f6b8c9df?w=300&q=80,Patna
+832,The The Great Eats,Healthy,premium,3.2,0,20,https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=300&q=80,Patna
+833,Delhi Cafe Continental,Continental,mid,4.7,0,25,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Patna
+834,The Delhi Oven,Desserts,mid,3.3,0,30,https://images.unsplash.com/photo-1603513361099-2eeb2be05c86?w=300&q=80,Patna
+835,The Grand Spice,South Indian,low,4.1,1,15,https://images.unsplash.com/photo-1589301760014-d929f39ce9b0?w=300&q=80,Patna
+836,Mughal Savour Chinese,Chinese,premium,3.4,0,45,https://images.unsplash.com/photo-1585032226651-759b368d7246?w=300&q=80,Patna
+837,The Dhaba Diner,Healthy,mid,4.5,0,30,https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=300&q=80,Patna
+838,Classic Kitchen Bengali,Bengali,premium,3.8,0,30,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Patna
+839,The Urban Wok,Continental,mid,3.5,0,30,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Patna
+840,Classic Spoon,Biryani,high,3.1,0,15,https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=300&q=80,Patna
+841,The Amritsar Feast,Bengali,premium,4.5,0,30,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Patna
+842,The Classic Plate,Burger,premium,3.4,0,30,https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&q=80,Patna
+843,The Classic Spoon,Gujarati,premium,3.9,0,25,https://images.unsplash.com/photo-1613069150035-7d52f6b8c9df?w=300&q=80,Patna
+844,Amritsar Cafe,Healthy,low,4.7,1,15,https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=300&q=80,Patna
+845,Urban Bites Burger,Burger,low,3.0,0,25,https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&q=80,Patna
+846,Delhi Taste Chinese,Chinese,mid,3.8,0,25,https://images.unsplash.com/photo-1585032226651-759b368d7246?w=300&q=80,Patna
+847,Delhi Cafe,Street Food,high,3.9,0,15,https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=300&q=80,Patna
+848,The Chandni Chowk Cafe,Lebanese,low,4.1,0,30,https://images.unsplash.com/photo-1514933651103-005eec06c04b?w=400&q=80,Patna
+849,Golden Tandoor Burger,Burger,low,3.2,0,30,https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&q=80,Patna
+850,Delhi Kitchen,Italian,mid,4.5,0,30,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Patna
+851,The Great Diner Burger,Burger,mid,4.1,0,20,https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&q=80,Vadodara
+852,Authentic House Lebanese,Lebanese,mid,3.4,0,25,https://images.unsplash.com/photo-1466978913421-bac2e104d72b?w=400&q=80,Vadodara
+853,Golden Wok Chinese,Chinese,premium,4.0,0,25,https://images.unsplash.com/photo-1585032226651-759b368d7246?w=300&q=80,Vadodara
+854,Urban Table,Continental,mid,4.9,1,25,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Vadodara
+855,Savour Savour Desserts,Desserts,high,3.8,0,40,https://images.unsplash.com/photo-1603513361099-2eeb2be05c86?w=300&q=80,Vadodara
+856,The Authentic Fork,Lebanese,low,4.6,0,30,https://images.unsplash.com/photo-1578474846511-04245941c4d9?w=400&q=80,Vadodara
+857,Blue Tandoor Pizza,Pizza,low,4.1,1,30,https://images.unsplash.com/photo-1513104890138-7c749659a591?w=300&q=80,Vadodara
+858,Eats Diner,Mexican,mid,4.2,0,20,https://images.unsplash.com/photo-1552566626-52f8b828add9?w=400&q=80,Vadodara
+859,Red House Healthy,Healthy,high,4.9,0,35,https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=300&q=80,Vadodara
+860,Bites Kitchen,Mexican,mid,3.9,1,35,https://images.unsplash.com/photo-1466978913421-bac2e104d72b?w=400&q=80,Vadodara
+861,Urban Eats Gujarati,Gujarati,mid,4.9,1,15,https://images.unsplash.com/photo-1613069150035-7d52f6b8c9df?w=300&q=80,Vadodara
+862,Red Bites Rajasthani,Rajasthani,low,3.3,1,40,https://images.unsplash.com/photo-1544026229-2ceec1a86827?w=300&q=80,Vadodara
+863,Famous Hut South Indian,South Indian,high,4.9,0,35,https://images.unsplash.com/photo-1589301760014-d929f39ce9b0?w=300&q=80,Vadodara
+864,The Savour Zest,Chinese,high,4.1,0,30,https://images.unsplash.com/photo-1585032226651-759b368d7246?w=300&q=80,Vadodara
+865,Famous Palace Lebanese,Lebanese,low,3.0,1,30,https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=400&q=80,Vadodara
+866,Zest Cafe Mexican,Mexican,high,3.5,0,25,https://images.unsplash.com/photo-1514933651103-005eec06c04b?w=400&q=80,Vadodara
+867,The Taste Bowl,Rajasthani,premium,4.7,0,40,https://images.unsplash.com/photo-1544026229-2ceec1a86827?w=300&q=80,Vadodara
+868,Spicy House Healthy,Healthy,mid,3.7,1,45,https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=300&q=80,Vadodara
+869,Classic Taste Rajasthani,Rajasthani,low,3.4,0,30,https://images.unsplash.com/photo-1544026229-2ceec1a86827?w=300&q=80,Vadodara
+870,Taste Kitchen Biryani,Biryani,mid,4.4,1,40,https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=300&q=80,Vadodara
+871,Authentic Grill Burger,Burger,low,3.7,0,30,https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&q=80,Vadodara
+872,The Munch Fork,Bengali,low,4.9,0,20,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Vadodara
+873,Vintage Plate,Bengali,mid,4.6,0,30,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Vadodara
+874,The Royal Fork,Continental,premium,3.1,1,35,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Vadodara
+875,Savour Spice,Gujarati,high,3.9,0,40,https://images.unsplash.com/photo-1613069150035-7d52f6b8c9df?w=300&q=80,Vadodara
+876,Spicy Hut,Rajasthani,mid,4.0,1,20,https://images.unsplash.com/photo-1544026229-2ceec1a86827?w=300&q=80,Vadodara
+877,Royal Hut South Indian,South Indian,mid,3.0,1,45,https://images.unsplash.com/photo-1589301760014-d929f39ce9b0?w=300&q=80,Vadodara
+878,Blue Flavor Rajasthani,Rajasthani,mid,3.4,1,40,https://images.unsplash.com/photo-1544026229-2ceec1a86827?w=300&q=80,Vadodara
+879,New Table,Chinese,premium,3.3,0,25,https://images.unsplash.com/photo-1585032226651-759b368d7246?w=300&q=80,Vadodara
+880,Feast Oven,Pizza,mid,3.9,0,20,https://images.unsplash.com/photo-1513104890138-7c749659a591?w=300&q=80,Vadodara
+881,Spice Bistro Pizza,Pizza,high,4.8,0,45,https://images.unsplash.com/photo-1513104890138-7c749659a591?w=300&q=80,Vadodara
+882,Savour Wok Chinese,Chinese,mid,4.4,0,15,https://images.unsplash.com/photo-1585032226651-759b368d7246?w=300&q=80,Vadodara
+883,The Taste Grill,Street Food,mid,5.0,1,15,https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=300&q=80,Vadodara
+884,The Famous Eats,Street Food,mid,4.9,0,25,https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=300&q=80,Vadodara
+885,Savour Cravings,Burger,high,4.9,1,25,https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&q=80,Vadodara
+886,The Feast Oven,Gujarati,premium,3.8,1,20,https://images.unsplash.com/photo-1613069150035-7d52f6b8c9df?w=300&q=80,Vadodara
+887,The Authentic Palace,Healthy,high,4.7,0,20,https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=300&q=80,Vadodara
+888,The Great Eats,Gujarati,low,4.2,0,35,https://images.unsplash.com/photo-1613069150035-7d52f6b8c9df?w=300&q=80,Vadodara
+889,The Vintage Savour,Street Food,low,4.0,0,35,https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=300&q=80,Vadodara
+890,New Palace South Indian,South Indian,mid,4.2,0,45,https://images.unsplash.com/photo-1589301760014-d929f39ce9b0?w=300&q=80,Vadodara
+891,Spicy Bistro Burger,Burger,premium,3.1,0,35,https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&q=80,Vadodara
+892,The Eats Bowl,South Indian,high,3.7,0,45,https://images.unsplash.com/photo-1589301760014-d929f39ce9b0?w=300&q=80,Vadodara
+893,Bites Taste,Street Food,mid,4.9,0,30,https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=300&q=80,Vadodara
+894,Zest Bites,Street Food,mid,4.0,0,15,https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=300&q=80,Vadodara
+895,Vintage Taste,Burger,premium,3.3,1,35,https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&q=80,Vadodara
+896,The Blue Cravings,Pizza,high,3.6,0,35,https://images.unsplash.com/photo-1513104890138-7c749659a591?w=300&q=80,Vadodara
+897,Blue Eats,North Indian,mid,3.3,0,15,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Vadodara
+898,Spicy Spice,Bengali,mid,3.7,0,30,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Vadodara
+899,Taste Zest,Chinese,mid,3.5,1,15,https://images.unsplash.com/photo-1585032226651-759b368d7246?w=300&q=80,Vadodara
+900,Urban Table,Bengali,high,4.4,0,30,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Vadodara
+901,The Golden Table,Rajasthani,premium,3.4,0,15,https://images.unsplash.com/photo-1544026229-2ceec1a86827?w=300&q=80,Ghaziabad
+902,The Royal Diner,North Indian,mid,3.4,0,30,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Ghaziabad
+903,Authentic Zest,Bengali,low,3.7,1,25,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Ghaziabad
+904,New Munch Healthy,Healthy,low,4.0,1,35,https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=300&q=80,Ghaziabad
+905,Feast House Burger,Burger,mid,4.1,0,25,https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&q=80,Ghaziabad
+906,Grand Feast Mexican,Mexican,high,3.9,0,20,https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=400&q=80,Ghaziabad
+907,Savour Grill,Desserts,mid,3.9,0,45,https://images.unsplash.com/photo-1603513361099-2eeb2be05c86?w=300&q=80,Ghaziabad
+908,The Modern Feast,Italian,mid,3.9,1,35,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Ghaziabad
+909,Spice Cravings,Italian,low,4.9,0,15,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Ghaziabad
+910,Zest Munch,South Indian,premium,3.9,0,20,https://images.unsplash.com/photo-1589301760014-d929f39ce9b0?w=300&q=80,Ghaziabad
+911,Authentic Zest Burger,Burger,low,4.8,0,15,https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&q=80,Ghaziabad
+912,Eats Bites Street Food,Street Food,high,3.8,0,25,https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=300&q=80,Ghaziabad
+913,Spice Flavor Bengali,Bengali,low,4.1,0,45,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Ghaziabad
+914,Spice Munch,North Indian,low,4.1,0,30,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Ghaziabad
+915,The Urban Kitchen,Healthy,mid,4.0,1,45,https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=300&q=80,Ghaziabad
+916,The Spice Bites,Bengali,high,4.4,1,30,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Ghaziabad
+917,Classic Cravings Italian,Italian,mid,3.3,0,15,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Ghaziabad
+918,The Spice Hut,Italian,mid,3.4,1,40,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Ghaziabad
+919,Feast Fork North Indian,North Indian,mid,3.1,0,25,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Ghaziabad
+920,The Golden Hut,Lebanese,mid,5.0,1,20,https://images.unsplash.com/photo-1424847651672-bf20a4b0982b?w=400&q=80,Ghaziabad
+921,Munch Bites,Chinese,premium,3.5,1,45,https://images.unsplash.com/photo-1585032226651-759b368d7246?w=300&q=80,Ghaziabad
+922,Munch Spice Healthy,Healthy,mid,3.9,0,40,https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=300&q=80,Ghaziabad
+923,Golden Palace Biryani,Biryani,premium,3.4,0,35,https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=300&q=80,Ghaziabad
+924,Cravings Bistro,Healthy,high,3.4,0,30,https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=300&q=80,Ghaziabad
+925,Feast Hut,South Indian,mid,3.3,0,15,https://images.unsplash.com/photo-1589301760014-d929f39ce9b0?w=300&q=80,Ghaziabad
+926,Taste Cafe South Indian,South Indian,high,3.1,0,15,https://images.unsplash.com/photo-1589301760014-d929f39ce9b0?w=300&q=80,Ghaziabad
+927,Savour Fork Biryani,Biryani,mid,4.0,0,35,https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=300&q=80,Ghaziabad
+928,The Great Savour,Rajasthani,premium,4.7,0,30,https://images.unsplash.com/photo-1544026229-2ceec1a86827?w=300&q=80,Ghaziabad
+929,Cravings Bistro,Lebanese,mid,3.6,0,30,https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=400&q=80,Ghaziabad
+930,The Grand Cafe,Bengali,mid,3.2,1,25,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Ghaziabad
+931,The Great Diner,Chinese,mid,4.9,0,30,https://images.unsplash.com/photo-1585032226651-759b368d7246?w=300&q=80,Ghaziabad
+932,The Bites Tandoor,Chinese,high,3.7,0,20,https://images.unsplash.com/photo-1585032226651-759b368d7246?w=300&q=80,Ghaziabad
+933,Classic Savour,Bengali,mid,4.8,0,45,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Ghaziabad
+934,Cravings Plate Lebanese,Lebanese,mid,4.0,0,45,https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=400&q=80,Ghaziabad
+935,Grand Tandoor Bengali,Bengali,premium,3.8,0,45,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Ghaziabad
+936,The Zest Bites,Italian,high,3.5,0,15,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Ghaziabad
+937,Red Bowl Chinese,Chinese,premium,4.6,0,40,https://images.unsplash.com/photo-1585032226651-759b368d7246?w=300&q=80,Ghaziabad
+938,Royal Bistro,Street Food,mid,4.4,0,25,https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=300&q=80,Ghaziabad
+939,The Bites Kitchen,Desserts,low,3.1,0,45,https://images.unsplash.com/photo-1603513361099-2eeb2be05c86?w=300&q=80,Ghaziabad
+940,Bites Diner,Lebanese,premium,4.1,0,45,https://images.unsplash.com/photo-1578474846511-04245941c4d9?w=400&q=80,Ghaziabad
+941,Spicy House,Burger,premium,4.7,0,35,https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&q=80,Ghaziabad
+942,Grand Spice Street Food,Street Food,mid,3.8,0,25,https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=300&q=80,Ghaziabad
+943,Munch Wok,Burger,low,3.7,1,25,https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&q=80,Ghaziabad
+944,Grand Spice Continental,Continental,premium,4.8,0,45,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Ghaziabad
+945,The Vintage Flavor,Burger,mid,4.7,1,25,https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&q=80,Ghaziabad
+946,Red Cravings North Indian,North Indian,mid,4.5,0,45,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Ghaziabad
+947,Vintage Tandoor,South Indian,mid,3.7,0,20,https://images.unsplash.com/photo-1589301760014-d929f39ce9b0?w=300&q=80,Ghaziabad
+948,Spicy Grill,Healthy,high,4.8,0,15,https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=300&q=80,Ghaziabad
+949,The Grand Spoon,South Indian,mid,4.5,0,25,https://images.unsplash.com/photo-1589301760014-d929f39ce9b0?w=300&q=80,Ghaziabad
+950,The Cravings Cravings,Chinese,low,4.1,0,45,https://images.unsplash.com/photo-1585032226651-759b368d7246?w=300&q=80,Ghaziabad
+951,Royal Spice,Desserts,premium,4.5,1,40,https://images.unsplash.com/photo-1603513361099-2eeb2be05c86?w=300&q=80,Ludhiana
+952,Amritsar Fork Burger,Burger,high,3.7,0,35,https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&q=80,Ludhiana
+953,The Great Palace North Indian,North Indian,mid,3.7,0,15,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Ludhiana
+954,Amritsar Cravings,Mexican,high,4.5,0,30,https://images.unsplash.com/photo-1578474846511-04245941c4d9?w=400&q=80,Ludhiana
+955,Classic Munch Lebanese,Lebanese,mid,4.9,1,15,https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=400&q=80,Ludhiana
+956,Golden Zest North Indian,North Indian,mid,3.9,0,15,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Ludhiana
+957,The Authentic Table,Street Food,low,4.5,0,20,https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=300&q=80,Ludhiana
+958,The Authentic Spoon,Pizza,high,3.3,0,35,https://images.unsplash.com/photo-1513104890138-7c749659a591?w=300&q=80,Ludhiana
+959,The Red Savour,Continental,low,4.3,0,30,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Ludhiana
+960,Spicy Spice,Italian,mid,4.4,0,45,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Ludhiana
+961,The Royal Flavor,South Indian,premium,3.4,1,30,https://images.unsplash.com/photo-1589301760014-d929f39ce9b0?w=300&q=80,Ludhiana
+962,The Authentic Bowl,Continental,low,4.5,0,25,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Ludhiana
+963,The Grand Flavor,Italian,high,4.3,0,25,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Ludhiana
+964,The Dhaba House,South Indian,mid,4.8,0,45,https://images.unsplash.com/photo-1589301760014-d929f39ce9b0?w=300&q=80,Ludhiana
+965,Grand Munch Biryani,Biryani,mid,4.9,0,15,https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=300&q=80,Ludhiana
+966,Classic Hut Healthy,Healthy,low,3.5,1,25,https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=300&q=80,Ludhiana
+967,Authentic Grill Biryani,Biryani,low,3.6,0,30,https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=300&q=80,Ludhiana
+968,Chandni Chowk Feast,Mexican,low,4.0,1,35,https://images.unsplash.com/photo-1552566626-52f8b828add9?w=400&q=80,Ludhiana
+969,Chandni Chowk Flavor Pizza,Pizza,premium,4.4,1,30,https://images.unsplash.com/photo-1513104890138-7c749659a591?w=300&q=80,Ludhiana
+970,New Table,Rajasthani,premium,3.8,0,15,https://images.unsplash.com/photo-1544026229-2ceec1a86827?w=300&q=80,Ludhiana
+971,Urban Hut,Continental,mid,3.3,0,15,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Ludhiana
+972,Golden Cravings,Gujarati,high,4.1,0,40,https://images.unsplash.com/photo-1613069150035-7d52f6b8c9df?w=300&q=80,Ludhiana
+973,Vintage Tandoor South Indian,South Indian,low,4.2,0,40,https://images.unsplash.com/photo-1589301760014-d929f39ce9b0?w=300&q=80,Ludhiana
+974,The New Bites,Italian,premium,4.2,0,40,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Ludhiana
+975,The Modern Bowl,Rajasthani,mid,4.2,1,30,https://images.unsplash.com/photo-1544026229-2ceec1a86827?w=300&q=80,Ludhiana
+976,The Authentic Feast,Street Food,low,3.2,1,15,https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=300&q=80,Ludhiana
+977,Punjab Cafe,Lebanese,mid,4.1,0,40,https://images.unsplash.com/photo-1578474846511-04245941c4d9?w=400&q=80,Ludhiana
+978,The Delhi Feast,Lebanese,mid,4.0,0,25,https://images.unsplash.com/photo-1466978913421-bac2e104d72b?w=400&q=80,Ludhiana
+979,Delhi Bites,Bengali,high,3.8,0,40,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Ludhiana
+980,The Famous Plate,Chinese,high,4.4,0,35,https://images.unsplash.com/photo-1585032226651-759b368d7246?w=300&q=80,Ludhiana
+981,Blue Munch Rajasthani,Rajasthani,high,4.3,0,40,https://images.unsplash.com/photo-1544026229-2ceec1a86827?w=300&q=80,Ludhiana
+982,Spicy Flavor Chinese,Chinese,premium,3.9,0,30,https://images.unsplash.com/photo-1585032226651-759b368d7246?w=300&q=80,Ludhiana
+983,Modern Cravings,Bengali,low,4.8,0,40,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Ludhiana
+984,Blue Oven,Bengali,mid,4.3,0,40,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Ludhiana
+985,Royal Bites Lebanese,Lebanese,premium,5.0,0,45,https://images.unsplash.com/photo-1424847651672-bf20a4b0982b?w=400&q=80,Ludhiana
+986,Golden Hut,Rajasthani,high,3.8,1,35,https://images.unsplash.com/photo-1544026229-2ceec1a86827?w=300&q=80,Ludhiana
+987,New Cravings Rajasthani,Rajasthani,premium,3.8,1,35,https://images.unsplash.com/photo-1544026229-2ceec1a86827?w=300&q=80,Ludhiana
+988,The Mughal Zest,Street Food,mid,4.3,1,25,https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=300&q=80,Ludhiana
+989,The Classic Eats,Rajasthani,premium,4.1,0,30,https://images.unsplash.com/photo-1544026229-2ceec1a86827?w=300&q=80,Ludhiana
+990,The Great Spice Italian,Italian,low,3.7,1,20,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Ludhiana
+991,Modern Oven Desserts,Desserts,low,4.0,1,40,https://images.unsplash.com/photo-1603513361099-2eeb2be05c86?w=300&q=80,Ludhiana
+992,Mughal Cravings Street Food,Street Food,high,4.4,1,35,https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=300&q=80,Ludhiana
+993,The Great Plate North Indian,North Indian,high,4.1,0,30,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Ludhiana
+994,Dhaba Savour,Biryani,premium,4.3,0,35,https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=300&q=80,Ludhiana
+995,The Chandni Chowk Feast,Burger,low,3.8,1,45,https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&q=80,Ludhiana
+996,New Cravings,Burger,mid,3.2,0,40,https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&q=80,Ludhiana
+997,Red Zest Street Food,Street Food,low,3.7,0,35,https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=300&q=80,Ludhiana
+998,The Vintage Bites,Burger,low,3.7,1,45,https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&q=80,Ludhiana
+999,Chandni Chowk Bistro,Chinese,high,4.4,0,30,https://images.unsplash.com/photo-1585032226651-759b368d7246?w=300&q=80,Ludhiana
+1000,The Golden Palace,Mexican,premium,4.0,0,45,https://images.unsplash.com/photo-1514933651103-005eec06c04b?w=400&q=80,Ludhiana
+1001,Punjab Cafe,Burger,mid,4.1,0,25,https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&q=80,Agra
+1002,The The Great Kitchen,South Indian,mid,3.3,1,40,https://images.unsplash.com/photo-1589301760014-d929f39ce9b0?w=300&q=80,Agra
+1003,Amritsar Hut,Healthy,mid,4.7,1,45,https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=300&q=80,Agra
+1004,Nawab Kitchen,South Indian,premium,3.7,0,20,https://images.unsplash.com/photo-1589301760014-d929f39ce9b0?w=300&q=80,Agra
+1005,Mughal Zest Biryani,Biryani,mid,4.5,0,30,https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=300&q=80,Agra
+1006,Vintage Tandoor,Pizza,high,3.4,1,30,https://images.unsplash.com/photo-1513104890138-7c749659a591?w=300&q=80,Agra
+1007,Blue Bowl,Continental,low,4.7,1,15,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Agra
+1008,New Feast,Street Food,mid,3.1,0,45,https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=300&q=80,Agra
+1009,The Golden Eats,Gujarati,mid,3.6,0,20,https://images.unsplash.com/photo-1613069150035-7d52f6b8c9df?w=300&q=80,Agra
+1010,Chandni Chowk Hut,North Indian,high,4.7,0,30,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Agra
+1011,Authentic Palace,North Indian,low,4.5,0,25,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Agra
+1012,Red Flavor Rajasthani,Rajasthani,premium,4.7,0,25,https://images.unsplash.com/photo-1544026229-2ceec1a86827?w=300&q=80,Agra
+1013,Royal Plate Chinese,Chinese,mid,4.6,0,25,https://images.unsplash.com/photo-1585032226651-759b368d7246?w=300&q=80,Agra
+1014,Vintage Flavor,Mexican,low,3.8,1,30,https://images.unsplash.com/photo-1552566626-52f8b828add9?w=400&q=80,Agra
+1015,Golden Tandoor Mexican,Mexican,premium,3.2,0,40,https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=400&q=80,Agra
+1016,The The Great Spice,South Indian,mid,4.2,0,30,https://images.unsplash.com/photo-1589301760014-d929f39ce9b0?w=300&q=80,Agra
+1017,Vintage Tandoor,Burger,high,3.6,0,45,https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&q=80,Agra
+1018,The Golden Fork,Lebanese,mid,4.8,0,25,https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=400&q=80,Agra
+1019,Modern Bistro,Burger,mid,4.5,0,20,https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&q=80,Agra
+1020,Spicy Spoon Continental,Continental,mid,4.0,0,25,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Agra
+1021,The Great Cravings,North Indian,low,4.6,0,35,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Agra
+1022,Vintage Palace,Burger,mid,3.9,0,25,https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&q=80,Agra
+1023,Golden Bowl,Lebanese,premium,5.0,0,15,https://images.unsplash.com/photo-1514933651103-005eec06c04b?w=400&q=80,Agra
+1024,Chandni Chowk Diner,Chinese,high,3.6,0,30,https://images.unsplash.com/photo-1585032226651-759b368d7246?w=300&q=80,Agra
+1025,The Great Wok,Mexican,mid,3.5,0,40,https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=400&q=80,Agra
+1026,New Oven Street Food,Street Food,low,4.0,0,45,https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=300&q=80,Agra
+1027,Spicy Savour Burger,Burger,low,4.9,0,30,https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&q=80,Agra
+1028,Classic Diner,Healthy,high,4.6,0,35,https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=300&q=80,Agra
+1029,The Delhi Cravings,Biryani,mid,3.5,0,40,https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=300&q=80,Agra
+1030,The Urban Oven,Pizza,low,4.1,0,40,https://images.unsplash.com/photo-1513104890138-7c749659a591?w=300&q=80,Agra
+1031,Chandni Chowk Spice,Bengali,mid,3.8,0,35,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Agra
+1032,The Dhaba Bites,North Indian,low,3.8,0,15,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Agra
+1033,Classic Bowl Chinese,Chinese,mid,4.2,1,35,https://images.unsplash.com/photo-1585032226651-759b368d7246?w=300&q=80,Agra
+1034,Modern Cravings Bengali,Bengali,mid,3.0,0,15,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Agra
+1035,The Famous Bistro,Pizza,high,4.7,0,35,https://images.unsplash.com/photo-1513104890138-7c749659a591?w=300&q=80,Agra
+1036,Punjab Oven,North Indian,high,3.1,1,15,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Agra
+1037,Grand Flavor Street Food,Street Food,high,3.0,0,40,https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=300&q=80,Agra
+1038,The Delhi Feast,Desserts,mid,4.2,0,45,https://images.unsplash.com/photo-1603513361099-2eeb2be05c86?w=300&q=80,Agra
+1039,Red Eats Mexican,Mexican,mid,4.9,0,25,https://images.unsplash.com/photo-1424847651672-bf20a4b0982b?w=400&q=80,Agra
+1040,The Great Taste Gujarati,Gujarati,mid,4.1,0,45,https://images.unsplash.com/photo-1613069150035-7d52f6b8c9df?w=300&q=80,Agra
+1041,The Blue Palace,Rajasthani,low,3.7,0,30,https://images.unsplash.com/photo-1544026229-2ceec1a86827?w=300&q=80,Agra
+1042,The Punjab Table,Street Food,premium,4.3,0,45,https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=300&q=80,Agra
+1043,Spicy Bites,Gujarati,mid,4.1,0,45,https://images.unsplash.com/photo-1613069150035-7d52f6b8c9df?w=300&q=80,Agra
+1044,Golden Bites North Indian,North Indian,mid,3.3,1,30,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Agra
+1045,The Mughal Bites,Lebanese,mid,3.6,1,35,https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=400&q=80,Agra
+1046,Spicy Bowl,Continental,mid,4.9,1,40,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Agra
+1047,Spicy Bistro,Healthy,low,3.6,1,20,https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=300&q=80,Agra
+1048,The Great Diner Street Food,Street Food,mid,4.8,0,25,https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=300&q=80,Agra
+1049,Punjab Zest,Street Food,high,4.2,0,45,https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=300&q=80,Agra
+1050,Vintage Munch Lebanese,Lebanese,mid,4.5,0,40,https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=400&q=80,Agra
+1051,The Bites Plate,North Indian,premium,4.6,0,15,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Nashik
+1052,The New Cafe,Italian,mid,4.5,0,25,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Nashik
+1053,Royal Table Rajasthani,Rajasthani,mid,4.5,0,40,https://images.unsplash.com/photo-1544026229-2ceec1a86827?w=300&q=80,Nashik
+1054,Grand Cafe Continental,Continental,premium,3.1,1,30,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Nashik
+1055,Urban Spoon,North Indian,mid,4.8,1,25,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Nashik
+1056,Modern Spice Healthy,Healthy,low,3.5,0,30,https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=300&q=80,Nashik
+1057,Classic Taste,Mexican,mid,4.7,0,25,https://images.unsplash.com/photo-1466978913421-bac2e104d72b?w=400&q=80,Nashik
+1058,Zest Palace Street Food,Street Food,low,4.1,0,25,https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=300&q=80,Nashik
+1059,The Famous Feast,Street Food,mid,3.8,0,30,https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=300&q=80,Nashik
+1060,The Great Bites Continental,Continental,low,4.3,1,40,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Nashik
+1061,Urban Flavor,Street Food,mid,4.8,1,15,https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=300&q=80,Nashik
+1062,The New Bowl,Biryani,high,3.4,1,15,https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=300&q=80,Nashik
+1063,Grand Eats,Lebanese,high,3.7,1,35,https://images.unsplash.com/photo-1552566626-52f8b828add9?w=400&q=80,Nashik
+1064,Spicy Kitchen Pizza,Pizza,mid,3.6,0,40,https://images.unsplash.com/photo-1513104890138-7c749659a591?w=300&q=80,Nashik
+1065,Urban Savour Chinese,Chinese,low,4.9,0,35,https://images.unsplash.com/photo-1585032226651-759b368d7246?w=300&q=80,Nashik
+1066,Bites Taste,Italian,low,3.6,0,45,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Nashik
+1067,The Classic Savour,Pizza,high,3.0,0,15,https://images.unsplash.com/photo-1513104890138-7c749659a591?w=300&q=80,Nashik
+1068,Famous Table Burger,Burger,mid,4.7,0,30,https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&q=80,Nashik
+1069,The Classic Tandoor,Bengali,mid,4.9,0,45,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Nashik
+1070,Famous Wok Street Food,Street Food,mid,3.6,0,15,https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=300&q=80,Nashik
+1071,Golden Bites,Biryani,low,4.1,1,25,https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=300&q=80,Nashik
+1072,Savour Kitchen,Mexican,mid,5.0,0,45,https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=400&q=80,Nashik
+1073,The Munch Palace,South Indian,mid,3.1,0,30,https://images.unsplash.com/photo-1589301760014-d929f39ce9b0?w=300&q=80,Nashik
+1074,Vintage Palace,Rajasthani,premium,4.8,0,45,https://images.unsplash.com/photo-1544026229-2ceec1a86827?w=300&q=80,Nashik
+1075,Golden Table,Gujarati,high,3.4,0,20,https://images.unsplash.com/photo-1613069150035-7d52f6b8c9df?w=300&q=80,Nashik
+1076,Zest Grill,Italian,high,4.7,0,40,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Nashik
+1077,Royal Spoon Biryani,Biryani,high,3.3,1,15,https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=300&q=80,Nashik
+1078,The Eats Palace,North Indian,high,3.8,0,45,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Nashik
+1079,Famous Wok,North Indian,mid,4.9,0,35,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Nashik
+1080,Vintage Munch Desserts,Desserts,mid,4.7,0,30,https://images.unsplash.com/photo-1603513361099-2eeb2be05c86?w=300&q=80,Nashik
+1081,Classic Flavor,Gujarati,premium,4.1,0,30,https://images.unsplash.com/photo-1613069150035-7d52f6b8c9df?w=300&q=80,Nashik
+1082,The Blue Bites,Continental,mid,4.8,0,45,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Nashik
+1083,Red Taste,Continental,low,4.4,0,30,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Nashik
+1084,Savour Flavor,Gujarati,low,4.2,0,35,https://images.unsplash.com/photo-1613069150035-7d52f6b8c9df?w=300&q=80,Nashik
+1085,Grand Taste Healthy,Healthy,mid,3.4,0,35,https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=300&q=80,Nashik
+1086,Spicy Kitchen Bengali,Bengali,mid,4.2,0,15,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Nashik
+1087,The Zest Bistro,Bengali,mid,4.5,0,30,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Nashik
+1088,The Royal Bistro,Italian,premium,3.6,0,20,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Nashik
+1089,Red Kitchen Desserts,Desserts,low,4.8,1,35,https://images.unsplash.com/photo-1603513361099-2eeb2be05c86?w=300&q=80,Nashik
+1090,Zest Feast Chinese,Chinese,premium,3.3,0,30,https://images.unsplash.com/photo-1585032226651-759b368d7246?w=300&q=80,Nashik
+1091,The Golden Wok,South Indian,mid,4.6,0,15,https://images.unsplash.com/photo-1589301760014-d929f39ce9b0?w=300&q=80,Nashik
+1092,Royal Wok Street Food,Street Food,mid,4.3,0,35,https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=300&q=80,Nashik
+1093,Spice House Bengali,Bengali,high,3.1,0,40,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Nashik
+1094,Cravings Zest,Desserts,mid,4.8,0,30,https://images.unsplash.com/photo-1603513361099-2eeb2be05c86?w=300&q=80,Nashik
+1095,Spice Flavor Pizza,Pizza,premium,4.0,1,45,https://images.unsplash.com/photo-1513104890138-7c749659a591?w=300&q=80,Nashik
+1096,Taste Hut,Mexican,low,3.6,1,30,https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=400&q=80,Nashik
+1097,The Great Grill,Mexican,mid,3.2,1,15,https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=400&q=80,Nashik
+1098,The Modern Spoon,Bengali,premium,3.2,1,45,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Nashik
+1099,Blue Tandoor Mexican,Mexican,high,4.6,0,20,https://images.unsplash.com/photo-1466978913421-bac2e104d72b?w=400&q=80,Nashik
+1100,Classic Tandoor Bengali,Bengali,mid,4.3,0,20,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Nashik
+1101,The New Plate,Continental,mid,3.4,0,20,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Faridabad
+1102,The Spice Tandoor,Rajasthani,low,4.7,1,25,https://images.unsplash.com/photo-1544026229-2ceec1a86827?w=300&q=80,Faridabad
+1103,The Golden Wok,Lebanese,mid,4.8,0,25,https://images.unsplash.com/photo-1424847651672-bf20a4b0982b?w=400&q=80,Faridabad
+1104,The Classic Savour,Italian,low,3.3,0,20,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Faridabad
+1105,The Feast Table,Bengali,mid,3.8,0,25,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Faridabad
+1106,The New Cafe,Mexican,premium,4.7,0,20,https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=400&q=80,Faridabad
+1107,The Great Cafe South Indian,South Indian,mid,3.7,0,20,https://images.unsplash.com/photo-1589301760014-d929f39ce9b0?w=300&q=80,Faridabad
+1108,Classic Eats Healthy,Healthy,low,3.6,0,15,https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=300&q=80,Faridabad
+1109,The Urban Grill,Pizza,low,4.0,0,15,https://images.unsplash.com/photo-1513104890138-7c749659a591?w=300&q=80,Faridabad
+1110,Cravings Table,South Indian,low,4.6,0,25,https://images.unsplash.com/photo-1589301760014-d929f39ce9b0?w=300&q=80,Faridabad
+1111,Flavor Munch,Rajasthani,low,3.1,1,20,https://images.unsplash.com/photo-1544026229-2ceec1a86827?w=300&q=80,Faridabad
+1112,Authentic Grill,Gujarati,premium,3.7,0,15,https://images.unsplash.com/photo-1613069150035-7d52f6b8c9df?w=300&q=80,Faridabad
+1113,The Munch Bistro,Pizza,premium,4.9,0,30,https://images.unsplash.com/photo-1513104890138-7c749659a591?w=300&q=80,Faridabad
+1114,Golden Taste Burger,Burger,mid,3.3,0,40,https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&q=80,Faridabad
+1115,Famous Palace South Indian,South Indian,mid,3.9,1,40,https://images.unsplash.com/photo-1589301760014-d929f39ce9b0?w=300&q=80,Faridabad
+1116,Red Palace,Desserts,mid,3.6,0,20,https://images.unsplash.com/photo-1603513361099-2eeb2be05c86?w=300&q=80,Faridabad
+1117,Feast Flavor,Burger,premium,3.4,1,20,https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&q=80,Faridabad
+1118,Grand Plate Burger,Burger,mid,4.8,1,15,https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&q=80,Faridabad
+1119,Vintage Zest,Pizza,mid,3.1,0,30,https://images.unsplash.com/photo-1513104890138-7c749659a591?w=300&q=80,Faridabad
+1120,The Zest Zest,Pizza,low,4.3,1,35,https://images.unsplash.com/photo-1513104890138-7c749659a591?w=300&q=80,Faridabad
+1121,The Modern Eats,Chinese,mid,3.8,0,25,https://images.unsplash.com/photo-1585032226651-759b368d7246?w=300&q=80,Faridabad
+1122,Vintage Grill,South Indian,mid,3.4,0,15,https://images.unsplash.com/photo-1589301760014-d929f39ce9b0?w=300&q=80,Faridabad
+1123,Famous Fork,Rajasthani,low,3.9,0,40,https://images.unsplash.com/photo-1544026229-2ceec1a86827?w=300&q=80,Faridabad
+1124,The New Spice,Healthy,high,4.7,0,25,https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=300&q=80,Faridabad
+1125,The Spice Bowl,Mexican,mid,3.7,0,30,https://images.unsplash.com/photo-1514933651103-005eec06c04b?w=400&q=80,Faridabad
+1126,Blue Feast Lebanese,Lebanese,high,4.8,0,15,https://images.unsplash.com/photo-1466978913421-bac2e104d72b?w=400&q=80,Faridabad
+1127,Royal Hut South Indian,South Indian,mid,3.6,0,40,https://images.unsplash.com/photo-1589301760014-d929f39ce9b0?w=300&q=80,Faridabad
+1128,Cravings Palace,North Indian,mid,4.8,1,35,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Faridabad
+1129,The Spice Fork,Desserts,high,3.3,0,30,https://images.unsplash.com/photo-1603513361099-2eeb2be05c86?w=300&q=80,Faridabad
+1130,Cravings Tandoor,Chinese,low,3.3,1,15,https://images.unsplash.com/photo-1585032226651-759b368d7246?w=300&q=80,Faridabad
+1131,Savour Zest Continental,Continental,premium,4.1,0,25,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Faridabad
+1132,Vintage Table Healthy,Healthy,mid,4.9,0,30,https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=300&q=80,Faridabad
+1133,Classic Taste Chinese,Chinese,high,4.0,0,20,https://images.unsplash.com/photo-1585032226651-759b368d7246?w=300&q=80,Faridabad
+1134,Famous House,Street Food,premium,4.5,1,45,https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=300&q=80,Faridabad
+1135,The Cravings Cravings,Desserts,mid,3.6,0,40,https://images.unsplash.com/photo-1603513361099-2eeb2be05c86?w=300&q=80,Faridabad
+1136,Golden Feast North Indian,North Indian,mid,3.4,1,25,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Faridabad
+1137,The Bites Cafe,Continental,low,4.9,0,20,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Faridabad
+1138,Munch Tandoor,Lebanese,mid,4.0,0,20,https://images.unsplash.com/photo-1552566626-52f8b828add9?w=400&q=80,Faridabad
+1139,Zest Cravings Mexican,Mexican,premium,4.3,1,35,https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=400&q=80,Faridabad
+1140,Golden Table Rajasthani,Rajasthani,mid,3.3,0,45,https://images.unsplash.com/photo-1544026229-2ceec1a86827?w=300&q=80,Faridabad
+1141,The Vintage Wok,Rajasthani,mid,4.1,0,25,https://images.unsplash.com/photo-1544026229-2ceec1a86827?w=300&q=80,Faridabad
+1142,Spice Fork Lebanese,Lebanese,low,4.3,0,45,https://images.unsplash.com/photo-1552566626-52f8b828add9?w=400&q=80,Faridabad
+1143,Spice Diner,Rajasthani,low,3.5,0,15,https://images.unsplash.com/photo-1544026229-2ceec1a86827?w=300&q=80,Faridabad
+1144,The Bites Tandoor,Bengali,high,3.1,1,40,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Faridabad
+1145,Urban Munch,Burger,premium,3.2,0,20,https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&q=80,Faridabad
+1146,Taste Spoon Mexican,Mexican,mid,3.9,0,35,https://images.unsplash.com/photo-1424847651672-bf20a4b0982b?w=400&q=80,Faridabad
+1147,Urban Cravings Gujarati,Gujarati,low,3.8,0,40,https://images.unsplash.com/photo-1613069150035-7d52f6b8c9df?w=300&q=80,Faridabad
+1148,Classic Eats,Gujarati,mid,5.0,0,25,https://images.unsplash.com/photo-1613069150035-7d52f6b8c9df?w=300&q=80,Faridabad
+1149,Grand Savour,Rajasthani,premium,3.5,0,30,https://images.unsplash.com/photo-1544026229-2ceec1a86827?w=300&q=80,Faridabad
+1150,Munch Palace,Gujarati,high,3.5,1,30,https://images.unsplash.com/photo-1613069150035-7d52f6b8c9df?w=300&q=80,Faridabad
+1151,Munch Diner Italian,Italian,mid,4.6,1,35,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Meerut
+1152,Authentic Bowl South Indian,South Indian,premium,3.9,0,45,https://images.unsplash.com/photo-1589301760014-d929f39ce9b0?w=300&q=80,Meerut
+1153,Authentic Cravings North Indian,North Indian,mid,3.6,0,15,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Meerut
+1154,The Great Savour Desserts,Desserts,low,4.8,0,20,https://images.unsplash.com/photo-1603513361099-2eeb2be05c86?w=300&q=80,Meerut
+1155,Authentic Bites Bengali,Bengali,mid,4.6,0,15,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Meerut
+1156,Flavor Bowl Street Food,Street Food,premium,3.9,0,40,https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=300&q=80,Meerut
+1157,The Great Munch,Healthy,mid,4.6,0,15,https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=300&q=80,Meerut
+1158,The Spice Taste,Italian,premium,4.0,0,20,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Meerut
+1159,The Spicy Bowl,Italian,high,4.6,1,15,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Meerut
+1160,Vintage Feast,North Indian,premium,3.1,0,25,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Meerut
+1161,Cravings Oven Desserts,Desserts,premium,3.8,0,45,https://images.unsplash.com/photo-1603513361099-2eeb2be05c86?w=300&q=80,Meerut
+1162,Authentic Feast Chinese,Chinese,mid,4.9,0,25,https://images.unsplash.com/photo-1585032226651-759b368d7246?w=300&q=80,Meerut
+1163,Zest Taste Desserts,Desserts,premium,3.8,0,35,https://images.unsplash.com/photo-1603513361099-2eeb2be05c86?w=300&q=80,Meerut
+1164,The Golden Feast,Healthy,mid,3.2,0,45,https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=300&q=80,Meerut
+1165,The Classic Table,Pizza,high,4.1,0,30,https://images.unsplash.com/photo-1513104890138-7c749659a591?w=300&q=80,Meerut
+1166,Eats Flavor South Indian,South Indian,low,4.0,1,20,https://images.unsplash.com/photo-1589301760014-d929f39ce9b0?w=300&q=80,Meerut
+1167,Taste Oven Healthy,Healthy,high,4.0,0,15,https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=300&q=80,Meerut
+1168,Vintage House Biryani,Biryani,mid,4.3,0,35,https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=300&q=80,Meerut
+1169,Red Bites South Indian,South Indian,high,3.7,0,30,https://images.unsplash.com/photo-1589301760014-d929f39ce9b0?w=300&q=80,Meerut
+1170,The Red Wok,Continental,premium,3.3,1,35,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Meerut
+1171,Flavor Plate Chinese,Chinese,low,4.5,0,25,https://images.unsplash.com/photo-1585032226651-759b368d7246?w=300&q=80,Meerut
+1172,The Taste Feast,Mexican,mid,3.4,0,30,https://images.unsplash.com/photo-1552566626-52f8b828add9?w=400&q=80,Meerut
+1173,Grand Grill,North Indian,mid,4.2,1,30,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Meerut
+1174,Savour House North Indian,North Indian,high,3.0,0,45,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Meerut
+1175,Grand Zest Mexican,Mexican,high,4.1,0,35,https://images.unsplash.com/photo-1466978913421-bac2e104d72b?w=400&q=80,Meerut
+1176,Modern Feast North Indian,North Indian,premium,4.8,0,15,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Meerut
+1177,Modern Fork,Bengali,mid,4.9,0,35,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Meerut
+1178,Munch Oven Continental,Continental,mid,4.4,0,35,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Meerut
+1179,Blue Zest,Chinese,mid,4.0,0,30,https://images.unsplash.com/photo-1585032226651-759b368d7246?w=300&q=80,Meerut
+1180,Munch Plate,South Indian,high,4.5,0,30,https://images.unsplash.com/photo-1589301760014-d929f39ce9b0?w=300&q=80,Meerut
+1181,Cravings House Italian,Italian,mid,3.2,0,20,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Meerut
+1182,The Classic Diner,Burger,premium,4.8,0,45,https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&q=80,Meerut
+1183,New Spoon,Gujarati,low,4.7,1,20,https://images.unsplash.com/photo-1613069150035-7d52f6b8c9df?w=300&q=80,Meerut
+1184,The Munch Table,Desserts,low,4.7,0,40,https://images.unsplash.com/photo-1603513361099-2eeb2be05c86?w=300&q=80,Meerut
+1185,Spice Tandoor Healthy,Healthy,low,4.3,0,45,https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=300&q=80,Meerut
+1186,Modern Diner Desserts,Desserts,high,4.2,1,40,https://images.unsplash.com/photo-1603513361099-2eeb2be05c86?w=300&q=80,Meerut
+1187,Spicy Cravings,Continental,mid,4.9,0,20,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Meerut
+1188,The Classic Kitchen,Continental,mid,4.0,0,40,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Meerut
+1189,Golden Taste Burger,Burger,mid,4.0,0,20,https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&q=80,Meerut
+1190,Famous Bites,Desserts,premium,3.6,0,30,https://images.unsplash.com/photo-1603513361099-2eeb2be05c86?w=300&q=80,Meerut
+1191,The Vintage Wok,Desserts,low,3.3,0,15,https://images.unsplash.com/photo-1603513361099-2eeb2be05c86?w=300&q=80,Meerut
+1192,Bites Zest Desserts,Desserts,high,4.8,0,30,https://images.unsplash.com/photo-1603513361099-2eeb2be05c86?w=300&q=80,Meerut
+1193,Feast Cafe,North Indian,mid,3.9,1,40,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Meerut
+1194,Taste Spoon,Street Food,low,3.0,0,25,https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=300&q=80,Meerut
+1195,Modern Grill North Indian,North Indian,premium,4.1,1,30,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Meerut
+1196,The Cravings Palace,Biryani,low,3.2,0,20,https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=300&q=80,Meerut
+1197,Grand Zest North Indian,North Indian,mid,4.5,0,25,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Meerut
+1198,New Spoon,Street Food,premium,4.7,0,45,https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=300&q=80,Meerut
+1199,The The Great Table,Healthy,high,4.8,1,25,https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=300&q=80,Meerut
+1200,Golden Tandoor Lebanese,Lebanese,mid,3.8,0,15,https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=400&q=80,Meerut
+1201,Munch Cafe Mexican,Mexican,premium,3.3,0,40,https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=400&q=80,Rajkot
+1202,Authentic Spoon,Healthy,premium,3.2,0,45,https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=300&q=80,Rajkot
+1203,Famous Kitchen,Burger,high,3.1,1,45,https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&q=80,Rajkot
+1204,Flavor Table Desserts,Desserts,high,4.9,0,25,https://images.unsplash.com/photo-1603513361099-2eeb2be05c86?w=300&q=80,Rajkot
+1205,Authentic Eats Pizza,Pizza,premium,3.5,0,25,https://images.unsplash.com/photo-1513104890138-7c749659a591?w=300&q=80,Rajkot
+1206,The Authentic Bistro,North Indian,mid,4.1,0,15,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Rajkot
+1207,Bites Diner North Indian,North Indian,low,4.3,1,25,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Rajkot
+1208,The Authentic Fork,Bengali,high,3.0,0,45,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Rajkot
+1209,Bites Spoon Street Food,Street Food,low,4.0,0,30,https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=300&q=80,Rajkot
+1210,Savour Wok Street Food,Street Food,mid,4.4,0,40,https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=300&q=80,Rajkot
+1211,Golden Taste,Healthy,mid,3.3,0,40,https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=300&q=80,Rajkot
+1212,Grand Palace Mexican,Mexican,premium,4.1,0,20,https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=400&q=80,Rajkot
+1213,Cravings Spice North Indian,North Indian,high,4.8,0,45,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Rajkot
+1214,Cravings Table,South Indian,mid,4.0,0,35,https://images.unsplash.com/photo-1589301760014-d929f39ce9b0?w=300&q=80,Rajkot
+1215,Urban Feast Burger,Burger,mid,4.3,1,35,https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&q=80,Rajkot
+1216,The Great Bistro Street Food,Street Food,high,3.7,0,25,https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=300&q=80,Rajkot
+1217,The Spice Spice,Burger,high,3.6,1,15,https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&q=80,Rajkot
+1218,Taste Tandoor Burger,Burger,premium,3.8,0,15,https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&q=80,Rajkot
+1219,Authentic House Bengali,Bengali,mid,4.8,0,30,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Rajkot
+1220,The Cravings Kitchen,Desserts,high,4.6,0,45,https://images.unsplash.com/photo-1603513361099-2eeb2be05c86?w=300&q=80,Rajkot
+1221,Munch Bowl,Lebanese,high,3.6,1,15,https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=400&q=80,Rajkot
+1222,The Flavor Spice,Pizza,high,3.2,0,30,https://images.unsplash.com/photo-1513104890138-7c749659a591?w=300&q=80,Rajkot
+1223,Classic Palace Desserts,Desserts,mid,3.6,0,35,https://images.unsplash.com/photo-1603513361099-2eeb2be05c86?w=300&q=80,Rajkot
+1224,Flavor Fork Desserts,Desserts,mid,3.0,1,25,https://images.unsplash.com/photo-1603513361099-2eeb2be05c86?w=300&q=80,Rajkot
+1225,The Cravings Munch,Lebanese,low,4.6,1,35,https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=400&q=80,Rajkot
+1226,Vintage Diner Continental,Continental,low,3.9,0,30,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Rajkot
+1227,The Spicy Bistro,Mexican,premium,4.0,0,40,https://images.unsplash.com/photo-1578474846511-04245941c4d9?w=400&q=80,Rajkot
+1228,Feast Zest Rajasthani,Rajasthani,high,3.2,0,25,https://images.unsplash.com/photo-1544026229-2ceec1a86827?w=300&q=80,Rajkot
+1229,Bites Flavor,Mexican,mid,3.8,0,45,https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=400&q=80,Rajkot
+1230,The Munch Eats,Healthy,low,3.5,1,20,https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=300&q=80,Rajkot
+1231,The The Great Kitchen,Continental,low,3.9,0,25,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Rajkot
+1232,The Cravings Wok,Bengali,mid,3.4,1,35,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Rajkot
+1233,Urban Fork Biryani,Biryani,mid,4.3,0,20,https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=300&q=80,Rajkot
+1234,New Eats Healthy,Healthy,low,3.3,0,25,https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=300&q=80,Rajkot
+1235,Vintage Bowl Continental,Continental,premium,3.3,0,30,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Rajkot
+1236,Urban Eats,Gujarati,low,3.3,0,30,https://images.unsplash.com/photo-1613069150035-7d52f6b8c9df?w=300&q=80,Rajkot
+1237,Spicy Bistro South Indian,South Indian,premium,4.1,1,30,https://images.unsplash.com/photo-1589301760014-d929f39ce9b0?w=300&q=80,Rajkot
+1238,The Cravings Eats,Healthy,mid,3.4,1,15,https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=300&q=80,Rajkot
+1239,The Royal Tandoor,Street Food,high,3.4,0,45,https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=300&q=80,Rajkot
+1240,Feast Hut,Continental,high,4.7,1,45,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Rajkot
+1241,Feast Cravings North Indian,North Indian,mid,4.9,0,35,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Rajkot
+1242,Urban Oven,Mexican,mid,4.5,0,20,https://images.unsplash.com/photo-1424847651672-bf20a4b0982b?w=400&q=80,Rajkot
+1243,Spicy Spoon Gujarati,Gujarati,mid,3.4,0,25,https://images.unsplash.com/photo-1613069150035-7d52f6b8c9df?w=300&q=80,Rajkot
+1244,Savour Savour,Italian,mid,4.6,0,40,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Rajkot
+1245,The Royal Zest,Burger,low,3.1,0,15,https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&q=80,Rajkot
+1246,Eats Plate,Healthy,high,3.9,0,20,https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=300&q=80,Rajkot
+1247,New Diner Rajasthani,Rajasthani,mid,4.8,0,25,https://images.unsplash.com/photo-1544026229-2ceec1a86827?w=300&q=80,Rajkot
+1248,Vintage Diner,Biryani,premium,3.2,0,15,https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=300&q=80,Rajkot
+1249,The Spicy Plate,Continental,mid,4.0,0,30,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Rajkot
+1250,The Famous Bites,Burger,premium,3.9,0,25,https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&q=80,Rajkot
+1251,Classic Spice Bengali,Bengali,low,3.5,1,20,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Kalyan
+1252,Golden Wok Continental,Continental,mid,4.8,0,35,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Kalyan
+1253,Blue Table,Lebanese,low,4.5,1,25,https://images.unsplash.com/photo-1466978913421-bac2e104d72b?w=400&q=80,Kalyan
+1254,Feast Fork,Chinese,mid,4.1,0,40,https://images.unsplash.com/photo-1585032226651-759b368d7246?w=300&q=80,Kalyan
+1255,Eats Grill,Desserts,mid,4.3,0,20,https://images.unsplash.com/photo-1603513361099-2eeb2be05c86?w=300&q=80,Kalyan
+1256,Flavor Spice,North Indian,mid,3.3,0,35,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Kalyan
+1257,Grand Savour Biryani,Biryani,mid,4.5,0,45,https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=300&q=80,Kalyan
+1258,The Flavor Flavor,South Indian,premium,3.1,0,45,https://images.unsplash.com/photo-1589301760014-d929f39ce9b0?w=300&q=80,Kalyan
+1259,Savour Cafe Chinese,Chinese,mid,4.4,0,25,https://images.unsplash.com/photo-1585032226651-759b368d7246?w=300&q=80,Kalyan
+1260,Eats Wok South Indian,South Indian,low,3.4,1,20,https://images.unsplash.com/photo-1589301760014-d929f39ce9b0?w=300&q=80,Kalyan
+1261,Red Tandoor Lebanese,Lebanese,high,3.2,1,40,https://images.unsplash.com/photo-1424847651672-bf20a4b0982b?w=400&q=80,Kalyan
+1262,The Eats Fork,North Indian,mid,3.6,0,35,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Kalyan
+1263,The Cravings Spice,Healthy,mid,4.8,0,45,https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=300&q=80,Kalyan
+1264,Red Grill Pizza,Pizza,mid,3.4,0,20,https://images.unsplash.com/photo-1513104890138-7c749659a591?w=300&q=80,Kalyan
+1265,The Modern Munch,Burger,high,3.6,0,40,https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&q=80,Kalyan
+1266,The Great Bites,Lebanese,mid,3.4,0,40,https://images.unsplash.com/photo-1514933651103-005eec06c04b?w=400&q=80,Kalyan
+1267,Red Bowl,Chinese,premium,3.6,0,35,https://images.unsplash.com/photo-1585032226651-759b368d7246?w=300&q=80,Kalyan
+1268,Savour Wok Street Food,Street Food,premium,4.0,0,40,https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=300&q=80,Kalyan
+1269,The Eats Palace,Mexican,premium,4.7,0,40,https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=400&q=80,Kalyan
+1270,Grand Munch South Indian,South Indian,high,4.0,0,20,https://images.unsplash.com/photo-1589301760014-d929f39ce9b0?w=300&q=80,Kalyan
+1271,The Classic Spoon,Italian,mid,3.2,1,30,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Kalyan
+1272,Munch Cafe,Lebanese,mid,3.9,0,45,https://images.unsplash.com/photo-1578474846511-04245941c4d9?w=400&q=80,Kalyan
+1273,The Great House,Street Food,premium,5.0,0,15,https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=300&q=80,Kalyan
+1274,Zest Cafe South Indian,South Indian,mid,4.1,0,15,https://images.unsplash.com/photo-1589301760014-d929f39ce9b0?w=300&q=80,Kalyan
+1275,The Spice Cafe,Italian,high,3.5,0,15,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Kalyan
+1276,Munch Table Desserts,Desserts,mid,3.1,0,15,https://images.unsplash.com/photo-1603513361099-2eeb2be05c86?w=300&q=80,Kalyan
+1277,Cravings Palace Italian,Italian,mid,3.1,1,20,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Kalyan
+1278,Spicy Bowl,Desserts,premium,3.7,0,40,https://images.unsplash.com/photo-1603513361099-2eeb2be05c86?w=300&q=80,Kalyan
+1279,Taste Diner Mexican,Mexican,low,4.8,0,25,https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=400&q=80,Kalyan
+1280,The Savour Plate,Italian,premium,4.0,1,30,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Kalyan
+1281,Blue Bowl Lebanese,Lebanese,high,3.9,0,40,https://images.unsplash.com/photo-1466978913421-bac2e104d72b?w=400&q=80,Kalyan
+1282,The Great Hut Continental,Continental,high,3.9,0,30,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Kalyan
+1283,Zest Kitchen Healthy,Healthy,mid,3.4,0,25,https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=300&q=80,Kalyan
+1284,Flavor Wok,Italian,low,3.5,0,45,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Kalyan
+1285,Authentic Cafe Bengali,Bengali,mid,3.7,0,20,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Kalyan
+1286,New Savour Bengali,Bengali,premium,3.2,0,25,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Kalyan
+1287,The Golden Plate,Continental,premium,3.2,0,25,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Kalyan
+1288,Famous Eats,Pizza,mid,3.6,0,40,https://images.unsplash.com/photo-1513104890138-7c749659a591?w=300&q=80,Kalyan
+1289,Royal Plate South Indian,South Indian,mid,4.9,0,40,https://images.unsplash.com/photo-1589301760014-d929f39ce9b0?w=300&q=80,Kalyan
+1290,Authentic Wok Burger,Burger,mid,3.5,0,20,https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&q=80,Kalyan
+1291,The Feast Feast,Continental,mid,4.6,1,25,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Kalyan
+1292,Feast Feast Italian,Italian,high,3.3,0,45,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Kalyan
+1293,Authentic Spice Rajasthani,Rajasthani,low,4.7,0,20,https://images.unsplash.com/photo-1544026229-2ceec1a86827?w=300&q=80,Kalyan
+1294,The Taste Kitchen,Desserts,premium,3.1,0,25,https://images.unsplash.com/photo-1603513361099-2eeb2be05c86?w=300&q=80,Kalyan
+1295,The Golden Feast,South Indian,high,3.2,0,40,https://images.unsplash.com/photo-1589301760014-d929f39ce9b0?w=300&q=80,Kalyan
+1296,Bites Fork Gujarati,Gujarati,premium,4.1,0,20,https://images.unsplash.com/photo-1613069150035-7d52f6b8c9df?w=300&q=80,Kalyan
+1297,The Classic Bowl,Healthy,premium,3.5,0,45,https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=300&q=80,Kalyan
+1298,Vintage Oven,Italian,low,4.6,0,45,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Kalyan
+1299,The Feast Oven,South Indian,mid,4.2,0,40,https://images.unsplash.com/photo-1589301760014-d929f39ce9b0?w=300&q=80,Kalyan
+1300,Cravings Bowl Pizza,Pizza,mid,3.8,1,25,https://images.unsplash.com/photo-1513104890138-7c749659a591?w=300&q=80,Kalyan
+1301,The Savour Tandoor,Pizza,mid,3.2,0,15,https://images.unsplash.com/photo-1513104890138-7c749659a591?w=300&q=80,Vasai-Virar
+1302,Golden Oven Rajasthani,Rajasthani,mid,4.3,0,25,https://images.unsplash.com/photo-1544026229-2ceec1a86827?w=300&q=80,Vasai-Virar
+1303,Classic Bites Healthy,Healthy,high,4.2,0,30,https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=300&q=80,Vasai-Virar
+1304,The Modern Cafe,Desserts,low,3.9,0,15,https://images.unsplash.com/photo-1603513361099-2eeb2be05c86?w=300&q=80,Vasai-Virar
+1305,Spice Bistro Rajasthani,Rajasthani,high,3.9,0,30,https://images.unsplash.com/photo-1544026229-2ceec1a86827?w=300&q=80,Vasai-Virar
+1306,The Spicy Wok,Bengali,mid,3.5,0,25,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Vasai-Virar
+1307,Eats Bites Pizza,Pizza,mid,4.1,0,15,https://images.unsplash.com/photo-1513104890138-7c749659a591?w=300&q=80,Vasai-Virar
+1308,Authentic Cafe,Gujarati,premium,5.0,0,35,https://images.unsplash.com/photo-1613069150035-7d52f6b8c9df?w=300&q=80,Vasai-Virar
+1309,The Great Kitchen,Healthy,mid,3.8,0,25,https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=300&q=80,Vasai-Virar
+1310,The Royal Zest,North Indian,mid,5.0,0,20,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Vasai-Virar
+1311,New House Desserts,Desserts,mid,4.7,0,25,https://images.unsplash.com/photo-1603513361099-2eeb2be05c86?w=300&q=80,Vasai-Virar
+1312,Zest Grill,Desserts,low,3.1,1,25,https://images.unsplash.com/photo-1603513361099-2eeb2be05c86?w=300&q=80,Vasai-Virar
+1313,Royal Bites,Street Food,premium,3.9,0,35,https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=300&q=80,Vasai-Virar
+1314,The Spice Palace,South Indian,mid,4.5,0,15,https://images.unsplash.com/photo-1589301760014-d929f39ce9b0?w=300&q=80,Vasai-Virar
+1315,Eats Plate Healthy,Healthy,premium,3.0,0,35,https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=300&q=80,Vasai-Virar
+1316,Golden Palace,North Indian,mid,4.2,0,25,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Vasai-Virar
+1317,Cravings Bowl Pizza,Pizza,mid,4.9,0,25,https://images.unsplash.com/photo-1513104890138-7c749659a591?w=300&q=80,Vasai-Virar
+1318,Flavor Kitchen,Rajasthani,high,3.6,1,20,https://images.unsplash.com/photo-1544026229-2ceec1a86827?w=300&q=80,Vasai-Virar
+1319,Grand Palace Lebanese,Lebanese,mid,4.2,0,20,https://images.unsplash.com/photo-1424847651672-bf20a4b0982b?w=400&q=80,Vasai-Virar
+1320,Blue Table,Desserts,premium,3.9,0,40,https://images.unsplash.com/photo-1603513361099-2eeb2be05c86?w=300&q=80,Vasai-Virar
+1321,Bites Grill,South Indian,mid,3.5,1,35,https://images.unsplash.com/photo-1589301760014-d929f39ce9b0?w=300&q=80,Vasai-Virar
+1322,Spice Cafe,Mexican,high,4.1,0,40,https://images.unsplash.com/photo-1424847651672-bf20a4b0982b?w=400&q=80,Vasai-Virar
+1323,Eats Feast Rajasthani,Rajasthani,premium,5.0,0,45,https://images.unsplash.com/photo-1544026229-2ceec1a86827?w=300&q=80,Vasai-Virar
+1324,Eats Diner Desserts,Desserts,low,4.6,0,20,https://images.unsplash.com/photo-1603513361099-2eeb2be05c86?w=300&q=80,Vasai-Virar
+1325,The Urban Tandoor,Pizza,mid,3.9,0,15,https://images.unsplash.com/photo-1513104890138-7c749659a591?w=300&q=80,Vasai-Virar
+1326,New Spoon Italian,Italian,mid,3.6,0,25,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Vasai-Virar
+1327,The Vintage Taste,Bengali,low,3.8,0,15,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Vasai-Virar
+1328,The Great Flavor,Rajasthani,low,4.3,1,40,https://images.unsplash.com/photo-1544026229-2ceec1a86827?w=300&q=80,Vasai-Virar
+1329,Modern Bites Burger,Burger,low,4.1,0,15,https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&q=80,Vasai-Virar
+1330,The Taste Eats,Desserts,mid,3.1,0,45,https://images.unsplash.com/photo-1603513361099-2eeb2be05c86?w=300&q=80,Vasai-Virar
+1331,The Spice Spice,Mexican,high,3.7,0,15,https://images.unsplash.com/photo-1424847651672-bf20a4b0982b?w=400&q=80,Vasai-Virar
+1332,The Royal Wok,Italian,low,4.4,0,25,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Vasai-Virar
+1333,Taste Cafe Desserts,Desserts,high,4.5,0,15,https://images.unsplash.com/photo-1603513361099-2eeb2be05c86?w=300&q=80,Vasai-Virar
+1334,Urban Tandoor,Continental,premium,3.0,1,30,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Vasai-Virar
+1335,Blue Bites Street Food,Street Food,mid,4.0,1,40,https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=300&q=80,Vasai-Virar
+1336,Cravings Palace Rajasthani,Rajasthani,mid,3.3,0,35,https://images.unsplash.com/photo-1544026229-2ceec1a86827?w=300&q=80,Vasai-Virar
+1337,Cravings Savour Italian,Italian,high,3.5,1,30,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Vasai-Virar
+1338,The Classic Bistro,South Indian,high,4.3,1,30,https://images.unsplash.com/photo-1589301760014-d929f39ce9b0?w=300&q=80,Vasai-Virar
+1339,Spice Bistro,Burger,high,4.4,1,40,https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&q=80,Vasai-Virar
+1340,Spice House,Lebanese,high,5.0,0,45,https://images.unsplash.com/photo-1578474846511-04245941c4d9?w=400&q=80,Vasai-Virar
+1341,Bites Cafe Gujarati,Gujarati,high,4.9,0,15,https://images.unsplash.com/photo-1613069150035-7d52f6b8c9df?w=300&q=80,Vasai-Virar
+1342,Grand Bites,Mexican,premium,3.1,0,25,https://images.unsplash.com/photo-1466978913421-bac2e104d72b?w=400&q=80,Vasai-Virar
+1343,The Zest Fork,Gujarati,premium,3.9,0,45,https://images.unsplash.com/photo-1613069150035-7d52f6b8c9df?w=300&q=80,Vasai-Virar
+1344,The Authentic Plate,Healthy,mid,3.9,0,30,https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=300&q=80,Vasai-Virar
+1345,The Royal Eats,Italian,mid,4.0,0,20,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Vasai-Virar
+1346,Zest Spice,Lebanese,mid,4.1,0,30,https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=400&q=80,Vasai-Virar
+1347,Taste Cafe,Biryani,high,3.3,1,40,https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=300&q=80,Vasai-Virar
+1348,The Bites Bites,Healthy,high,4.2,1,35,https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=300&q=80,Vasai-Virar
+1349,Blue Spice Healthy,Healthy,premium,3.8,0,30,https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=300&q=80,Vasai-Virar
+1350,Modern Kitchen Pizza,Pizza,mid,4.7,0,25,https://images.unsplash.com/photo-1513104890138-7c749659a591?w=300&q=80,Vasai-Virar
+1351,Famous Flavor Desserts,Desserts,low,4.0,0,45,https://images.unsplash.com/photo-1603513361099-2eeb2be05c86?w=300&q=80,Varanasi
+1352,Vintage Munch Biryani,Biryani,mid,3.5,0,30,https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=300&q=80,Varanasi
+1353,The Feast Hut,Burger,low,4.0,0,45,https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&q=80,Varanasi
+1354,The Bites Zest,South Indian,high,3.8,0,45,https://images.unsplash.com/photo-1589301760014-d929f39ce9b0?w=300&q=80,Varanasi
+1355,The Taste Bistro,Burger,mid,3.1,0,35,https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&q=80,Varanasi
+1356,Urban Zest Burger,Burger,high,3.3,0,35,https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&q=80,Varanasi
+1357,Munch Hut,Lebanese,premium,4.4,0,15,https://images.unsplash.com/photo-1466978913421-bac2e104d72b?w=400&q=80,Varanasi
+1358,Taste Oven Lebanese,Lebanese,low,3.4,0,15,https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=400&q=80,Varanasi
+1359,The Famous Oven,Biryani,premium,3.6,0,25,https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=300&q=80,Varanasi
+1360,Grand Flavor,Gujarati,high,4.3,0,20,https://images.unsplash.com/photo-1613069150035-7d52f6b8c9df?w=300&q=80,Varanasi
+1361,New Savour Burger,Burger,mid,3.8,0,20,https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&q=80,Varanasi
+1362,The Eats Flavor,Desserts,premium,4.1,0,35,https://images.unsplash.com/photo-1603513361099-2eeb2be05c86?w=300&q=80,Varanasi
+1363,Red Spoon,Street Food,low,4.0,0,15,https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=300&q=80,Varanasi
+1364,Golden Zest Mexican,Mexican,mid,4.5,0,15,https://images.unsplash.com/photo-1424847651672-bf20a4b0982b?w=400&q=80,Varanasi
+1365,Royal Bistro North Indian,North Indian,premium,5.0,0,20,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Varanasi
+1366,Spice Oven,Burger,low,4.9,0,15,https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&q=80,Varanasi
+1367,Grand Flavor,Chinese,mid,4.5,0,25,https://images.unsplash.com/photo-1585032226651-759b368d7246?w=300&q=80,Varanasi
+1368,The Flavor Hut,Italian,premium,3.5,0,35,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Varanasi
+1369,Urban Spice Pizza,Pizza,mid,3.1,0,30,https://images.unsplash.com/photo-1513104890138-7c749659a591?w=300&q=80,Varanasi
+1370,The The Great Zest,Italian,mid,4.1,0,45,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Varanasi
+1371,Spicy Kitchen,Gujarati,high,4.3,0,40,https://images.unsplash.com/photo-1613069150035-7d52f6b8c9df?w=300&q=80,Varanasi
+1372,Spice Tandoor,Desserts,premium,4.6,0,25,https://images.unsplash.com/photo-1603513361099-2eeb2be05c86?w=300&q=80,Varanasi
+1373,The Flavor Bowl,Continental,mid,4.4,0,25,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Varanasi
+1374,Eats Hut,Street Food,mid,3.3,0,40,https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=300&q=80,Varanasi
+1375,The Modern Kitchen,Rajasthani,premium,4.0,0,45,https://images.unsplash.com/photo-1544026229-2ceec1a86827?w=300&q=80,Varanasi
+1376,Savour Cravings,Italian,low,3.7,0,40,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Varanasi
+1377,Savour Grill Bengali,Bengali,mid,4.9,0,45,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Varanasi
+1378,Eats House Gujarati,Gujarati,low,3.7,0,45,https://images.unsplash.com/photo-1613069150035-7d52f6b8c9df?w=300&q=80,Varanasi
+1379,Taste Wok Rajasthani,Rajasthani,high,3.7,0,40,https://images.unsplash.com/photo-1544026229-2ceec1a86827?w=300&q=80,Varanasi
+1380,The Feast Tandoor,Street Food,low,3.8,0,40,https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=300&q=80,Varanasi
+1381,Taste House Burger,Burger,mid,3.1,0,45,https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&q=80,Varanasi
+1382,Feast Savour Rajasthani,Rajasthani,premium,4.6,0,15,https://images.unsplash.com/photo-1544026229-2ceec1a86827?w=300&q=80,Varanasi
+1383,The Great Spice,Gujarati,low,4.2,1,45,https://images.unsplash.com/photo-1613069150035-7d52f6b8c9df?w=300&q=80,Varanasi
+1384,The Golden Hut,Pizza,mid,4.7,0,35,https://images.unsplash.com/photo-1513104890138-7c749659a591?w=300&q=80,Varanasi
+1385,Royal Tandoor,Lebanese,mid,3.1,0,30,https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=400&q=80,Varanasi
+1386,Savour Kitchen,Continental,mid,3.1,1,35,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Varanasi
+1387,Bites Savour Italian,Italian,mid,3.3,0,30,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Varanasi
+1388,The Great Spoon Burger,Burger,mid,4.0,0,40,https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&q=80,Varanasi
+1389,Zest Wok Street Food,Street Food,mid,4.6,0,25,https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=300&q=80,Varanasi
+1390,Flavor Grill,Burger,mid,4.0,0,40,https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&q=80,Varanasi
+1391,The Zest Eats,Gujarati,premium,3.5,0,45,https://images.unsplash.com/photo-1613069150035-7d52f6b8c9df?w=300&q=80,Varanasi
+1392,Blue Cafe,Burger,mid,3.7,0,40,https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&q=80,Varanasi
+1393,Munch Bowl,Bengali,premium,3.2,1,20,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Varanasi
+1394,Zest Cafe,Pizza,mid,4.2,0,35,https://images.unsplash.com/photo-1513104890138-7c749659a591?w=300&q=80,Varanasi
+1395,The Grand Spice,Biryani,mid,4.5,1,40,https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=300&q=80,Varanasi
+1396,The Zest Munch,Burger,mid,4.8,0,45,https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&q=80,Varanasi
+1397,New Munch North Indian,North Indian,high,3.8,1,25,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Varanasi
+1398,The Blue Flavor,Bengali,high,3.8,1,45,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Varanasi
+1399,The Famous Fork,Italian,high,4.1,0,35,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Varanasi
+1400,Feast Bistro,Gujarati,high,3.4,0,20,https://images.unsplash.com/photo-1613069150035-7d52f6b8c9df?w=300&q=80,Varanasi
+1401,Savour Fork,Biryani,premium,4.6,0,35,https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=300&q=80,Srinagar
+1402,Authentic Hut,Healthy,mid,3.9,0,45,https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=300&q=80,Srinagar
+1403,Savour Munch Lebanese,Lebanese,low,4.0,0,35,https://images.unsplash.com/photo-1514933651103-005eec06c04b?w=400&q=80,Srinagar
+1404,Urban Bowl Mexican,Mexican,mid,3.9,0,40,https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=400&q=80,Srinagar
+1405,Cravings Flavor Street Food,Street Food,high,3.9,1,15,https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=300&q=80,Srinagar
+1406,Golden Bistro Italian,Italian,premium,3.8,0,20,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Srinagar
+1407,Savour Bites South Indian,South Indian,premium,4.6,1,20,https://images.unsplash.com/photo-1589301760014-d929f39ce9b0?w=300&q=80,Srinagar
+1408,Eats Bistro Pizza,Pizza,high,3.6,0,40,https://images.unsplash.com/photo-1513104890138-7c749659a591?w=300&q=80,Srinagar
+1409,The Great Grill Street Food,Street Food,low,3.0,1,25,https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=300&q=80,Srinagar
+1410,The Great Feast Lebanese,Lebanese,mid,4.3,0,15,https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=400&q=80,Srinagar
+1411,Taste Tandoor Gujarati,Gujarati,low,3.6,1,20,https://images.unsplash.com/photo-1613069150035-7d52f6b8c9df?w=300&q=80,Srinagar
+1412,New Wok,Desserts,mid,4.6,0,30,https://images.unsplash.com/photo-1603513361099-2eeb2be05c86?w=300&q=80,Srinagar
+1413,Classic Fork,South Indian,mid,3.1,0,25,https://images.unsplash.com/photo-1589301760014-d929f39ce9b0?w=300&q=80,Srinagar
+1414,Urban Cafe,Mexican,high,3.5,1,15,https://images.unsplash.com/photo-1466978913421-bac2e104d72b?w=400&q=80,Srinagar
+1415,Eats Cafe,Mexican,premium,4.1,1,40,https://images.unsplash.com/photo-1514933651103-005eec06c04b?w=400&q=80,Srinagar
+1416,The Eats Tandoor,Mexican,premium,3.5,0,40,https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=400&q=80,Srinagar
+1417,Famous Spoon,Street Food,high,4.8,0,30,https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=300&q=80,Srinagar
+1418,The Red Munch,Desserts,mid,4.1,0,20,https://images.unsplash.com/photo-1603513361099-2eeb2be05c86?w=300&q=80,Srinagar
+1419,Munch Eats Rajasthani,Rajasthani,high,4.9,0,45,https://images.unsplash.com/photo-1544026229-2ceec1a86827?w=300&q=80,Srinagar
+1420,Savour Palace,Rajasthani,low,4.8,1,30,https://images.unsplash.com/photo-1544026229-2ceec1a86827?w=300&q=80,Srinagar
+1421,Zest Diner Mexican,Mexican,mid,4.0,0,25,https://images.unsplash.com/photo-1578474846511-04245941c4d9?w=400&q=80,Srinagar
+1422,Bites Zest Street Food,Street Food,high,4.9,0,25,https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=300&q=80,Srinagar
+1423,The Zest Cravings,North Indian,mid,4.5,0,40,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Srinagar
+1424,Munch Diner Street Food,Street Food,mid,3.3,1,15,https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=300&q=80,Srinagar
+1425,Red Diner,Desserts,mid,4.7,0,35,https://images.unsplash.com/photo-1603513361099-2eeb2be05c86?w=300&q=80,Srinagar
+1426,The Great Oven,Bengali,low,4.4,1,40,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Srinagar
+1427,Savour Plate,Gujarati,premium,4.8,1,20,https://images.unsplash.com/photo-1613069150035-7d52f6b8c9df?w=300&q=80,Srinagar
+1428,The Spicy Taste,Rajasthani,high,3.4,0,45,https://images.unsplash.com/photo-1544026229-2ceec1a86827?w=300&q=80,Srinagar
+1429,Savour Cafe North Indian,North Indian,premium,3.3,0,40,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Srinagar
+1430,The Feast Palace,Gujarati,low,3.9,1,35,https://images.unsplash.com/photo-1613069150035-7d52f6b8c9df?w=300&q=80,Srinagar
+1431,Spice Kitchen,Desserts,low,4.3,0,45,https://images.unsplash.com/photo-1603513361099-2eeb2be05c86?w=300&q=80,Srinagar
+1432,Eats Bites Lebanese,Lebanese,high,4.2,0,40,https://images.unsplash.com/photo-1552566626-52f8b828add9?w=400&q=80,Srinagar
+1433,Savour Tandoor,Pizza,premium,3.2,0,25,https://images.unsplash.com/photo-1513104890138-7c749659a591?w=300&q=80,Srinagar
+1434,Blue Zest,Continental,low,3.1,0,15,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Srinagar
+1435,The Feast Table,Healthy,mid,3.8,0,30,https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=300&q=80,Srinagar
+1436,The Blue Savour,Desserts,mid,3.0,0,40,https://images.unsplash.com/photo-1603513361099-2eeb2be05c86?w=300&q=80,Srinagar
+1437,The Modern Bites,Italian,low,3.7,0,35,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Srinagar
+1438,Zest Grill South Indian,South Indian,mid,4.3,0,35,https://images.unsplash.com/photo-1589301760014-d929f39ce9b0?w=300&q=80,Srinagar
+1439,The The Great Kitchen,Street Food,premium,4.9,1,15,https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=300&q=80,Srinagar
+1440,Taste House Street Food,Street Food,mid,3.2,0,40,https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=300&q=80,Srinagar
+1441,The Great Bites South Indian,South Indian,low,4.6,0,40,https://images.unsplash.com/photo-1589301760014-d929f39ce9b0?w=300&q=80,Srinagar
+1442,Bites Diner Italian,Italian,low,3.5,1,35,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Srinagar
+1443,Spicy House,Desserts,mid,3.0,1,25,https://images.unsplash.com/photo-1603513361099-2eeb2be05c86?w=300&q=80,Srinagar
+1444,Royal Table,Biryani,low,3.8,0,15,https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=300&q=80,Srinagar
+1445,The Urban Flavor,Biryani,low,4.4,0,40,https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=300&q=80,Srinagar
+1446,Zest Table Mexican,Mexican,low,3.8,0,15,https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=400&q=80,Srinagar
+1447,Taste Munch Biryani,Biryani,premium,4.4,0,45,https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=300&q=80,Srinagar
+1448,Taste Palace Street Food,Street Food,mid,4.4,1,25,https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=300&q=80,Srinagar
+1449,Modern Tandoor,Bengali,premium,4.9,0,45,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Srinagar
+1450,The Bites Fork,Lebanese,premium,3.3,1,25,https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=400&q=80,Srinagar
+1451,Bites Wok Continental,Continental,premium,3.3,1,20,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Aurangabad
+1452,Red Tandoor North Indian,North Indian,premium,3.9,1,45,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Aurangabad
+1453,Grand Hut,Lebanese,mid,3.4,0,45,https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=400&q=80,Aurangabad
+1454,Urban Bowl,Gujarati,premium,3.1,1,40,https://images.unsplash.com/photo-1613069150035-7d52f6b8c9df?w=300&q=80,Aurangabad
+1455,Modern Zest Desserts,Desserts,mid,4.7,0,15,https://images.unsplash.com/photo-1603513361099-2eeb2be05c86?w=300&q=80,Aurangabad
+1456,The Great Taste Gujarati,Gujarati,premium,4.8,1,45,https://images.unsplash.com/photo-1613069150035-7d52f6b8c9df?w=300&q=80,Aurangabad
+1457,Golden Eats,Continental,mid,4.2,0,25,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Aurangabad
+1458,Spice Cafe,North Indian,low,4.2,0,30,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Aurangabad
+1459,Authentic Spice Chinese,Chinese,high,3.2,0,30,https://images.unsplash.com/photo-1585032226651-759b368d7246?w=300&q=80,Aurangabad
+1460,The Bites Taste,Bengali,low,3.8,1,25,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Aurangabad
+1461,Cravings Wok,Continental,low,3.0,0,35,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Aurangabad
+1462,New Hut North Indian,North Indian,low,4.0,0,45,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Aurangabad
+1463,The Spice Plate,South Indian,high,4.1,0,15,https://images.unsplash.com/photo-1589301760014-d929f39ce9b0?w=300&q=80,Aurangabad
+1464,The Authentic Wok,Bengali,low,3.7,0,35,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Aurangabad
+1465,Eats Diner,Chinese,mid,4.2,0,35,https://images.unsplash.com/photo-1585032226651-759b368d7246?w=300&q=80,Aurangabad
+1466,Golden Spice,Desserts,low,4.7,0,45,https://images.unsplash.com/photo-1603513361099-2eeb2be05c86?w=300&q=80,Aurangabad
+1467,The Cravings Fork,North Indian,mid,3.9,0,15,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Aurangabad
+1468,Authentic Plate North Indian,North Indian,mid,4.8,0,25,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Aurangabad
+1469,The Classic Cafe,Street Food,mid,3.8,1,15,https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=300&q=80,Aurangabad
+1470,The Bites Spice,Continental,high,3.9,1,25,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Aurangabad
+1471,Spice Zest Mexican,Mexican,high,4.0,1,15,https://images.unsplash.com/photo-1578474846511-04245941c4d9?w=400&q=80,Aurangabad
+1472,The Munch Munch,Street Food,low,3.1,0,15,https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=300&q=80,Aurangabad
+1473,Cravings Spoon,Street Food,mid,4.0,1,30,https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=300&q=80,Aurangabad
+1474,Classic Tandoor Continental,Continental,mid,4.5,0,25,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Aurangabad
+1475,Authentic Cafe,North Indian,premium,3.4,0,35,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Aurangabad
+1476,Grand Kitchen South Indian,South Indian,low,3.3,0,45,https://images.unsplash.com/photo-1589301760014-d929f39ce9b0?w=300&q=80,Aurangabad
+1477,New Spice North Indian,North Indian,low,3.4,0,25,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Aurangabad
+1478,Munch Bowl,South Indian,premium,3.2,0,30,https://images.unsplash.com/photo-1589301760014-d929f39ce9b0?w=300&q=80,Aurangabad
+1479,Famous Feast,Rajasthani,mid,3.1,0,35,https://images.unsplash.com/photo-1544026229-2ceec1a86827?w=300&q=80,Aurangabad
+1480,Spice Zest,North Indian,mid,3.1,0,25,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Aurangabad
+1481,Authentic Zest Street Food,Street Food,mid,3.8,0,40,https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=300&q=80,Aurangabad
+1482,Cravings Tandoor Gujarati,Gujarati,premium,3.6,1,35,https://images.unsplash.com/photo-1613069150035-7d52f6b8c9df?w=300&q=80,Aurangabad
+1483,The Grand Fork,Street Food,low,4.9,0,45,https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=300&q=80,Aurangabad
+1484,Urban Eats North Indian,North Indian,mid,3.4,1,45,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Aurangabad
+1485,Urban Munch North Indian,North Indian,high,4.5,0,20,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Aurangabad
+1486,Modern Wok,Bengali,premium,3.5,0,40,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Aurangabad
+1487,Urban Eats Lebanese,Lebanese,premium,4.4,1,45,https://images.unsplash.com/photo-1578474846511-04245941c4d9?w=400&q=80,Aurangabad
+1488,Red Bistro,Burger,mid,4.5,0,15,https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&q=80,Aurangabad
+1489,The Feast House,North Indian,high,3.7,0,25,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Aurangabad
+1490,Flavor House Italian,Italian,high,4.3,0,30,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Aurangabad
+1491,Eats Savour Mexican,Mexican,premium,4.8,0,20,https://images.unsplash.com/photo-1424847651672-bf20a4b0982b?w=400&q=80,Aurangabad
+1492,Taste Feast Bengali,Bengali,mid,5.0,0,25,https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=300&q=80,Aurangabad
+1493,The Taste Munch,Street Food,mid,3.1,1,40,https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=300&q=80,Aurangabad
+1494,The Spice Oven,Lebanese,mid,3.1,0,20,https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=400&q=80,Aurangabad
+1495,Munch House,Continental,mid,3.8,0,40,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Aurangabad
+1496,The Classic Cafe,Burger,low,3.6,0,40,https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&q=80,Aurangabad
+1497,Red Cravings Pizza,Pizza,premium,4.0,1,45,https://images.unsplash.com/photo-1513104890138-7c749659a591?w=300&q=80,Aurangabad
+1498,New House Burger,Burger,mid,4.4,0,30,https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&q=80,Aurangabad
+1499,Grand Munch Italian,Italian,mid,4.7,0,20,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Aurangabad
+1500,Eats House,Italian,mid,4.4,1,40,https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&q=80,Aurangabad

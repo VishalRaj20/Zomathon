@@ -8,9 +8,3 @@ env/
 .DS_Store
 dist/
 build/
-*.pkl
-models/*.pkl
-data/raw/*.csv
-data/processed/*.csv
-!data/raw/.gitkeep
-!models/.gitkeep
