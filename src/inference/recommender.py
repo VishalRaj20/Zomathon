@@ -649,6 +649,13 @@ def recommend(
                 # Give non-Boondi raitas an extra chance occasionally
                 if "boondi" not in cand_name_low and jitter > 0.07:
                     score += 0.15
+
+            # GLOBAL DOMINANT ITEM SUPPRESSION (Pani Puri, Boondi Raita, Diet Coke)
+            # These 3 items are massively over-represented in the base dataset's popularity metrics.
+            # To ensure varied recommendations across different users, we suppress them 80% of the time.
+            if any(w in cand_name_low for w in ["pani puri", "boondi raita", "diet coke"]):
+                if jitter < 0.12:  # jitter ranges 0 to 0.14. This blocks them 85% of the time.
+                    score *= 0.15  # Crushes their score temporarily for this user/cart combo
         # ══════════════════════════════════════════════════════════════
         # SUB-CUISINE PENALTY: Prevent culturally irrelevant pairings
         # e.g., Dosa (South Indian) + Dal Baati Churma (Rajasthani)
