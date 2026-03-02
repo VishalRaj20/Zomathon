@@ -650,12 +650,6 @@ def recommend(
                 if "boondi" not in cand_name_low and jitter > 0.07:
                     score += 0.15
 
-            # GLOBAL DOMINANT ITEM SUPPRESSION (Pani Puri, Boondi Raita, Diet Coke)
-            # These 3 items are massively over-represented in the base dataset's popularity metrics.
-            # To ensure varied recommendations across different users, we suppress them 80% of the time.
-            if any(w in cand_name_low for w in ["pani puri", "boondi raita", "diet coke"]):
-                if jitter < 0.12:  # jitter ranges 0 to 0.14. This blocks them 85% of the time.
-                    score *= 0.15  # Crushes their score temporarily for this user/cart combo
         # ══════════════════════════════════════════════════════════════
         # SUB-CUISINE PENALTY: Prevent culturally irrelevant pairings
         # e.g., Dosa (South Indian) + Dal Baati Churma (Rajasthani)
@@ -746,6 +740,17 @@ def recommend(
             if not is_exempt and cand_macro != "Universal":
                 if cand_macro not in cart_macro_cuisines:
                     score = -999.0 # Absolute hard penalty to destroy it from the sorted list
+
+        # ABSOLUTE CEILING FOR DATASET ANOMALIES (Pani Puri, Boondi Raita, Diet Coke)
+        # These 3 items have massive synthetic popularity scores that break the engine.
+        # We physically cap them at the very end of all evaluation logic so they can never dominate.
+        # Lowered to 0.10 because base LTR model scores compress heavily around 0.15-0.30
+        if "pani puri" in cand_name_low:
+            score = min(score, 0.10)
+        elif "boondi raita" in cand_name_low:
+            score = min(score, 0.10)
+        elif "diet coke" in cand_name_low:
+            score = min(score, 0.10)
 
         cand['adjusted_score'] = score
 
