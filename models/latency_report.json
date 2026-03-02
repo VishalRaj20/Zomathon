@@ -1,0 +1,104 @@
+{
+  "timestamp": "2026-03-02T02:12:25.121901",
+  "sla_target_ms": 300,
+  "all_pass": true,
+  "avg_p95_ms": 195.5,
+  "scenarios": [
+    {
+      "scenario": "Empty Cart (global recs)",
+      "n_runs": 20,
+      "p50_ms": 183.4,
+      "p95_ms": 193.9,
+      "p99_ms": 193.9,
+      "mean_ms": 181.3,
+      "min_ms": 172.1,
+      "max_ms": 193.9,
+      "meets_sla": true,
+      "num_recommendations": 8
+    },
+    {
+      "scenario": "Single Item Cart",
+      "n_runs": 20,
+      "p50_ms": 151.5,
+      "p95_ms": 212.1,
+      "p99_ms": 212.1,
+      "mean_ms": 156.7,
+      "min_ms": 144.4,
+      "max_ms": 212.1,
+      "meets_sla": true,
+      "num_recommendations": 8
+    },
+    {
+      "scenario": "Small Cart (3 items)",
+      "n_runs": 20,
+      "p50_ms": 158.8,
+      "p95_ms": 185.0,
+      "p99_ms": 185.0,
+      "mean_ms": 160.5,
+      "min_ms": 150.7,
+      "max_ms": 185.0,
+      "meets_sla": true,
+      "num_recommendations": 8
+    },
+    {
+      "scenario": "Full Cart (5+ items)",
+      "n_runs": 20,
+      "p50_ms": 162.7,
+      "p95_ms": 219.3,
+      "p99_ms": 219.3,
+      "mean_ms": 166.2,
+      "min_ms": 151.8,
+      "max_ms": 219.3,
+      "meets_sla": true,
+      "num_recommendations": 8
+    },
+    {
+      "scenario": "Lunch Time",
+      "n_runs": 20,
+      "p50_ms": 156.2,
+      "p95_ms": 172.9,
+      "p99_ms": 172.9,
+      "mean_ms": 158.0,
+      "min_ms": 147.9,
+      "max_ms": 172.9,
+      "meets_sla": true,
+      "num_recommendations": 8
+    },
+    {
+      "scenario": "Breakfast Time",
+      "n_runs": 20,
+      "p50_ms": 157.8,
+      "p95_ms": 176.9,
+      "p99_ms": 176.9,
+      "mean_ms": 159.5,
+      "min_ms": 147.8,
+      "max_ms": 176.9,
+      "meets_sla": true,
+      "num_recommendations": 8
+    },
+    {
+      "scenario": "Restaurant-specific",
+      "n_runs": 20,
+      "p50_ms": 151.9,
+      "p95_ms": 183.8,
+      "p99_ms": 183.8,
+      "mean_ms": 154.7,
+      "min_ms": 142.3,
+      "max_ms": 183.8,
+      "meets_sla": true,
+      "num_recommendations": 8
+    },
+    {
+      "scenario": "Cold Start User",
+      "n_runs": 20,
+      "p50_ms": 181.8,
+      "p95_ms": 220.0,
+      "p99_ms": 220.0,
+      "mean_ms": 186.5,
+      "min_ms": 171.0,
+      "max_ms": 220.0,
+      "meets_sla": true,
+      "num_recommendations": 8
+    }
+  ]
+}

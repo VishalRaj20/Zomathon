@@ -1,0 +1,108 @@
+{
+  "orders": [
+    {
+      "_id": "69a2f1420889e3c0fc620fbc",
+      "user": "69a20d743475115526dbd7f8",
+      "restaurant_id": 1,
+      "items": [
+        1,
+        6
+      ],
+      "totalAmount": 381.95,
+      "status": "Delivered",
+      "createdAt": "2026-02-28T13:44:34.049Z",
+      "updatedAt": "2026-02-28T13:45:58.861Z",
+      "__v": 0,
+      "populatedItems": [
+        {
+          "_id": "69a2ed0c59b0b4d1696fb518",
+          "item_id": 1,
+          "restaurant_id": 1,
+          "name": "Chicken Dum Biryani",
+          "category": "main",
+          "price": 299,
+          "is_veg": 0,
+          "popularity_score": 49.14,
+          "image_url": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=300&q=80",
+          "quantity": 1
+        },
+        {
+          "_id": "69a2ed0c59b0b4d1696fb51d",
+          "item_id": 6,
+          "restaurant_id": 1,
+          "name": "Coke 330ml",
+          "category": "drink",
+          "price": 60,
+          "is_veg": 1,
+          "popularity_score": 38.9,
+          "image_url": "https://images.unsplash.com/photo-1622483767028-3f66f32aef97?w=300&q=80",
+          "quantity": 1
+        }
+      ],
+      "restaurant": {
+        "_id": "69a2ed0c59b0b4d1696fb4fa",
+        "restaurant_id": 1,
+        "name": "Meghana Foods",
+        "cuisine": "Biryani",
+        "price_range": "mid",
+        "rating": 3.8,
+        "is_chain": 1,
+        "avg_prep_time_min": 20,
+        "image_url": "https://images.unsplash.com/photo-1631515243349-e0cb75fb8d3a?w=400&q=80",
+        "city": "Bangalore"
+      }
+    },
+    {
+      "_id": "69a2f27f0889e3c0fc620fea",
+      "user": "69a20d743475115526dbd7f8",
+      "restaurant_id": 2,
+      "items": [
+        10,
+        7
+      ],
+      "totalAmount": 265.4,
+      "status": "Delivered",
+      "createdAt": "2026-02-28T13:49:51.109Z",
+      "updatedAt": "2026-02-28T13:52:05.047Z",
+      "__v": 0,
+      "populatedItems": [
+        {
+          "_id": "69a2ed0c59b0b4d1696fb51e",
+          "item_id": 7,
+          "restaurant_id": 2,
+          "name": "Classic Cheese Burger",
+          "category": "main",
+          "price": 149,
+          "is_veg": 1,
+          "popularity_score": 23.98,
+          "image_url": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=300&q=80",
+          "quantity": 1
+        },
+        {
+          "_id": "69a2ed0c59b0b4d1696fb521",
+          "item_id": 10,
+          "restaurant_id": 2,
+          "name": "French Fries",
+          "category": "side",
+          "price": 99,
+          "is_veg": 1,
+          "popularity_score": 81.13,
+          "image_url": "https://images.unsplash.com/photo-1576107232684-1279f3908581?w=300&q=80",
+          "quantity": 1
+        }
+      ],
+      "restaurant": {
+        "_id": "69a2ed0c59b0b4d1696fb4fb",
+        "restaurant_id": 2,
+        "name": "Truffles",
+        "cuisine": "Burger",
+        "price_range": "mid",
+        "rating": 4.9,
+        "is_chain": 1,
+        "avg_prep_time_min": 20,
+        "image_url": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=400&q=80",
+        "city": "Bangalore"
+      }
+    }
+  ]
+}

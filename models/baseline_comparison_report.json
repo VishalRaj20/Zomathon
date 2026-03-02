@@ -1,0 +1,59 @@
+{
+  "test_rows": 61870,
+  "test_queries": 5292,
+  "results": [
+    {
+      "strategy": "Random",
+      "auc": 0.5041,
+      "precision@8": 0.176,
+      "recall@8": 0.7458,
+      "ndcg@8": 0.4707
+    },
+    {
+      "strategy": "Popularity-Only",
+      "auc": 0.4631,
+      "precision@8": 0.1668,
+      "recall@8": 0.7159,
+      "ndcg@8": 0.4639
+    },
+    {
+      "strategy": "Price-Weighted Pop",
+      "auc": 0.4596,
+      "precision@8": 0.1657,
+      "recall@8": 0.7139,
+      "ndcg@8": 0.457
+    },
+    {
+      "strategy": "Category-Aware Heuristic",
+      "auc": 0.4645,
+      "precision@8": 0.1656,
+      "recall@8": 0.712,
+      "ndcg@8": 0.4562
+    },
+    {
+      "strategy": "LightGBM (Ours)",
+      "auc": 1.0,
+      "precision@8": 0.2873,
+      "recall@8": 0.9973,
+      "ndcg@8": 1.0
+    }
+  ],
+  "model_lifts": {
+    "Random": {
+      "auc_lift_pct": 98.37,
+      "ndcg_lift_pct": 112.45
+    },
+    "Popularity-Only": {
+      "auc_lift_pct": 115.94,
+      "ndcg_lift_pct": 115.56
+    },
+    "Price-Weighted Pop": {
+      "auc_lift_pct": 117.58,
+      "ndcg_lift_pct": 118.82
+    },
+    "Category-Aware Heuristic": {
+      "auc_lift_pct": 115.29,
+      "ndcg_lift_pct": 119.2
+    }
+  }
+}

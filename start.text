@@ -1,0 +1,21 @@
+for backend
+cd backend
+npm run dev
+
+for frontend
+cd frontend
+npm run dev
+
+for api
+cd api
+python3.13 -m pip install -r ..\requirement.txt
+uvicorn main:app --reload --port 8000
+
+
+// when handling with mongodb atlas
+
+1. Log in to your MongoDB Atlas account.
+2. On the left sidebar menu, look under the Security section and click on Network Access.
+3. Click the green + ADD IP ADDRESS button on the top right.
+4. A popup will appear. Click the "ADD CURRENT IP ADDRESS" button. (Alternatively, if your IP changes frequently or you want to be able to connect from anywhere to test, you can click "ALLOW ACCESS FROM ANYWHERE", which adds 0.0.0.0/0. Note that this is less secure but easier for local development).
+5. Click Confirm.

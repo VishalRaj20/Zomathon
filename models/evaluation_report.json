@@ -1,0 +1,342 @@
+{
+  "timestamp": "2026-03-02T02:11:39.938746",
+  "backend": "lightgbm",
+  "dataset": {
+    "total_rows": 142398,
+    "train_rows": 52798,
+    "val_rows": 27730,
+    "test_rows": 61870,
+    "feature_count": 38,
+    "positive_ratio": 0.2000098315987584
+  },
+  "validation_metrics": {
+    "auc": 0.9999970333033401,
+    "precision@8": 0.2863684210526316,
+    "recall@8": 0.9972735347139777,
+    "ndcg@8": 1.0
+  },
+  "test_metrics": {
+    "auc": 0.9999991314294576,
+    "precision@8": 0.2872732426303855,
+    "recall@8": 0.9973098514341328,
+    "ndcg@8": 1.0
+  },
+  "feature_importance": [
+    {
+      "feature": "item_price_at_order",
+      "importance": 24395
+    },
+    {
+      "feature": "item_price",
+      "importance": 21199
+    },
+    {
+      "feature": "item_popularity",
+      "importance": 14680
+    },
+    {
+      "feature": "rest_rating",
+      "importance": 8534
+    },
+    {
+      "feature": "item_price_vs_cart_avg",
+      "importance": 4768
+    },
+    {
+      "feature": "user_order_freq",
+      "importance": 4727
+    },
+    {
+      "feature": "rest_cuisine_id",
+      "importance": 4448
+    },
+    {
+      "feature": "user_veg_ratio",
+      "importance": 3968
+    },
+    {
+      "feature": "rest_avg_prep_time",
+      "importance": 3295
+    },
+    {
+      "feature": "user_avg_spend",
+      "importance": 3281
+    },
+    {
+      "feature": "item_price_vs_user_avg",
+      "importance": 3240
+    },
+    {
+      "feature": "cart_avg_item_price",
+      "importance": 2573
+    },
+    {
+      "feature": "item_category",
+      "importance": 1658
+    },
+    {
+      "feature": "hour_of_day",
+      "importance": 1473
+    },
+    {
+      "feature": "cart_total_price",
+      "importance": 1306
+    },
+    {
+      "feature": "rest_price_range",
+      "importance": 840
+    },
+    {
+      "feature": "day_of_week",
+      "importance": 501
+    },
+    {
+      "feature": "cart_item_count",
+      "importance": 465
+    },
+    {
+      "feature": "last_added_category",
+      "importance": 418
+    },
+    {
+      "feature": "cart_veg_count",
+      "importance": 245
+    },
+    {
+      "feature": "cart_nonveg_count",
+      "importance": 225
+    },
+    {
+      "feature": "cart_unique_categories",
+      "importance": 196
+    },
+    {
+      "feature": "item_cuisine_matches_cart",
+      "importance": 194
+    },
+    {
+      "feature": "user_cuisine_affinity",
+      "importance": 106
+    },
+    {
+      "feature": "meal_time",
+      "importance": 90
+    },
+    {
+      "feature": "rest_is_chain",
+      "importance": 86
+    },
+    {
+      "feature": "cart_has_dessert",
+      "importance": 67
+    },
+    {
+      "feature": "cart_completion_ratio",
+      "importance": 60
+    },
+    {
+      "feature": "item_is_veg",
+      "importance": 49
+    },
+    {
+      "feature": "item_complements_cart",
+      "importance": 40
+    },
+    {
+      "feature": "user_budget_segment",
+      "importance": 22
+    },
+    {
+      "feature": "nonveg_user_veg_item",
+      "importance": 13
+    },
+    {
+      "feature": "veg_user_veg_item",
+      "importance": 10
+    },
+    {
+      "feature": "cart_has_starter",
+      "importance": 9
+    },
+    {
+      "feature": "cart_has_drink",
+      "importance": 8
+    },
+    {
+      "feature": "item_category_missing_in_cart",
+      "importance": 7
+    },
+    {
+      "feature": "cart_has_main",
+      "importance": 1
+    },
+    {
+      "feature": "is_weekend",
+      "importance": 0
+    }
+  ],
+  "segment_evaluation": {
+    "by_meal_time": {
+      "breakfast": {
+        "auc": 0.9999956452315285,
+        "precision@8": 0.2989766081871345,
+        "recall@8": 0.9974937343358395,
+        "ndcg@8": 1.0,
+        "sample_count": 2075
+      },
+      "lunch": {
+        "auc": 1.0,
+        "precision@8": 0.2800658978583196,
+        "recall@8": 0.9970345963756179,
+        "ndcg@8": 1.0,
+        "sample_count": 6945
+      },
+      "evening_snack": {
+        "auc": 1.0,
+        "precision@8": 0.2835090361445783,
+        "recall@8": 0.9982597054886211,
+        "ndcg@8": 1.0,
+        "sample_count": 3805
+      },
+      "dinner": {
+        "auc": 0.9999925141752851,
+        "precision@8": 0.29430555555555554,
+        "recall@8": 0.9965666016894087,
+        "ndcg@8": 1.0,
+        "sample_count": 10850
+      },
+      "late_night": {
+        "auc": 1.0,
+        "precision@8": 0.273972602739726,
+        "recall@8": 0.9984138428262437,
+        "ndcg@8": 1.0,
+        "sample_count": 4055
+      }
+    },
+    "by_user_budget": {
+      "0": {
+        "auc": 0.9999970631626619,
+        "precision@8": 0.2872395833333333,
+        "recall@8": 0.9988194444444445,
+        "ndcg@8": 1.0,
+        "sample_count": 11110
+      },
+      "1": {
+        "auc": 0.9999962770083103,
+        "precision@8": 0.29050348953140576,
+        "recall@8": 0.9973844548226665,
+        "ndcg@8": 1.0,
+        "sample_count": 11875
+      },
+      "2": {
+        "auc": 1.0,
+        "precision@8": 0.27427184466019416,
+        "recall@8": 0.9934013837181952,
+        "ndcg@8": 1.0,
+        "sample_count": 4745
+      }
+    },
+    "by_cuisine": {
+      "0": {
+        "auc": 1.0,
+        "precision@8": 0.28774509803921566,
+        "recall@8": 0.9973856209150326,
+        "ndcg@8": 1.0,
+        "sample_count": 2990
+      },
+      "1": {
+        "auc": 0.9999999999999999,
+        "precision@8": 0.27570921985815605,
+        "recall@8": 0.9908506490813322,
+        "ndcg@8": 1.0,
+        "sample_count": 1675
+      },
+      "2": {
+        "auc": 1.0,
+        "precision@8": 0.2708333333333333,
+        "recall@8": 1.0,
+        "ndcg@8": 1.0,
+        "sample_count": 130
+      },
+      "3": {
+        "auc": 1.0,
+        "precision@8": 0.2845238095238095,
+        "recall@8": 0.998095238095238,
+        "ndcg@8": 1.0,
+        "sample_count": 1205
+      },
+      "4": {
+        "auc": 0.9999990860201294,
+        "precision@8": 0.29767441860465116,
+        "recall@8": 0.9962790697674418,
+        "ndcg@8": 1.0,
+        "sample_count": 2615
+      },
+      "5": {
+        "auc": 0.9999932253728755,
+        "precision@8": 0.2848926380368098,
+        "recall@8": 0.9996591683708249,
+        "ndcg@8": 1.0,
+        "sample_count": 3720
+      },
+      "6": {
+        "auc": 1.0,
+        "precision@8": 0.27982954545454547,
+        "recall@8": 1.0,
+        "ndcg@8": 1.0,
+        "sample_count": 985
+      },
+      "7": {
+        "auc": 0.999996140203257,
+        "precision@8": 0.275,
+        "recall@8": 0.9937320574162679,
+        "ndcg@8": 1.0,
+        "sample_count": 2545
+      },
+      "8": {
+        "auc": 1.0,
+        "precision@8": 0.3072916666666667,
+        "recall@8": 1.0,
+        "ndcg@8": 1.0,
+        "sample_count": 1180
+      },
+      "10": {
+        "auc": 1.0,
+        "precision@8": 0.2870774263904035,
+        "recall@8": 0.9977878174170431,
+        "ndcg@8": 1.0,
+        "sample_count": 10685
+      }
+    },
+    "by_cart_size": {
+      "empty": {
+        "auc": 0.9999992022160664,
+        "precision@8": 0.125,
+        "recall@8": 1.0,
+        "ndcg@8": 1.0,
+        "sample_count": 11875
+      },
+      "small(1-2)": {
+        "auc": 0.9999936313912043,
+        "precision@8": 0.19170403587443946,
+        "recall@8": 1.0,
+        "ndcg@8": 1.0,
+        "sample_count": 11970
+      },
+      "medium(3-4)": {
+        "auc": 1.0,
+        "precision@8": 0.1707175925925926,
+        "recall@8": 1.0,
+        "ndcg@8": 1.0,
+        "sample_count": 2950
+      },
+      "large(5+)": {
+        "auc": 1.0,
+        "precision@8": 0.4864864864864865,
+        "recall@8": 0.9115995115995117,
+        "ndcg@8": 1.0,
+        "sample_count": 935
+      }
+    }
+  }
+}

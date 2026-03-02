@@ -1,0 +1,105 @@
+{
+  "input_row_counts": {
+    "users": 7500,
+    "restaurants": 1500,
+    "items": 7061,
+    "orders": 12016,
+    "order_items": 28481
+  },
+  "fk_violations": {
+    "items.restaurant_id": 0,
+    "orders.user_id": 0,
+    "orders.restaurant_id": 0,
+    "order_items.order_id": 0,
+    "order_items.item_id": 0
+  },
+  "step_number_gaps": 0,
+  "num_items_mismatches": 0,
+  "output_row_count": 142398,
+  "output_positive_count": 28481,
+  "output_negative_count": 113917,
+  "label_ratio": 0.2,
+  "null_counts_in_output": {},
+  "skipped_steps": 0,
+  "split_distribution": {
+    "test": 61870,
+    "train": 52798,
+    "val": 27730
+  },
+  "top10_popular_items": [
+    {
+      "item_id": 5723,
+      "name": "Pav Bhaji",
+      "positive_count": 136
+    },
+    {
+      "item_id": 3542,
+      "name": "Pepperoni Pizza",
+      "positive_count": 120
+    },
+    {
+      "item_id": 5450,
+      "name": "Penne Arrabbiata",
+      "positive_count": 100
+    },
+    {
+      "item_id": 1637,
+      "name": "Tiramisu",
+      "positive_count": 84
+    },
+    {
+      "item_id": 6506,
+      "name": "Gatte Ki Sabzi",
+      "positive_count": 82
+    },
+    {
+      "item_id": 2706,
+      "name": "Burnt Garlic Fried Rice",
+      "positive_count": 79
+    },
+    {
+      "item_id": 5724,
+      "name": "Vada Pav",
+      "positive_count": 76
+    },
+    {
+      "item_id": 2044,
+      "name": "Hakka Noodles",
+      "positive_count": 76
+    },
+    {
+      "item_id": 4629,
+      "name": "Avocado Toast",
+      "positive_count": 75
+    },
+    {
+      "item_id": 2222,
+      "name": "Garlic Naan",
+      "positive_count": 71
+    }
+  ],
+  "feature_stats": {
+    "user_avg_spend": {
+      "mean": 369.7113,
+      "std": 231.6747,
+      "min": 80.0,
+      "max": 1357.79
+    },
+    "item_popularity": {
+      "mean": 56.5743,
+      "std": 26.0206,
+      "min": 10.0,
+      "max": 99.99
+    },
+    "cart_total_price": {
+      "mean": 416.0919,
+      "std": 921.5024,
+      "min": 0.0,
+      "max": 15623.55
+    }
+  },
+  "veg_correlation_check": {
+    "high_veg_users_veg_item_pct": 0.7845,
+    "low_veg_users_veg_item_pct": 0.7984
+  }
+}

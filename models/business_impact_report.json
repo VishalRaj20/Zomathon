@@ -1,0 +1,25 @@
+{
+  "timestamp": "2026-03-02T02:12:42.584035",
+  "baseline": {
+    "total_orders": 75000,
+    "aov": 76.01,
+    "avg_items_per_order": 2.36
+  },
+  "projected_impact": {
+    "model_auc": 1.0,
+    "acceptance_rate": 0.22,
+    "csao_rail_show_rate": 0.85,
+    "avg_addon_price": 124.33,
+    "aov_lift": 23.25,
+    "aov_lift_pct": 30.59,
+    "new_aov": 99.26,
+    "csao_attach_rate": 0.187,
+    "projected_addon_orders": 14025,
+    "projected_addon_revenue": 1743669.38
+  },
+  "c2o_impact": {
+    "baseline_c2o": 0.72,
+    "projected_c2o": 0.75,
+    "c2o_lift_pp": 3.0
+  }
+}
