@@ -744,13 +744,14 @@ def recommend(
         # ABSOLUTE CEILING FOR DATASET ANOMALIES (Pani Puri, Boondi Raita, Diet Coke)
         # These 3 items have massive synthetic popularity scores that break the engine.
         # We physically cap them at the very end of all evaluation logic so they can never dominate.
-        # Lowered to 0.10 because base LTR model scores compress heavily around 0.15-0.30
+        # Lowered to 0.0001 because base LTR model scores are very low for most items (0.01-0.05),
+        # so even a 0.10 cap allowed them to easily take the 7th and 8th spots as filler.
         if "pani puri" in cand_name_low:
-            score = min(score, 0.10)
+            score = min(score, 0.0001)
         elif "boondi raita" in cand_name_low:
-            score = min(score, 0.10)
+            score = min(score, 0.0001)
         elif "diet coke" in cand_name_low:
-            score = min(score, 0.10)
+            score = min(score, 0.0001)
 
         cand['adjusted_score'] = score
 
