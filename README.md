@@ -5,7 +5,7 @@
 ---
 
 ## 🚀 Live Demos
-- **Frontend (React)**: [https://zomathon-nine.vercel.app](https://zomathon-nine.vercel.app)
+- **Frontend (Vercel)**: [https://zomathon-nine.vercel.app](https://zomathon-nine.vercel.app)
 - **Node.js API (Render)**: [https://zomathon-backend-tdn3.onrender.com](https://zomathon-backend-tdn3.onrender.com)
 - **Python ML API (Render)**: [https://zomathon-ml.onrender.com](https://zomathon-ml.onrender.com)
 
