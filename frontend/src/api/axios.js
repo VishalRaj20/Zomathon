@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-    baseURL: 'http://127.0.0.1:5000/api', // Node.js backend URL
+    baseURL: import.meta.env.VITE_API_URL || 'http://127.0.0.1:5000/api', // Uses Vercel env in production, local dev server in local env
     headers: {
         'Content-Type': 'application/json',
     },
