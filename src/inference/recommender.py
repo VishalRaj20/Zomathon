@@ -616,14 +616,30 @@ def recommend(
 
         else:
             # NON-EMPTY CART: existing logic for balanced recommendations
+            
+            # To prevent the EXACT same highly-popular drink (Diet Coke) or side (Boondi Raita) 
+            # from dominating every single time, we add a deterministic pseudo-random jitter 
+            # based on the user_id, cart length, and item name.
+            jitter = 0.0
+            if user_id > 0:
+                name_hash = sum(ord(c) for c in str(cand.get('name', '')))
+                # Generates a pseudo-random float between 0.0 and 0.15
+                jitter = ((user_id + len(cart_items) * 7 + name_hash * 13) % 15) / 100.0
+
             # Ensure at least 1 beverage if missing
             if not cart_has_drink and cat == 2 and cand['cuisine_matches'] == 1:
-                score += 0.40
+                score += (0.25 + jitter)  # Was flat 0.40, now 0.25 to 0.40
                 
             # Ensure at least 1 side/dessert if missing
             if not cart_has_side_or_dessert and cat in [0, 3, 4] and cand['cuisine_matches'] == 1:
-                score += 0.35
+                score += (0.20 + jitter)  # Was flat 0.35, now 0.20 to 0.35
 
+            # SPECIFIC DIVERSITY: If it's a Raita, heavily diversify it
+            cand_name_low = str(cand.get('name', '')).lower()
+            if "raita" in cand_name_low:
+                # Give non-Boondi raitas an extra chance occasionally
+                if "boondi" not in cand_name_low and jitter > 0.07:
+                    score += 0.15
         # ══════════════════════════════════════════════════════════════
         # SUB-CUISINE PENALTY: Prevent culturally irrelevant pairings
         # e.g., Dosa (South Indian) + Dal Baati Churma (Rajasthani)
