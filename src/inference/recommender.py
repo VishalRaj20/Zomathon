@@ -630,13 +630,22 @@ def recommend(
             if not cart_has_drink and cat == 2 and cand['cuisine_matches'] == 1:
                 score += (0.25 + jitter)  # Was flat 0.40, now 0.25 to 0.40
                 
+            # MACRO-CUISINE SPECIFIC DIVERSITY BOOSTS
+            cand_name_low = str(cand.get('name', '')).lower()
+            
+            # Identify if the cart has any Indian items
+            is_indian_cart = "Indian" in cart_macro_cuisines or cart_has_biryani or cart_has_curry or cart_has_bread
+            
             # Ensure at least 1 side/dessert if missing
             if not cart_has_side_or_dessert and cat in [0, 3, 4] and cand['cuisine_matches'] == 1:
-                score += (0.20 + jitter)  # Was flat 0.35, now 0.20 to 0.35
+                # IMPORTANT FIX: Do NOT artificially boost Indian sides (Raita) if the cart is 100% Western/Asian
+                if "raita" in cand_name_low and not is_indian_cart:
+                    pass # Skip the boost for Raita on Burger/Pizza carts
+                else:
+                    score += (0.20 + jitter)  # Was flat 0.35, now 0.20 to 0.35
 
-            # SPECIFIC DIVERSITY: If it's a Raita, heavily diversify it
-            cand_name_low = str(cand.get('name', '')).lower()
-            if "raita" in cand_name_low:
+            # SPECIFIC DIVERSITY: If it's a Raita (and cart is Indian), heavily diversify it
+            if "raita" in cand_name_low and is_indian_cart:
                 # Give non-Boondi raitas an extra chance occasionally
                 if "boondi" not in cand_name_low and jitter > 0.07:
                     score += 0.15
@@ -696,7 +705,7 @@ def recommend(
             if not macro_match:
                 if cat in [2, 4]:  # Drinks and Desserts are more universal
                     score *= 0.5
-                else:  # Hard penalty for truly mismatched Mains and Sides 
+                else:  # Hard penalty for truly mismatched Mains and Sides (e.g., Raita with Burger)
                     score *= 0.0001
 
         # VERY SPECIFIC BUSINESS RULE: If Biryani is in the cart, Raita MUST be highly recommended
@@ -720,8 +729,14 @@ def recommend(
         # We only strictly apply this penalty if the cart actually establishes a specific macro-cuisine 
         # (e.g. an empty cart has no macro-cuisine, so let anything recommend)
         if cart_items and cart_macro_cuisines:
-            # We explicitly exempt Drinks and Desserts so they can float freely across all carts
-            if cat not in [2, 4] and cand_macro != "Universal":
+            # Determine if this item is an Indian side that MUST be penalized for non-Indian carts
+            is_indian_side = any(w in cand_name_low for w in ["raita", "naan", "roti", "paratha", "kulcha"])
+            
+            # We explicitly exempt Drinks (2) and Desserts (3) so they can float freely across all carts.
+            # Sides (4) are mostly exempt (fries go with anything), EXCEPT specific Indian sides.
+            is_exempt = (cat in [2, 3]) or (cat == 4 and not is_indian_side)
+
+            if not is_exempt and cand_macro != "Universal":
                 if cand_macro not in cart_macro_cuisines:
                     score = -999.0 # Absolute hard penalty to destroy it from the sorted list
 
