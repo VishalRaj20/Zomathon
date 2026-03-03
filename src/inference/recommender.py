@@ -375,6 +375,10 @@ def recommend(
         menu = city_items[city_items["restaurant_id"] == restaurant_id].copy()
         if menu.empty:
             menu = items[items["restaurant_id"] == restaurant_id].copy()
+            
+        # Candidate Pre-Filtering: Keep only top 30 most popular items to guarantee ultra-low latency
+        if len(menu) > 30 and 'popularity_score' in menu.columns:
+            menu = menu.nlargest(30, "popularity_score").copy()
 
     # Exclude items already in cart
     if cart_items:

@@ -16,7 +16,7 @@ const ALL_CITIES = [
 
 const Navbar = () => {
     const { user, logout } = useContext(AuthContext);
-    const { cart } = useContext(CartContext);
+    const { cart, clearCart } = useContext(CartContext);
     const { location, setLocation } = useContext(LocationContext);
     const navigate = useNavigate();
 
@@ -24,6 +24,16 @@ const Navbar = () => {
     const [searchResults, setSearchResults] = useState({ restaurants: [], items: [] });
     const [showResults, setShowResults] = useState(false);
     const searchRef = useRef(null);
+
+    const handleLocationChange = (e) => {
+        const newCity = e.target.value;
+        if (newCity !== location) {
+            setLocation(newCity);
+            if (clearCart) clearCart();
+            localStorage.removeItem('cart');
+            navigate('/');
+        }
+    };
 
     const handleLogout = () => {
         logout();
@@ -126,7 +136,7 @@ const Navbar = () => {
                             <MapPin className="text-zomato shrink-0 ml-1" size={20} />
                             <select
                                 value={location}
-                                onChange={(e) => setLocation(e.target.value)}
+                                onChange={handleLocationChange}
                                 className="w-full text-base text-gray-700 outline-none bg-transparent appearance-none cursor-pointer pl-1 pr-2 py-1"
                             >
                                 {ALL_CITIES.map(city => (
@@ -202,7 +212,7 @@ const Navbar = () => {
             <div className="md:hidden px-4 pb-3 flex space-x-2 relative">
                 <select
                     value={location}
-                    onChange={(e) => setLocation(e.target.value)}
+                    onChange={handleLocationChange}
                     className="w-1/3 border border-gray-200 rounded-lg px-3 py-2 text-sm outline-none bg-white"
                 >
                     {ALL_CITIES.map(city => (

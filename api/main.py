@@ -156,15 +156,29 @@ def recommend_endpoint(req: RecommendRequest):
         hour = ts.hour
         meal_time = "breakfast" if hour < 11 else "lunch" if hour < 16 else "evening_snack" if hour < 19 else "dinner" if hour < 23 else "late_night"
         
+        # Deterministic Explainability Tags (Sub-millisecond latency)
         pairing_reasons = []
-        meal_analysis = {}
-        try:
-            for rec in rec_dicts:
-                reason = _llm.generate_pairing_reason(cart_dicts, rec, cuisine)
-                pairing_reasons.append({"item_id": rec["item_id"], "reason": reason})
-            meal_analysis = _llm.analyze_meal_completeness(cart_dicts, cuisine, meal_time)
-        except Exception:
-            pass
+        meal_analysis = {"status": "Complete", "missing": "None"}
+        
+        cat_counts = {}
+        for c in rich_cart:
+            cat_counts[c.category] = cat_counts.get(c.category, 0) + 1
+            
+        dominant_cart_cat = max(cat_counts, key=cat_counts.get) if cat_counts else None
+
+        for rec in rich_recs:
+            if not rich_cart:
+                reason = f"Popular in {req.city or 'your city'} during {meal_time.replace('_', ' ')} hours"
+            elif rec.category in ["Beverage", "Drinks"] and not any(cat in cat_counts for cat in ["Beverage", "Drinks"]):
+                reason = "A refreshing drink completes your meal"
+            elif rec.category in ["Dessert", "Sweets"] and not any(cat in cat_counts for cat in ["Dessert", "Sweets"]):
+                reason = "Perfect sweet finish for your cart"
+            elif dominant_cart_cat:
+                reason = f"Recommended because you added {dominant_cart_cat} items"
+            else:
+                reason = "A great complementary addition"
+            
+            pairing_reasons.append({"item_id": rec.item_id, "reason": reason})
                 
     except FileNotFoundError as e:
         raise HTTPException(
