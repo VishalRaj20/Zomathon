@@ -405,6 +405,10 @@ def recommend(
             cart_names = items[items["item_id"].isin(cart_items)]["name"].unique()
             menu = menu[~menu["name"].isin(cart_names)]
 
+    # Final production safeguard: NEVER score more than 30 items to guarantee latency SLA
+    if len(menu) > 30 and 'popularity_score' in menu.columns:
+        menu = menu.nlargest(30, "popularity_score").copy()
+
     # ── Build features for each candidate ───────────────────────────────────
     cart_items_df = items[items["item_id"].isin(cart_items)] if cart_items else pd.DataFrame()
 
