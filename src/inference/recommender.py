@@ -369,7 +369,7 @@ def recommend(
         # Fallback: if city pool is too small, augment with global items
         if len(menu) < top_k * 3:
             print(f"[recommender] City pool too small ({len(menu)}) — augmenting with global items")
-            global_extras = items.drop_duplicates(subset=["name"]).nlargest(200, "popularity_score")
+            global_extras = items.drop_duplicates(subset=["name"]).nlargest(min(top_k * 3, 60), "popularity_score")
             menu = pd.concat([menu, global_extras]).drop_duplicates(subset=["item_id"]).copy()
     else:
         menu = city_items[city_items["restaurant_id"] == restaurant_id].copy()
@@ -385,11 +385,11 @@ def recommend(
         menu = menu[~menu["item_id"].isin(cart_items)]
 
     # Fallback: if menu is too small after filtering, use global top popular items
-    # We want plenty of items in the candidate pool so we can safely drop duplicates
     if len(menu) < top_k * 2:
         print(f"[recommender] Menu size {len(menu)} is small — augmenting with globally popular items")
+        # HARD CAP AT 60 TO PREVENT 500 SERVER TIMEOUT CPU EXHAUSTION
         extras = (items[~items["item_id"].isin(cart_items)]
-                  .nlargest(top_k * 10, "popularity_score"))
+                  .nlargest(min(top_k * 3, 60), "popularity_score"))
         menu = pd.concat([menu, extras]).drop_duplicates(subset=["item_id"])
 
     if menu.empty:
