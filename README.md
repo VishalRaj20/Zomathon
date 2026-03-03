@@ -61,14 +61,14 @@ zomathon/
 ┌───────────────────────────────▼──────────────────────────────────┐
 │                   NODE.JS BACKEND (Express)                      │
 │  authMiddleware → cartRoutes → recommendRoutes                   │
-│  MongoDB (User.cart[]) ← JWT Auth ← axios proxy to ML service   │
+│  MongoDB (User.cart[]) ← JWT Auth ← axios proxy to ML service    │
 └───────────────────────────────┬──────────────────────────────────┘
                                 │ HTTP POST /recommend
 ┌───────────────────────────────▼──────────────────────────────────┐
-│                   ML SERVICE (FastAPI / uvicorn)                  │
+│                   ML SERVICE (FastAPI / uvicorn)                 │
 │  api/main.py → src/inference/recommender.py                      │
 │  1. Load user, restaurant, items from CSV (cached)               │
-│  2. Build 38 features (user + restaurant + cart + item + context) │
+│  2. Build 38 features (user + restaurant + cart + item + context)│
 │  3. Score all candidates with LightGBM                           │
 │  4. Re-rank with business rules (cuisine, complementarity)       │
 │  5. Return top-K item_ids with metadata                          │
